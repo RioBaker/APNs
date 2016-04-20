@@ -16,7 +16,6 @@
 ** limitations under the License.
 */
 -->
-
 <!-- use empty string to specify no proxy or port -->
 <!-- This version must agree with that in apps/common/res/apns.xml -->
 <apns version="8">
