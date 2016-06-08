@@ -1612,7 +1612,7 @@
     <apn carrier="Internet Movil" mcc="730" mnc="01" apn="bam.entelpcs.cl" user="entelpcs" password="entelpcs" authtype="1" type="default,supl,dun" />
     <apn carrier="MMS Entel" mcc="730" mnc="01" apn="mms.entelpcs.cl" user="entelpcs" password="entelpcs" mmsproxy="10.99.0.10" mmsport="8080" mmsc="http://mmsc.entelpcs.cl" authtype="1" type="mms" />
     <apn carrier="Internet Movil" mcc="730" mnc="10" apn="bam.entelpcs.cl" user="entelpcs" password="entelpcs" authtype="1" type="default,supl,dun" />
-    <apn carrier="MMS Entel" mcc="730" mnc="10" apn="mms.entelpcs.cl" user="entelpcs" password="entelpcs" mmsproxy="10.99.0.10" mmsport="8080" mmsc="http://mmsc.entelpcs.cl" authtype="1" type="mms" />
+    <apn carrier="MMS Entel PCS" mcc="730" mnc="10" apn="mms.entelpcs.cl" user="entelpcs" password="entelpcs" mmsproxy="10.99.0.10" mmsport="8080" mmsc="http://mmsc.entelpcs.cl" authtype="1" type="mms" />
     <apn carrier="NEM" mcc="730" mnc="02" apn="wap.tmovil.cl" proxy="172.17.8.11" port="8080" user="wap" password="wap" authtype="1" type="default,supl,dun" />
     <apn carrier="MMS" mcc="730" mnc="02" apn="mms.tmovil.cl" user="mms" password="mms" mmsproxy="172.17.8.10" mmsport="8080" mmsc="http://mms.movistar.cl" authtype="1" type="mms" />
     <apn carrier="BAM Claro" mcc="730" mnc="03" apn="bam.clarochile.cl" user="clarochile" password="clarochile" authtype="1" type="default,supl,dun" />
@@ -1622,8 +1622,6 @@
     <apn carrier="Wap" mcc="730" mnc="08" apn="wap.vtr.com" proxy="192.168.94.210" port="9028" user="" password="" authtype="0" type="default,supl,dun" />
     <apn carrier="Bam" mcc="730" mnc="08" apn="bam.vtr.com" user="vtr" password="vtr" authtype="2" type="default,supl,dun" />
     <apn carrier="MMS" mcc="730" mnc="08" apn="mms.vtr.com" user="mms" password="" mmsc="http://192.168.94.162:19090/was" mmsproxy="192.168.94.210" mmsport="9028" authtype="0" type="mms" />
-    <apn carrier="Internet Movil" mcc="730" mnc="10" apn="bam.entelpcs.cl" user="entelpcs" password="entelpcs" authtype="1" type="default,supl,dun" />
-    <apn carrier="MMS Entel PCS" mcc="730" mnc="10" apn="mms.entelpcs.cl" user="entelpcs" password="entelpcs" mmsc="http://mmsc.entelpcs.cl" mmsproxy="10.99.0.10" mmsport="8080" authtype="1" type="mms" />
     <apn carrier="WEB Comcel 3GSM" mcc="732" mnc="101" apn="internet.comcel.com.co" user="COMCELWEB" password="COMCELWEB" authtype="1" type="default,supl,dun" />
     <apn carrier="MMS Comcel 3GSM" mcc="732" mnc="101" apn="mms.comcel.com.co" user="COMCELMMS" password="COMCELMMS" mmsproxy="198.228.90.225" mmsport="8799" mmsc="http://www.comcel.com.co/mms/" authtype="1" type="mms" />
     <apn carrier="TIGO WEB" mcc="732" mnc="103" apn="web.colombiamovil.com.co" user="" password="" authtype="1" type="default,supl,dun" />
