@@ -1618,9 +1618,8 @@
     <apn carrier="BAM Claro" mcc="730" mnc="03" apn="bam.clarochile.cl" user="clarochile" password="clarochile" authtype="1" type="default,supl,dun" />
     <apn carrier="MMS Claro" mcc="730" mnc="03" apn="mms.clarochile.cl" user="clarochile" password="clarochile" mmsproxy="172.23.200.200" mmsport="8080" mmsc="http://mms.clarochile.cl" authtype="1" type="mms" />
     <apn carrier="M2M" mcc="730" mnc="07" apn="M2M.movistar.cl" user="" password="" authtype="1" type="default,supl,dun" />
-    <apn carrier="Internet" mcc="730" mnc="08" apn="movil.vtr.com" user="vtrmovil" password="vtrmovil" authtype="2" type="default,supl,dun" />
-    <apn carrier="Wap" mcc="730" mnc="08" apn="wap.vtr.com" proxy="192.168.94.210" port="9028" user="" password="" authtype="0" type="default,supl,dun" />
-    <apn carrier="Bam" mcc="730" mnc="08" apn="bam.vtr.com" user="vtr" password="vtr" authtype="2" type="default,supl,dun" />
+    <apn carrier="Internet" mcc="730" mnc="08" apn="movil.vtr.com" user="vtrmovil" password="vtrmovil" authtype="2" type="default,supl" />
+    <apn carrier="Wap" mcc="730" mnc="08" apn="wap.vtr.com" proxy="192.168.94.210" port="9028" user="" password="" authtype="0" type="dun" />
     <apn carrier="MMS" mcc="730" mnc="08" apn="mms.vtr.com" user="mms" password="" mmsc="http://192.168.94.162:19090/was" mmsproxy="192.168.94.210" mmsport="9028" authtype="0" type="mms" />
     <apn carrier="WEB Comcel 3GSM" mcc="732" mnc="101" apn="internet.comcel.com.co" user="COMCELWEB" password="COMCELWEB" authtype="1" type="default,supl,dun" />
     <apn carrier="MMS Comcel 3GSM" mcc="732" mnc="101" apn="mms.comcel.com.co" user="COMCELMMS" password="COMCELMMS" mmsproxy="198.228.90.225" mmsport="8799" mmsc="http://www.comcel.com.co/mms/" authtype="1" type="mms" />
