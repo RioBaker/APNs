@@ -1612,8 +1612,8 @@
     <apn carrier="MMS Entel" mcc="730" mnc="01" apn="mms.entelpcs.cl" user="entelpcs" password="entelpcs" mmsproxy="10.99.0.10" mmsport="8080" mmsc="http://mmsc.entelpcs.cl" authtype="1" type="mms" />
     <apn carrier="Internet Movil" mcc="730" mnc="10" apn="bam.entelpcs.cl" user="entelpcs" password="entelpcs" authtype="1" type="default,supl,dun" />
     <apn carrier="MMS Entel PCS" mcc="730" mnc="10" apn="mms.entelpcs.cl" user="entelpcs" password="entelpcs" mmsproxy="10.99.0.10" mmsport="8080" mmsc="http://mmsc.entelpcs.cl" authtype="1" type="mms" />
-    <apn carrier="NEM" mcc="730" mnc="02" apn="wap.tmovil.cl" proxy="172.17.8.11" port="8080" user="wap" password="wap" authtype="1" type="default,supl,dun" />
-    <apn carrier="MMS" mcc="730" mnc="02" apn="mms.tmovil.cl" user="mms" password="mms" mmsproxy="172.17.8.10" mmsport="8080" mmsc="http://mms.movistar.cl" authtype="1" type="mms" />
+    <apn carrier="Movistar-LAX" mcc="730" mnc="02" apn="wap.tmovil.cl" user="wap" password="wap" authtype="1" type="default,supl,dun" />
+    <apn carrier="Movistar MMS" mcc="730" mnc="02" apn="mms.tmovil.cl" user="mms" password="mms" mmsproxy="172.17.8.10" mmsport="8080" mmsc="http://mms.movistar.cl" authtype="1" type="mms" />
     <apn carrier="BAM Claro" mcc="730" mnc="03" apn="bam.clarochile.cl" user="clarochile" password="clarochile" authtype="1" type="default,supl,dun" />
     <apn carrier="MMS Claro" mcc="730" mnc="03" apn="mms.clarochile.cl" user="clarochile" password="clarochile" mmsproxy="172.23.200.200" mmsport="8080" mmsc="http://mms.clarochile.cl" authtype="1" type="mms" />
     <apn carrier="M2M" mcc="730" mnc="07" apn="M2M.movistar.cl" user="" password="" authtype="1" type="default,supl,dun" />
