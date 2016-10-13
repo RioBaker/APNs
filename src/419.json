@@ -1,0 +1,91 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "ZAIN MMS",
+                "mcc": "419",
+                "mnc": "02",
+                "apn": "pps",
+                "user": "annyway",
+                "password": "online",
+                "mmsc": "http://mms.zain",
+                "mmsproxy": "176.0.0.65",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "ZAIN MI",
+                "mcc": "419",
+                "mnc": "02",
+                "apn": "pps",
+                "user": "pps",
+                "password": "pps",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTC Vodafone KW MMS",
+                "mcc": "419",
+                "mnc": "02",
+                "apn": "mms",
+                "user": "annyway",
+                "password": "online",
+                "mmsc": "http://176.000.000.021",
+                "mmsproxy": "176.0.0.65",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTC Vodafone KW",
+                "mcc": "419",
+                "mnc": "02",
+                "apn": "apn01",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Wataniya MMS",
+                "mcc": "419",
+                "mnc": "03",
+                "apn": "mms.wataniya.com",
+                "mmsc": "http://action.wataniya.com",
+                "mmsproxy": "194.126.53.64",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Wataniya",
+                "mcc": "419",
+                "mnc": "03",
+                "apn": "action.wataniya.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Viva KW MMS",
+                "mcc": "419",
+                "mnc": "04",
+                "apn": "viva",
+                "mmsc": "http://172.16.128.80:38090/was",
+                "mmsproxy": "172.16.128.228",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Viva KW",
+                "mcc": "419",
+                "mnc": "04",
+                "apn": "viva",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "VIVA MMS",
+                "mcc": "419",
+                "mnc": "04",
+                "apn": "VIVA",
+                "mmsc": "http://172.16.128.80:38090/was",
+                "mmsproxy": "172.16.128.228",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

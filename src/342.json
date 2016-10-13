@@ -1,0 +1,47 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Digicel BB MMS",
+                "mcc": "342",
+                "mnc": "750",
+                "apn": "wap.digicelbarbados.com",
+                "user": "wapbarb",
+                "password": "wap03barb",
+                "mmsc": "http://mme.digiceljamaica.com/servlets/mms",
+                "mmsproxy": "172.16.7.12",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel BB",
+                "mcc": "342",
+                "mnc": "750",
+                "apn": "web.digicelbarbados.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Lime Internet Postpaid",
+                "mcc": "342",
+                "mnc": "60",
+                "apn": "internet",
+                "user": "",
+                "password": "",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Lime Postpaid MMS",
+                "mcc": "342",
+                "mnc": "60",
+                "apn": "multimedia",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.20.5.34",
+                "mmsport": "8799",
+                "mmsc": "http://mmsc",
+                "type": "mms"
+            }
+        ]
+    }
+}

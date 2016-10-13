@@ -1,0 +1,62 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Beeline Internet",
+                "mcc": "401",
+                "mnc": "01",
+                "apn": "internet.beeline.kz",
+                "user": "@internet.beeline",
+                "password": "beeline",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Beeline MMS",
+                "mcc": "401",
+                "mnc": "01",
+                "apn": "mms.beeline.kz",
+                "user": "@mms.beeline",
+                "password": "beeline",
+                "mmsc": "http://mms.beeline.kz/mms/wapenc",
+                "mmsproxy": "172.27.6.93",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Kcell Internet",
+                "mcc": "401",
+                "mnc": "02",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Kcell MMS",
+                "mcc": "401",
+                "mnc": "02",
+                "apn": "mms",
+                "mmsc": "http://mms.kcell.kz/post",
+                "mmsproxy": "195.47.255.7",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Tele2 Internet",
+                "mcc": "401",
+                "mnc": "77",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele2 MMS",
+                "mcc": "401",
+                "mnc": "77",
+                "apn": "mms",
+                "mmsc": "http://mms.neogsm.kz/mms/wapenc",
+                "mmsproxy": "10.1.26.10",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Orange UG Internet",
+                "mcc": "641",
+                "mnc": "14",
+                "apn": "orange.ug",
+                "type": "default"
+            },
+            {
+                "carrier": "Orange UG MMS",
+                "mcc": "641",
+                "mnc": "14",
+                "apn": "orangemms",
+                "mmsc": "http://mms/",
+                "type": "mms"
+            }
+        ]
+    }
+}

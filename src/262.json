@@ -1,0 +1,189 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "T-Mobile Internet",
+                "mcc": "262",
+                "mnc": "01",
+                "apn": "internet.t-mobile",
+                "user": "t-mobile",
+                "password": "tm",
+                "mmsc": "http://mms.t-mobile.de/servlets/mms",
+                "mmsproxy": "172.28.23.131",
+                "mmsport": "8008",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone DE-MMS",
+                "mcc": "262",
+                "mnc": "02",
+                "apn": "event.vodafone.de",
+                "mmsc": "http://139.7.24.1/servlets/mms",
+                "mmsproxy": "139.7.29.17",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone DE",
+                "mcc": "262",
+                "mnc": "02",
+                "apn": "web.vodafone.de",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "1und1",
+                "mcc": "262",
+                "mnc": "02",
+                "apn": "web.vodafone.de",
+                "type": "default,supl",
+                "mvno_type": "spn",
+                "mvno_match_data": "1und1"
+            },
+            {
+                "carrier": "E-Plus Web GPRS",
+                "mcc": "262",
+                "mnc": "03",
+                "apn": "internet.eplus.de",
+                "user": "eplus",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "E-Plus MMS",
+                "mcc": "262",
+                "mnc": "03",
+                "apn": "mms.eplus.de",
+                "user": "mms",
+                "password": "eplus",
+                "mmsc": "http://mms/eplus/",
+                "mmsproxy": "212.23.97.153",
+                "mmsport": "5080",
+                "type": "mms"
+            },
+            {
+                "carrier": "blau DE",
+                "mcc": "262",
+                "mnc": "03",
+                "apn": "internet.eplus.de",
+                "user": "eplus",
+                "password": "internet",
+                "type": "default,supl",
+                "mvno_type": "spn",
+                "mvno_match_data": "blau DE"
+            },
+            {
+                "carrier": "blau DE MMS",
+                "mcc": "262",
+                "mnc": "03",
+                "apn": "mms.eplus.de",
+                "user": "mms",
+                "password": "eplus",
+                "mmsc": "http://mms/eplus/",
+                "mmsproxy": "212.23.97.153",
+                "mmsport": "5080",
+                "type": "mms",
+                "mvno_type": "spn",
+                "mvno_match_data": "blau DE"
+            },
+            {
+                "carrier": "Vodafone DE-MMS",
+                "mcc": "262",
+                "mnc": "04",
+                "apn": "event.vodafone.de",
+                "mmsc": "http://139.7.24.1/servlets/mms",
+                "mmsproxy": "139.7.29.17",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone DE",
+                "mcc": "262",
+                "mnc": "04",
+                "apn": "web.vodafone.de",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-Mobile Internet",
+                "mcc": "262",
+                "mnc": "06",
+                "apn": "internet.t-mobile",
+                "user": "t-mobile",
+                "password": "tm",
+                "mmsc": "http://mms.t-mobile.de/servlets/mms",
+                "mmsproxy": "172.28.23.131",
+                "mmsport": "8008",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "o2 Internet",
+                "mcc": "262",
+                "mnc": "07",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "o2 MMS",
+                "mcc": "262",
+                "mnc": "07",
+                "apn": "internet",
+                "mmsc": "http://10.81.0.7:8002",
+                "mmsproxy": "82.113.100.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "o2 Internet",
+                "mcc": "262",
+                "mnc": "08",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "o2 MMS",
+                "mcc": "262",
+                "mnc": "08",
+                "apn": "internet",
+                "mmsc": "http://10.81.0.7:8002",
+                "mmsproxy": "82.113.100.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "o2 Internet Prepaid",
+                "mcc": "262",
+                "mnc": "07",
+                "apn": "pinternet.interkom.de",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "o2 MMS Prepaid",
+                "mcc": "262",
+                "mnc": "07",
+                "apn": "pinternet.interkom.de",
+                "port": "8080",
+                "mmsc": "http://10.81.0.7:8002",
+                "mmsproxy": "82.113.100.6",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone DE-MMS",
+                "mcc": "262",
+                "mnc": "09",
+                "apn": "event.vodafone.de",
+                "mmsc": "http://139.7.24.1/servlets/mms",
+                "mmsproxy": "139.7.29.17",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone DE",
+                "mcc": "262",
+                "mnc": "09",
+                "apn": "web.vodafone.de",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

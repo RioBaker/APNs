@@ -1,0 +1,125 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Vodafone RO live!",
+                "mcc": "226",
+                "mnc": "01",
+                "apn": "live.vodafone.com",
+                "user": "live",
+                "password": "vodafone",
+                "proxy": "193.230.161.231",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone RO live! PRE",
+                "mcc": "226",
+                "mnc": "01",
+                "apn": "live.pre.vodafone.com",
+                "user": "live",
+                "password": "vodafone",
+                "proxy": "193.230.161.231",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone RO MMS",
+                "mcc": "226",
+                "mnc": "01",
+                "apn": "mms.vodafone.ro",
+                "user": "mms",
+                "password": "vodafone",
+                "mmsc": "http://multimedia/servlets/mms",
+                "mmsproxy": "193.230.161.231",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone RO MMS PRE",
+                "mcc": "226",
+                "mnc": "01",
+                "apn": "mms.pre.vodafone.ro",
+                "user": "mms",
+                "password": "vodafone",
+                "mmsc": "http://multimedia/servlets/mms",
+                "mmsproxy": "193.230.161.231",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone RO Internet",
+                "mcc": "226",
+                "mnc": "01",
+                "apn": "internet.vodafone.ro",
+                "user": "internet.vodafone.ro",
+                "password": "vodafone",
+                "type": "dun"
+            },
+            {
+                "carrier": "Cosmote RO Internet",
+                "mcc": "226",
+                "mnc": "03",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cosmote RO MMS",
+                "mcc": "226",
+                "mnc": "03",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mmsc1.mms.cosmote.ro:8002",
+                "mmsproxy": "10.252.1.62",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Cosmote WNW RO",
+                "mcc": "226",
+                "mnc": "03",
+                "apn": "wnw",
+                "user": "wnw",
+                "password": "wnw",
+                "proxy": "10.252.1.62",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange RO MMS",
+                "mcc": "226",
+                "mnc": "10",
+                "apn": "mms",
+                "mmsc": "http://wap.mms.orange.ro:8002",
+                "mmsproxy": "62.217.247.252",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange RO WAP",
+                "mcc": "226",
+                "mnc": "10",
+                "apn": "wap",
+                "proxy": "62.217.247.252",
+                "port": "8799",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange RO Internet",
+                "mcc": "226",
+                "mnc": "10",
+                "apn": "net",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Digi.Mobil",
+                "mcc": "226",
+                "mnc": "05",
+                "apn": "internet",
+                "type": "default, supl"
+            }
+        ]
+    }
+}

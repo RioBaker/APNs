@@ -1,0 +1,68 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Turkcell Internet",
+                "mcc": "286",
+                "mnc": "01",
+                "apn": "internet",
+                "user": "gprs",
+                "password": "gprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Turkcell MMS",
+                "mcc": "286",
+                "mnc": "01",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.turkcell.com.tr/servlets/mms",
+                "mmsproxy": "212.252.169.217",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone TR Internet",
+                "mcc": "286",
+                "mnc": "02",
+                "apn": "internet",
+                "user": "vodafone",
+                "password": "vodafone",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone TR MMS",
+                "mcc": "286",
+                "mnc": "02",
+                "apn": "mms",
+                "mmsc": "http://217.31.233.18:6001/MM1Servlet",
+                "mmsproxy": "217.31.233.18",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Avea Internet",
+                "mcc": "286",
+                "mnc": "03",
+                "apn": "internet",
+                "user": "wap",
+                "password": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Avea MMS",
+                "mcc": "286",
+                "mnc": "03",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.avea.com.tr/servlets/mms",
+                "mmsproxy": "213.161.151.201",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

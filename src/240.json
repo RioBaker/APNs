@@ -1,0 +1,189 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Telia SE MMS",
+                "mcc": "240",
+                "mnc": "01",
+                "apn": "mms.telia.se",
+                "mmsc": "http://mmss/",
+                "mmsproxy": "193.209.134.132",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telia SE",
+                "mcc": "240",
+                "mnc": "01",
+                "apn": "online.telia.se",
+                "proxy": "10.254.254.254",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Halebop Internet",
+                "mcc": "240",
+                "mnc": "017",
+                "apn": "halebop.telia.se",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Halebop MMS",
+                "mcc": "240",
+                "mnc": "017",
+                "apn": "mms.telia.se",
+                "user": "mms",
+                "password": "telia",
+                "mmsc": "http://mmss",
+                "mmsproxy": "193.209.134.132",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "3 SE",
+                "mcc": "240",
+                "mnc": "02",
+                "apn": "data.tre.se",
+                "mmsc": "http://mms.tre.se",
+                "mmsproxy": "mmsproxy.tre.se",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Telenor Mobilsurf",
+                "mcc": "240",
+                "mnc": "04",
+                "apn": "services.telenor.se",
+                "proxy": "172.30.253.241",
+                "port": "8799",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenor MMS",
+                "mcc": "240",
+                "mnc": "04",
+                "apn": "services.telenor.se",
+                "mmsc": "http://mms",
+                "mmsproxy": "172.30.253.241",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telenor MMS",
+                "mcc": "240",
+                "mnc": "06",
+                "apn": "services.telenor.se",
+                "mmsc": "http://mms",
+                "mmsproxy": "173.30.253.241",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telenor Mobilsurf",
+                "mcc": "240",
+                "mnc": "06",
+                "apn": "services.telenor.se",
+                "proxy": "173.30.253.241",
+                "port": "8799",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele2 SE",
+                "mcc": "240",
+                "mnc": "07",
+                "apn": "internet.tele2.se",
+                "mmsc": "http://mmsc.tele2.se",
+                "mmsproxy": "130.244.202.30",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Tele2 SE",
+                "mcc": "240",
+                "mnc": "07",
+                "apn": "internet.tele2.se",
+                "user": "wap",
+                "password": "wap",
+                "mmsc": "http://mmsc.tele2.se",
+                "mmsproxy": "130.244.202.30",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Telenor Mobilsurf",
+                "mcc": "240",
+                "mnc": "08",
+                "apn": "services.telenor.se",
+                "proxy": "172.30.253.241",
+                "port": "8799",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenor SE",
+                "mcc": "240",
+                "mnc": "08",
+                "apn": "internet.telenor.se",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenor SE MMS",
+                "mcc": "240",
+                "mnc": "08",
+                "apn": "services.telenor.se",
+                "mmsc": "http://mms",
+                "mmsproxy": "172.30.253.241",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Universal",
+                "mcc": "240",
+                "mnc": "08",
+                "apn": "sp-services",
+                "proxy": "172.30.253.241",
+                "port": "8799",
+                "mmsc": "http://mms",
+                "mmsproxy": "172.30.253.241",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Telenor MMS",
+                "mcc": "240",
+                "mnc": "09",
+                "apn": "services.telenor.se",
+                "mmsc": "http://mms",
+                "mmsproxy": "173.30.253.241",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TelenorMobilsurf",
+                "mcc": "240",
+                "mnc": "09",
+                "apn": "services.telenor.se",
+                "proxy": "173.30.253.241",
+                "port": "8799",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Spring data",
+                "mcc": "240",
+                "mnc": "10",
+                "apn": "data.springmobil.se",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Spring MMS",
+                "mcc": "240",
+                "mnc": "10",
+                "apn": "mms.springmobil.se",
+                "mmsc": "http://mms.springmobil.se",
+                "mmsproxy": "213.88.184.37",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

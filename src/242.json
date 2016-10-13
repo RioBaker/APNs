@@ -1,0 +1,149 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Ludo Internet",
+                "mcc": "242",
+                "mnc": "01",
+                "apn": "internet.ventelo.no",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Ludo MMS",
+                "mcc": "242",
+                "mnc": "01",
+                "apn": "mms.ventelo.no",
+                "user": "ventelo",
+                "password": "1111",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.10.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telenor",
+                "mcc": "242",
+                "mnc": "01",
+                "apn": "telenor",
+                "mmsc": "http://mmsc",
+                "mmsproxy": "10.10.10.11",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Mobitalk Internet",
+                "mcc": "242",
+                "mnc": "01",
+                "apn": "telenor",
+                "user": "dj",
+                "password": "dj",
+                "proxy": "10.10.10.10",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Talkmore",
+                "mcc": "242",
+                "mnc": "01",
+                "apn": "telenor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mobitalk MMS",
+                "mcc": "242",
+                "mnc": "01",
+                "apn": "telenor",
+                "user": "dj",
+                "password": "dj",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.10.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Chess MMS",
+                "mcc": "242",
+                "mnc": "02",
+                "apn": "mms.netcom.no",
+                "user": "chess",
+                "password": "chess",
+                "mmsc": "http://mms/",
+                "mmsproxy": "193.209.134.133",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "NetCom Internet",
+                "mcc": "242",
+                "mnc": "02",
+                "apn": "internet.netcom.no",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Chess Internet",
+                "mcc": "242",
+                "mnc": "02",
+                "apn": "netcom",
+                "user": "chess",
+                "password": "chess",
+                "proxy": "10.254.254.10",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele2 NO Internet",
+                "mcc": "242",
+                "mnc": "03",
+                "apn": "internet.tele2.no",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele2 NO MMS",
+                "mcc": "242",
+                "mnc": "03",
+                "apn": "mms.tele2.no",
+                "user": "wap",
+                "password": "wap",
+                "mmsc": "http://mmsc.tele2.no",
+                "mmsproxy": "192.12.40.14",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Tele2 Internet",
+                "mcc": "242",
+                "mnc": "04",
+                "apn": "internet.tele2.no",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele2 MMS",
+                "mcc": "242",
+                "mnc": "04",
+                "apn": "internet.tele2.no",
+                "mmsc": "http://mmsc.tele2.no",
+                "mmsproxy": "193.12.40.14",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "NwN Internet",
+                "mcc": "242",
+                "mnc": "05",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "NwN MMS",
+                "mcc": "242",
+                "mnc": "05",
+                "apn": "mms",
+                "mmsc": "http://mms.nwn.no",
+                "mmsproxy": "188.149.250.10",
+                "mmsport": "80",
+                "type": "mms"
+            }
+        ]
+    }
+}

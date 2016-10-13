@@ -1,0 +1,71 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "SafaricomBrowse",
+                "mcc": "639",
+                "mnc": "02",
+                "apn": "Safaricom",
+                "user": "saf",
+                "password": "data",
+                "proxy": "172.22.2.38",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SafaricomMMS",
+                "mcc": "639",
+                "mnc": "02",
+                "apn": "Safaricom",
+                "user": "saf",
+                "password": "data",
+                "mmsc": "http://mms.gprs.safaricom.com",
+                "type": "mms"
+            },
+            {
+                "carrier": "Zain WAP",
+                "mcc": "639",
+                "mnc": "03",
+                "apn": "wap.ke.celtel.com",
+                "user": "wap",
+                "password": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Zain MMS",
+                "mcc": "639",
+                "mnc": "03",
+                "apn": "mms.ke.celtel.com",
+                "user": "wap",
+                "password": "wap",
+                "mmsc": "http://mms.ke.celtel.com/servlets/mms",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange Internet",
+                "mcc": "639",
+                "mnc": "07",
+                "apn": "wap.orange.co.ke",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "mcc": "639",
+                "mnc": "07",
+                "apn": "mms.orange.co.ke",
+                "mmsproxy": "10.36.16.5",
+                "mmsport": "8080",
+                "mmsc": "http://10.36.16.5/servlets/mms",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange net KE",
+                "mcc": "639",
+                "mnc": "07",
+                "apn": "bew.orange.co.ke",
+                "type": "default"
+            }
+        ]
+    }
+}

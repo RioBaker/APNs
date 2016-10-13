@@ -1,0 +1,151 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "ISAT BB INTERNET",
+                "mcc": "510",
+                "mnc": "01",
+                "apn": "indosat3g",
+                "user": "indosat",
+                "password": "indosat",
+                "proxy": "10.19.19.19",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ISAT WAP",
+                "mcc": "510",
+                "mnc": "01",
+                "apn": "indosatgprs",
+                "user": "indosat",
+                "password": "indosat",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ISAT MMS",
+                "mcc": "510",
+                "mnc": "01",
+                "apn": "indosatmms",
+                "user": "indosat",
+                "password": "indosat",
+                "mmsc": "http://mmsc.indosat.com",
+                "mmsproxy": "10.19.19.19",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AXISinternet",
+                "mcc": "510",
+                "mnc": "08",
+                "apn": "AXIS",
+                "user": "AXIS",
+                "password": "123456",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AXIS MMS",
+                "mcc": "510",
+                "mnc": "08",
+                "apn": "axismms",
+                "user": "axis",
+                "password": "123456",
+                "mmsc": "http://mmsc.axis",
+                "mmsproxy": "10.8.3.8",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telkomsel GPRS WEB",
+                "mcc": "510",
+                "mnc": "10",
+                "apn": "internet",
+                "user": "wap",
+                "password": "wap123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TSEL MMS",
+                "mcc": "510",
+                "mnc": "10",
+                "apn": "mms",
+                "user": "wap",
+                "password": "wap123",
+                "mmsc": "http://mms.telkomsel.com",
+                "mmsproxy": "10.1.89.150",
+                "mmsport": "8000",
+                "type": "mms"
+            },
+            {
+                "carrier": "XL GPRS",
+                "mcc": "510",
+                "mnc": "11",
+                "apn": "www.xlgprs.net",
+                "user": "xlgprs",
+                "password": "proxl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "XL MMS",
+                "mcc": "510",
+                "mnc": "11",
+                "apn": "www.xlmms.net",
+                "user": "xlgprs",
+                "password": "proxl",
+                "mmsc": "http://mmc.xl.net.id/servlets/mms",
+                "mmsproxy": "202.152.240.50",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "XL Unlimited",
+                "mcc": "510",
+                "mnc": "11",
+                "apn": "xlunlimited",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ISAT M3 INTERNET",
+                "mcc": "510",
+                "mnc": "21",
+                "apn": "indosatgprs",
+                "user": "indosat",
+                "password": "indosat",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ISAT BB MMS",
+                "mcc": "510",
+                "mnc": "01",
+                "apn": "indosatmms",
+                "user": "indosat",
+                "password": "indosat",
+                "mmsc": "http://mmsc.indosat.com",
+                "mmsproxy": "10.19.19.19",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "3 GPRS",
+                "mcc": "510",
+                "mnc": "89",
+                "apn": "3gprs",
+                "user": "3gprs",
+                "password": "3gprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "3 MMS",
+                "mcc": "510",
+                "mnc": "89",
+                "apn": "3mms",
+                "user": "3mms",
+                "password": "3mms",
+                "mmsc": "http://mms.three.co.id",
+                "mmsproxy": "10.4.0.10",
+                "mmsport": "3128",
+                "type": "mms"
+            }
+        ]
+    }
+}

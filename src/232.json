@@ -1,0 +1,191 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "A1",
+                "mcc": "232",
+                "mnc": "01",
+                "apn": "a1.net",
+                "user": "ppp@a1plus.at",
+                "password": "ppp",
+                "mmsproxy": "194.048.124.071",
+                "mmsport": "8001",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Mobilkom",
+                "mcc": "232",
+                "mnc": "01",
+                "apn": "a1.net",
+                "user": "ppp@a1plus.at",
+                "password": "ppp",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mobilkom MMS",
+                "mcc": "232",
+                "mnc": "01",
+                "apn": "free.a1.net",
+                "user": "ppp@a1plus.at",
+                "password": "ppp",
+                "mmsc": "http://mmsc.a1.net",
+                "mmsproxy": "194.48.124.71",
+                "mmsport": "8001",
+                "type": "mms"
+            },
+            {
+                "carrier": "aonMobil",
+                "mcc": "232",
+                "mnc": "01",
+                "apn": "aon.at",
+                "user": "mobil@aon.at",
+                "password": "ppp",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "aonMobil MMS",
+                "mcc": "232",
+                "mnc": "01",
+                "apn": "mms.aon.at",
+                "user": "mobil@aon.at",
+                "password": "ppp",
+                "mmsc": "http://mmsc.aon.at",
+                "mmsproxy": "194.48.124.134",
+                "mmsport": "8001",
+                "type": "mms"
+            },
+            {
+                "carrier": "T-Mobile AT Internet",
+                "mcc": "232",
+                "mnc": "03",
+                "apn": "gprsinternet",
+                "user": "t-mobile",
+                "password": "tm",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-Mobile AT MMS",
+                "mcc": "232",
+                "mnc": "03",
+                "apn": "gprsmms",
+                "user": "t-mobile",
+                "password": "tm",
+                "mmsc": "http://mmsc.t-mobile.at/servlets/mms",
+                "mmsproxy": "10.12.0.20",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange MMS",
+                "mcc": "232",
+                "mnc": "05",
+                "apn": "orange.mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mmsc.orange.at/mms/wapenc",
+                "mmsproxy": "194.24.128.118",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange AT MMS",
+                "mcc": "232",
+                "mnc": "05",
+                "apn": "mms.one.at",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mmsc.one.at/mms/wapenc",
+                "mmsproxy": "194.24.128.118",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange Smartphone",
+                "mcc": "232",
+                "mnc": "05",
+                "apn": "orange.smartphone",
+                "user": "web",
+                "password": "web",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange WEB",
+                "mcc": "232",
+                "mnc": "05",
+                "apn": "orange.web",
+                "user": "web",
+                "password": "web",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange AT",
+                "mcc": "232",
+                "mnc": "05",
+                "apn": "web.one.at",
+                "user": "web",
+                "password": "web",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "tele.ring MMS",
+                "mcc": "232",
+                "mnc": "07",
+                "apn": "mms",
+                "user": "wap@telering.at",
+                "password": "wap",
+                "mmsc": "http://relay.mms.telering.at",
+                "mmsproxy": "212.95.31.50",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "tele.ring WEB",
+                "mcc": "232",
+                "mnc": "07",
+                "apn": "web",
+                "user": "web@telering.at",
+                "password": "web",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Planet3",
+                "mcc": "232",
+                "mnc": "10",
+                "apn": "drei.at",
+                "mmsc": "http://mmsc",
+                "mmsproxy": "213.94.78.133",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Bob",
+                "mcc": "232",
+                "mnc": "11",
+                "apn": "bob.at",
+                "user": "data@bob.at",
+                "password": "ppp",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Bob MMS",
+                "mcc": "232",
+                "mnc": "11",
+                "apn": "mms.bob.at",
+                "user": "data@bob.at",
+                "password": "ppp",
+                "mmsc": "http://mmsc.bob.at",
+                "mmsproxy": "194.48.124.7",
+                "mmsport": "8001",
+                "type": "mms"
+            },
+            {
+                "carrier": "YESSS!",
+                "mcc": "232",
+                "mnc": "12",
+                "apn": "webapn.at",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

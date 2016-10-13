@@ -1,0 +1,84 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "IDEAS E-mail",
+                "mcc": "525",
+                "mnc": "01",
+                "apn": "e-ideas",
+                "mmsc": "http://mms.singtel.com:10021/mmsc",
+                "mmsproxy": "165.21.42.84",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "IDEAS E-mail",
+                "mcc": "525",
+                "mnc": "02",
+                "apn": "e-ideas",
+                "mmsc": "http://mms.singtel.com:10021/mmsc",
+                "mmsproxy": "165.21.42.84",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "M1 MMS",
+                "mcc": "525",
+                "mnc": "03",
+                "apn": "miworld",
+                "user": "65",
+                "password": "user123",
+                "mmsc": "http://mmsgw:8002",
+                "mmsproxy": "172.16.14.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "M1 E-mail",
+                "mcc": "525",
+                "mnc": "03",
+                "apn": "sunsurf",
+                "user": "65",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "StarHub",
+                "mcc": "525",
+                "mnc": "05",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Gee! MMS",
+                "mcc": "525",
+                "mnc": "05",
+                "apn": "shmms",
+                "user": "star",
+                "password": "hub",
+                "mmsc": "http://mms.starhubgee.com.sg:8002",
+                "mmsproxy": "10.12.1.80",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Gee!",
+                "mcc": "525",
+                "mnc": "05",
+                "apn": "shwap",
+                "user": "star",
+                "password": "hub",
+                "proxy": "10.12.1.2",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "StarHub E-mail",
+                "mcc": "525",
+                "mnc": "05",
+                "apn": "shwap",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

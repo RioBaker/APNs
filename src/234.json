@@ -1,0 +1,494 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "UBIQUISYS",
+                "mcc": "234",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "O2 Mobile Web",
+                "mcc": "234",
+                "mnc": "02",
+                "apn": "mobile.o2.co.uk",
+                "user": "o2web",
+                "password": "password",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "O2 Mobile Web",
+                "mcc": "234",
+                "mnc": "10",
+                "apn": "mobile.o2.co.uk",
+                "user": "o2web",
+                "password": "password",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "O2 Mobile Web",
+                "mcc": "234",
+                "mnc": "11",
+                "apn": "mobile.o2.co.uk",
+                "user": "o2web",
+                "password": "password",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "O2 MMS",
+                "mcc": "234",
+                "mnc": "02",
+                "apn": "wap.o2.co.uk",
+                "mmsc": "http://mmsc.mms.o2.co.uk:8002",
+                "mmsproxy": "82.132.254.1",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "O2 MMS",
+                "mcc": "234",
+                "mnc": "10",
+                "apn": "wap.o2.co.uk",
+                "mmsc": "http://mmsc.mms.o2.co.uk:8002",
+                "mmsproxy": "82.132.254.1",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "O2 MMS",
+                "mcc": "234",
+                "mnc": "11",
+                "apn": "wap.o2.co.uk",
+                "mmsc": "http://mmsc.mms.o2.co.uk:8002",
+                "mmsproxy": "82.132.254.1",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "O2 Pay & Go",
+                "mcc": "234",
+                "mnc": "02",
+                "apn": "payandgo.o2.co.uk",
+                "user": "payandgo",
+                "password": "password",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "O2 Pay & Go",
+                "mcc": "234",
+                "mnc": "10",
+                "apn": "payandgo.o2.co.uk",
+                "user": "payandgo",
+                "password": "password",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "O2 Pay & Go",
+                "mcc": "234",
+                "mnc": "11",
+                "apn": "payandgo.o2.co.uk",
+                "user": "payandgo",
+                "password": "password",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "O2 Pay & Go MMS",
+                "mcc": "234",
+                "mnc": "02",
+                "apn": "payandgo.o2.co.uk",
+                "mmsc": "http://mmsc.mms.o2.co.uk:8002",
+                "mmsproxy": "82.132.254.1",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "O2 Pay & Go MMS",
+                "mcc": "234",
+                "mnc": "10",
+                "apn": "payandgo.o2.co.uk",
+                "mmsc": "http://mmsc.mms.o2.co.uk:8002",
+                "mmsproxy": "82.132.254.1",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "O2 Pay & Go MMS",
+                "mcc": "234",
+                "mnc": "11",
+                "apn": "payandgo.o2.co.uk",
+                "mmsc": "http://mmsc.mms.o2.co.uk:8002",
+                "mmsproxy": "82.132.254.1",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "O2 Pay & Go Mobile Broadband",
+                "mcc": "234",
+                "mnc": "02",
+                "apn": "m-bb.o2.co.uk",
+                "user": "o2bb",
+                "password": "password",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "O2 Pay & Go Mobile Broadband",
+                "mcc": "234",
+                "mnc": "10",
+                "apn": "m-bb.o2.co.uk",
+                "user": "o2bb",
+                "password": "password",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "O2 Pay & Go Mobile Broadband",
+                "mcc": "234",
+                "mnc": "11",
+                "apn": "m-bb.o2.co.uk",
+                "user": "o2bb",
+                "password": "password",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "TESCO",
+                "mcc": "234",
+                "mnc": "10",
+                "apn": "prepay.tesco-mobile.com",
+                "user": "tescowap",
+                "password": "password",
+                "mmsc": "http://mmsc.mms.o2.co.uk:8002",
+                "mmsproxy": "82.132.254.1",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "giffgaff",
+                "mcc": "234",
+                "mnc": "10",
+                "apn": "giffgaff.com",
+                "user": "giffgaff",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "giffgaff MMS",
+                "mcc": "234",
+                "mnc": "10",
+                "apn": "giffgaff.com",
+                "user": "giffgaff",
+                "mmsc": "http://mmsc.mediamessaging.co.uk:8002",
+                "mmsproxy": "82.132.254.1",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BT Mobile Internet",
+                "mcc": "234",
+                "mnc": "30",
+                "apn": "btmobile.bt.com",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "BT Mobile MMS",
+                "mcc": "234",
+                "mnc": "30",
+                "apn": "mms.bt.com",
+                "mmsc": "http://MMS/",
+                "mmsproxy": "149.254.201.135",
+                "mmsport": "8080",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone UK WAP",
+                "mcc": "234",
+                "mnc": "15",
+                "apn": "wap.vodafone.co.uk",
+                "user": "wap",
+                "password": "wap",
+                "mmsc": "http://mms.vodafone.co.uk/servlets/mms",
+                "mmsproxy": "212.183.137.12",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone UK",
+                "mcc": "234",
+                "mnc": "15",
+                "apn": "internet",
+                "user": "web",
+                "password": "web",
+                "mmsc": "http://mms.vodafone.co.uk/servlets/mms",
+                "mmsproxy": "212.183.137.12",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone UK Prepay",
+                "mcc": "234",
+                "mnc": "15",
+                "apn": "pp.vodafone.co.uk",
+                "user": "wap",
+                "password": "wap",
+                "mmsc": "http://mms.vodafone.co.uk/servlets/mms",
+                "mmsproxy": "212.183.137.12",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Talkmobile",
+                "mcc": "234",
+                "mnc": "15",
+                "apn": "payg.talkmobile",
+                "mmsc": "http://mms.talkmobile.co.uk/servlets/mms",
+                "mmsproxy": "212.183.137.12",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Lebara",
+                "mcc": "234",
+                "mnc": "15",
+                "apn": "uk.lebara.mobi",
+                "user": "web",
+                "password": "web",
+                "mmsc": "http://mms.lebara.co.uk/servlets/mms",
+                "mmsproxy": "212.183.137.12",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "3 UK",
+                "mcc": "234",
+                "mnc": "20",
+                "apn": "three.co.uk",
+                "mmsc": "http://mms.um.three.co.uk:10021/mmsc",
+                "mmsproxy": "mms.three.co.uk",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "T-Mobile UK",
+                "mcc": "234",
+                "mnc": "30",
+                "apn": "general.t-mobile.uk",
+                "user": "t-mobile",
+                "password": "tm",
+                "mmsc": "http://mmsc.t-mobile.co.uk:8002",
+                "mmsproxy": "149.254.201.135",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Virgin UK",
+                "mcc": "234",
+                "mnc": "30",
+                "apn": "goto.virginmobile.uk",
+                "user": "user",
+                "mmsc": "http://mms.virginmobile.co.uk:8002",
+                "mmsproxy": "193.30.166.2",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "T-Mobile Internet",
+                "mcc": "234",
+                "mnc": "31",
+                "apn": "general.t-mobile.uk",
+                "user": "t-mobile",
+                "password": "tm",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-Mobile Picture Message",
+                "mcc": "234",
+                "mnc": "31",
+                "apn": "general.t-mobile.uk",
+                "user": "user",
+                "password": "wap",
+                "mmsc": "http://mmsc.t-mobile.co.uk:8002",
+                "mmsproxy": "149.254.201.135",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "T-Mobile Internet",
+                "mcc": "234",
+                "mnc": "32",
+                "apn": "general.t-mobile.uk",
+                "user": "t-mobile",
+                "password": "tm",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-Mobile Picture Message",
+                "mcc": "234",
+                "mnc": "32",
+                "apn": "general.t-mobile.uk",
+                "user": "t-mobile",
+                "password": "tm",
+                "mmsc": "http://mmsc.t-mobile.co.uk:8002",
+                "mmsproxy": "149.254.201.135",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange UK Internet",
+                "mcc": "234",
+                "mnc": "33",
+                "apn": "orangeinternet",
+                "authtype": "2",
+                "type": "default"
+            },
+            {
+                "carrier": "Orange UK MMS",
+                "mcc": "234",
+                "mnc": "33",
+                "apn": "orangemms",
+                "mmsc": "http://mms.orange.co.uk/",
+                "mmsproxy": "192.168.224.10",
+                "mmsport": "8080",
+                "authtype": "2",
+                "type": "mms"
+            },
+            {
+                "carrier": "Consumer Broadband",
+                "apn": "consumerbroadband",
+                "mcc": "234",
+                "mnc": "33",
+                "authtype": "0",
+                "type": "dun"
+            },
+            {
+                "carrier": "Orange Internet",
+                "mcc": "234",
+                "mnc": "34",
+                "apn": "orangeinternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "mcc": "234",
+                "mnc": "34",
+                "apn": "orangemms",
+                "mmsc": "http://mms.orange.co.uk/",
+                "mmsproxy": "192.168.224.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Jersey Telecom MMS",
+                "mcc": "234",
+                "mnc": "50",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.surfmail.com/mmsc",
+                "mmsproxy": "212.9.19.199",
+                "mmsport": "3130",
+                "type": "mms"
+            },
+            {
+                "carrier": "pepperWEB (Jersey)",
+                "mcc": "234",
+                "mnc": "50",
+                "apn": "pepper",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Sure Mobile",
+                "mcc": "234",
+                "mnc": "55",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Sure Mobile MMS",
+                "mcc": "234",
+                "mnc": "55",
+                "apn": "MMS",
+                "mmsc": "http://mmsc.gprs.cw.com/",
+                "mmsproxy": "10.0.3.101",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Sure Picture Messaging",
+                "mcc": "234",
+                "mnc": "55",
+                "apn": "mms",
+                "mmsc": "http://mmsc.gprs.cw.com/",
+                "mmsproxy": "10.0.3.101",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Manx Telecom",
+                "mcc": "234",
+                "mnc": "58",
+                "apn": "3gpronto",
+                "proxy": "195.10.99.46",
+                "port": "8080",
+                "mmsc": "http://mms.manxpronto.net:8002",
+                "type": "default,supl, mms"
+            },
+            {
+                "carrier": "3G HSDPA",
+                "mcc": "234",
+                "mnc": "58",
+                "apn": "3gpronto",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Manx Telecom Prepay MMS",
+                "mcc": "234",
+                "mnc": "58",
+                "apn": "mms.prontogo.net",
+                "user": "mmsgo",
+                "password": "mmsgo",
+                "mmsc": "http://mms.manxpronto.net:8002",
+                "mmsproxy": "195.10.99.41",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Manx Telecom Contract WEB",
+                "mcc": "234",
+                "mnc": "58",
+                "apn": "web.manxpronto.net",
+                "user": "gprs",
+                "password": "gprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Manx Telecom Contract MMS",
+                "mcc": "234",
+                "mnc": "58",
+                "apn": "mms.manxpronto.net",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.manxpronto.net:8002",
+                "mmsproxy": "195.10.99.46",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange Internet",
+                "mcc": "234",
+                "mnc": "86",
+                "apn": "orangeinternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "mcc": "234",
+                "mnc": "86",
+                "apn": "orangemms",
+                "mmsc": "http://mms.orange.co.uk/",
+                "mmsproxy": "192.168.224.10",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

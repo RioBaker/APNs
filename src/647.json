@@ -1,0 +1,60 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Orange World RE",
+                "mcc": "647",
+                "mnc": "00",
+                "apn": "orangerun",
+                "user": "orange",
+                "password": "orange",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS Réunion",
+                "mcc": "647",
+                "mnc": "00",
+                "apn": "orangerun.acte",
+                "user": "orange",
+                "password": "orange",
+                "mmsc": "http://mms.orange.re",
+                "mmsproxy": "192.168.10.200",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "647",
+                "mnc": "10",
+                "apn": "mmssfr",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms",
+                "mmsproxy": "10.0.224.145",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "GPRS SRR",
+                "mcc": "647",
+                "mnc": "10",
+                "apn": "wapsfr",
+                "user": "wap",
+                "password": "wap",
+                "proxy": "10.0.224.161",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange RE",
+                "mcc": "647",
+                "mnc": "00",
+                "apn": "orangerun",
+                "user": "orange",
+                "password": "orange",
+                "type": "default"
+            }
+        ]
+    }
+}

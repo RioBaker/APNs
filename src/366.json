@@ -1,0 +1,28 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Lime Internet Postpaid",
+                "mcc": "366",
+                "mnc": "11",
+                "apn": "internet",
+                "user": "",
+                "password": "",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Lime Postpaid MMS",
+                "mcc": "366",
+                "mnc": "11",
+                "apn": "multimedia",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.20.5.34",
+                "mmsport": "8799",
+                "mmsc": "http://mmsc",
+                "type": "mms"
+            }
+        ]
+    }
+}

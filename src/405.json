@@ -1,0 +1,2538 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "01",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "01",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "03",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "03",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "04",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "04",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "05",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "05",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "06",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "06",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "07",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "07",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "08",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "08",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "09",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "09",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "10",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "10",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "11",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "11",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "12",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "12",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "13",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "13",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "14",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "14",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "15",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "15",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "17",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "17",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "18",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "18",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "19",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "19",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "20",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "20",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "21",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "21",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "22",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "22",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance RCOM MMS",
+                "mcc": "405",
+                "mnc": "23",
+                "apn": "rcommms",
+                "mmsc": "http://mmsc.rcom.co.in/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RCOM",
+                "mcc": "405",
+                "mnc": "23",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "025",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "025",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "026",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "026",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "027",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "027",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "028",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "028",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "029",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "029",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "030",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "030",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "031",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "031",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "032",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "032",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "033",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "033",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "034",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "034",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "035",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "035",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "036",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "036",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "037",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "037",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "038",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "038",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "039",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "039",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "040",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "040",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "041",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "041",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "042",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "042",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "043",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "043",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "044",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "044",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "045",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "045",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "046",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "046",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "TataDOCOMO",
+                "mcc": "405",
+                "mnc": "047",
+                "apn": "TATA.DOCOMO.INTERNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TataDOCOMO MMS",
+                "mcc": "405",
+                "mnc": "047",
+                "apn": "TATA.DOCOMO.MMS",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.124.26.94",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel",
+                "mcc": "405",
+                "mnc": "51",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "405",
+                "mnc": "51",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel",
+                "mcc": "405",
+                "mnc": "52",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "405",
+                "mnc": "52",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel",
+                "mcc": "405",
+                "mnc": "53",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "405",
+                "mnc": "53",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel",
+                "mcc": "405",
+                "mnc": "54",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "405",
+                "mnc": "54",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel",
+                "mcc": "405",
+                "mnc": "55",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "405",
+                "mnc": "55",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel",
+                "mcc": "405",
+                "mnc": "56",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "405",
+                "mnc": "56",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "405",
+                "mnc": "66",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN Connect",
+                "mcc": "405",
+                "mnc": "66",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "405",
+                "mnc": "66",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "405",
+                "mnc": "67",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN Connect",
+                "mcc": "405",
+                "mnc": "67",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "405",
+                "mnc": "67",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "70",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "70",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "405",
+                "mnc": "750",
+                "apn": "vodafonelivejk",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN Connect",
+                "mcc": "405",
+                "mnc": "750",
+                "apn": "jkgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "405",
+                "mnc": "750",
+                "apn": "vodafonelivejk",
+                "proxy": "10.10.1.100",
+                "port": "9411",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "405",
+                "mnc": "751",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN Connect",
+                "mcc": "405",
+                "mnc": "751",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "405",
+                "mnc": "751",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "405",
+                "mnc": "752",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN Connect",
+                "mcc": "405",
+                "mnc": "752",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "405",
+                "mnc": "752",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "405",
+                "mnc": "753",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN Connect",
+                "mcc": "405",
+                "mnc": "753",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "405",
+                "mnc": "753",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "405",
+                "mnc": "754",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN Connect",
+                "mcc": "405",
+                "mnc": "754",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "405",
+                "mnc": "754",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "405",
+                "mnc": "755",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN Connect",
+                "mcc": "405",
+                "mnc": "755",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "405",
+                "mnc": "755",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "405",
+                "mnc": "756",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN Connect",
+                "mcc": "405",
+                "mnc": "756",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "405",
+                "mnc": "756",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "799",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "799",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL ROI",
+                "mcc": "405",
+                "mnc": "800",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL ROI MMS",
+                "mcc": "405",
+                "mnc": "800",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL South",
+                "mcc": "405",
+                "mnc": "801",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL South MMS",
+                "mcc": "405",
+                "mnc": "801",
+                "apn": "aircelmms",
+                "mmsc": "http://mmsc/mmrelay.app",
+                "mmsproxy": "192.168.35.196",
+                "mmsport": "8081",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL Central",
+                "mcc": "405",
+                "mnc": "802",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL Central MMS",
+                "mcc": "405",
+                "mnc": "802",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL South",
+                "mcc": "405",
+                "mnc": "803",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL South MMS",
+                "mcc": "405",
+                "mnc": "803",
+                "apn": "aircelmms",
+                "mmsc": "http://mmsc/mmrelay.app",
+                "mmsproxy": "192.168.35.196",
+                "mmsport": "8081",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL ROI",
+                "mcc": "405",
+                "mnc": "804",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL ROI MMS",
+                "mcc": "405",
+                "mnc": "804",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL ROI",
+                "mcc": "405",
+                "mnc": "805",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL ROI MMS",
+                "mcc": "405",
+                "mnc": "805",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL Central",
+                "mcc": "405",
+                "mnc": "806",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL Central MMS",
+                "mcc": "405",
+                "mnc": "806",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL Central",
+                "mcc": "405",
+                "mnc": "807",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL Central MMS",
+                "mcc": "405",
+                "mnc": "807",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL Central",
+                "mcc": "405",
+                "mnc": "808",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL Central MMS",
+                "mcc": "405",
+                "mnc": "808",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL South",
+                "mcc": "405",
+                "mnc": "809",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL South MMS",
+                "mcc": "405",
+                "mnc": "809",
+                "apn": "aircelmms",
+                "mmsc": "http://mmsc/mmrelay.app",
+                "mmsproxy": "192.168.35.196",
+                "mmsport": "8081",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL ROI",
+                "mcc": "405",
+                "mnc": "810",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL ROI MMS",
+                "mcc": "405",
+                "mnc": "810",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL ROI",
+                "mcc": "405",
+                "mnc": "811",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL ROI MMS",
+                "mcc": "405",
+                "mnc": "811",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIRCEL Central",
+                "mcc": "405",
+                "mnc": "812",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIRCEL Central MMS",
+                "mcc": "405",
+                "mnc": "812",
+                "apn": "aircelmms",
+                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "813",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "813",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "814",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "814",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "815",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "815",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "816",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "816",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "817",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "817",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "818",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "818",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "819",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "819",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "820",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "820",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "821",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "821",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "822",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "822",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "823",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "823",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "824",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "824",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "825",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "825",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "826",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "826",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "827",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "827",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "828",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "828",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "829",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "829",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "830",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "830",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "831",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "831",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "832",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "832",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "833",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "833",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "834",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "834",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "835",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "835",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "836",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "836",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "837",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "837",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "838",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "838",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "839",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "839",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "840",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "840",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "841",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "841",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "842",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "842",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "843",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "843",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "844",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "844",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "845",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "845",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "846",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "846",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "847",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "847",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "848",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "848",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "849",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "849",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "850",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "850",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "851",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "851",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "852",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "852",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "853",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "853",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "SPICE MMS",
+                "mcc": "405",
+                "mnc": "908",
+                "apn": "spicemms",
+                "user": "",
+                "password": "spice",
+                "mmsc": "http://10.200.200.3:8514",
+                "mmsproxy": "10.200.200.30",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "SPICE",
+                "mcc": "405",
+                "mnc": "908",
+                "apn": "spicegprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SPICE MMS",
+                "mcc": "405",
+                "mnc": "909",
+                "apn": "spicemms",
+                "user": "",
+                "password": "spice",
+                "mmsc": "http://10.200.200.3:8514",
+                "mmsproxy": "10.200.200.30",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "SPICE",
+                "mcc": "405",
+                "mnc": "909",
+                "apn": "spicegprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SPICE MMS",
+                "mcc": "405",
+                "mnc": "910",
+                "apn": "spicemms",
+                "user": "",
+                "password": "spice",
+                "mmsc": "http://10.200.200.3:8514",
+                "mmsproxy": "10.200.200.30",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "SPICE",
+                "mcc": "405",
+                "mnc": "910",
+                "apn": "spicegprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SPICE MMS",
+                "mcc": "405",
+                "mnc": "911",
+                "apn": "spicemms",
+                "user": "",
+                "password": "spice",
+                "mmsc": "http://10.200.200.3:8514",
+                "mmsproxy": "10.200.200.30",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "SPICE",
+                "mcc": "405",
+                "mnc": "911",
+                "apn": "spicegprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "875",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "875",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "876",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "876",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "877",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "877",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "878",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "878",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "879",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "879",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "880",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "880",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "STEL",
+                "mcc": "405",
+                "mnc": "881",
+                "apn": "gprs.stel.in",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "STEL",
+                "mcc": "405",
+                "mnc": "882",
+                "apn": "gprs.stel.in",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "STEL",
+                "mcc": "405",
+                "mnc": "883",
+                "apn": "gprs.stel.in",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "STEL",
+                "mcc": "405",
+                "mnc": "884",
+                "apn": "gprs.stel.in",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "STEL",
+                "mcc": "405",
+                "mnc": "885",
+                "apn": "gprs.stel.in",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "STEL",
+                "mcc": "405",
+                "mnc": "886",
+                "apn": "gprs.stel.in",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "908",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "908",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "909",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "909",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "910",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "910",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA",
+                "mcc": "405",
+                "mnc": "911",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "405",
+                "mnc": "911",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002/",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "912",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "913",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "914",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "915",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "916",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "917",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "918",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "919",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "920",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "921",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "922",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "923",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "924",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "925",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "925",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "926",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "926",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "927",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "927",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "928",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "928",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Uninor GPRS",
+                "mcc": "405",
+                "mnc": "929",
+                "apn": "uninor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Uninor MMS",
+                "mcc": "405",
+                "mnc": "929",
+                "apn": "uninor",
+                "mmsc": "http://10.58.2.120",
+                "mmsproxy": "10.58.10.59",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "930",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cheers",
+                "mcc": "405",
+                "mnc": "931",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Videocon MMS",
+                "mcc": "405",
+                "mnc": "932",
+                "apn": "vgprs.com",
+                "mmsc": "http://10.202.4.119:10021/mmsc/",
+                "mmsproxy": "10.202.5.145",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Videocon",
+                "mcc": "405",
+                "mnc": "932",
+                "apn": "vinternet.com",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

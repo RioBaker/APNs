@@ -1,0 +1,26 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Orange MMS",
+                "apn": "mms.orange.md",
+                "mmsc": "http://mms/mms",
+                "mmsproxy": "192.168.127.125",
+                "mmsport": "3128",
+                "mcc": "259",
+                "mnc": "01",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange IMO",
+                "apn": "wap.orange.md",
+                "proxy": "192.168.127.124",
+                "mmsport": "3128",
+                "mcc": "259",
+                "mnc": "01",
+                "type": "mms"
+            }
+        ]
+    }
+}

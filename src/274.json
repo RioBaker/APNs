@@ -1,0 +1,62 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Siminn Internet",
+                "mcc": "274",
+                "mnc": "01",
+                "apn": "internet",
+                "proxy": "213.167.138.200",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Siminn MMS",
+                "mcc": "274",
+                "mnc": "01",
+                "apn": "mms.simi.is",
+                "mmsc": "http://mms.simi.is/servlets/mms",
+                "mmsproxy": "213.167.138.200",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone Internet",
+                "mcc": "274",
+                "mnc": "02",
+                "apn": "gprs.is",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone MMS",
+                "mcc": "274",
+                "mnc": "02",
+                "apn": "mms.gprs.is",
+                "mmsc": "http://mmsc.vodafone.is",
+                "mmsproxy": "10.22.0.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "MMS Nova",
+                "mcc": "274",
+                "mnc": "11",
+                "apn": "mms.nova.is",
+                "mmsc": "http://mmsc.nova.is",
+                "mmsproxy": "10.10.2.60",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Net Nova",
+                "mcc": "274",
+                "mnc": "11",
+                "apn": "net.nova.is",
+                "proxy": "10.10.2.60",
+                "port": "8080",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

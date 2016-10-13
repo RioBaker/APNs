@@ -1,0 +1,71 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Batelco BH Internet",
+                "mcc": "426",
+                "mnc": "01",
+                "apn": "internet.batelco.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Batelco BH MMS",
+                "mcc": "426",
+                "mnc": "01",
+                "apn": "mms.batelco.com",
+                "mmsc": "http://192.168.36.10/servlets/mms",
+                "mmsproxy": "192.168.1.2",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Zain Internet",
+                "mcc": "426",
+                "mnc": "02",
+                "apn": "connect.mobilinkworld.com",
+                "user": "Mobilink",
+                "password": "Mobilink",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTC Vodafone BH MMS",
+                "mcc": "426",
+                "mnc": "02",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://172.18.83.129",
+                "mmsproxy": "172.18.85.34",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTC Vodafone BH",
+                "mcc": "426",
+                "mnc": "02",
+                "apn": "internet",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "VIVA BH",
+                "mcc": "426",
+                "mnc": "04",
+                "apn": "viva.bh",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "VIVA BH MMS",
+                "mcc": "426",
+                "mnc": "04",
+                "apn": "vivawap.bh",
+                "mmsc": "http://mms.viva.com.bh:38090",
+                "mmsproxy": "172.18.142.36",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

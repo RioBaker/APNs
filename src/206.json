@@ -1,0 +1,125 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Proximus MMS",
+                "mcc": "206",
+                "mnc": "01",
+                "apn": "event.proximus.be",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mmsc.proximus.be/mms",
+                "mmsproxy": "10.55.14.75",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Proximus Internet",
+                "mcc": "206",
+                "mnc": "01",
+                "apn": "internet.proximus.be",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenet Internet",
+                "mcc": "206",
+                "mnc": "01",
+                "apn": "telenetwap.be",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenet MMS",
+                "mcc": "206",
+                "mnc": "01",
+                "apn": "mms.be",
+                "mmsc": "http://mmsc.telenet.be",
+                "mmsproxy": "195.130.149.100",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telenet",
+                "mcc": "206",
+                "mnc": "05",
+                "apn": "telenetwap.be",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenet MMS",
+                "mcc": "206",
+                "mnc": "05",
+                "apn": "mms.be",
+                "mmsc": "http://mmsc.telenet.be",
+                "mmsproxy": "195.130.149.100",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Mobistar MMS",
+                "mcc": "206",
+                "mnc": "10",
+                "apn": "mms.be",
+                "mmsc": "http://mmsc.mobistar.be",
+                "mmsproxy": "212.65.63.143",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Mobistar",
+                "mcc": "206",
+                "mnc": "10",
+                "apn": "mworld.be",
+                "user": "mobistar",
+                "password": "mobistar",
+                "proxy": "212.65.63.143",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Base",
+                "mcc": "206",
+                "mnc": "20",
+                "apn": "gprs.base.be",
+                "user": "base",
+                "password": "base",
+                "proxy": "172.31.198.37",
+                "port": "5080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BASE MMS",
+                "mcc": "206",
+                "mnc": "20",
+                "apn": "mms.base.be",
+                "user": "base",
+                "password": "base",
+                "mmsc": "http://mmsc.base.be",
+                "mmsproxy": "217.72.235.1",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Mobile Vikings",
+                "mcc": "206",
+                "mnc": "20",
+                "apn": "web.be",
+                "user": "web",
+                "password": "web",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mobile Vikings MMS",
+                "mcc": "206",
+                "mnc": "20",
+                "apn": "mms.be",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mmsc.be",
+                "mmsproxy": "217.72.235.1",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

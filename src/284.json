@@ -1,0 +1,74 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "M-Tel WAP",
+                "mcc": "284",
+                "mnc": "01",
+                "apn": "wap-gprs.mtel.bg",
+                "type": "default"
+            },
+            {
+                "carrier": "M-Tel Internet",
+                "mcc": "284",
+                "mnc": "01",
+                "apn": "inet-gprs.mtel.bg",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "M-Tel MMS",
+                "mcc": "284",
+                "mnc": "01",
+                "apn": "mms-gprs.mtel.bg",
+                "user": "mtel",
+                "password": "mtel",
+                "mmsc": "http://mmsc/",
+                "mmsproxy": "10.150.0.33",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vivacom WAP",
+                "mcc": "284",
+                "mnc": "03",
+                "apn": "wap.vivacom.bg",
+                "user": "wap",
+                "password": "wap",
+                "proxy": "192.168.123.123",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vivacom MMS",
+                "mcc": "284",
+                "mnc": "03",
+                "apn": "mms.vivacom.bg",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mmsc.vivacom.bg",
+                "mmsproxy": "192.168.123.123",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "GLOBUL Internet",
+                "mcc": "284",
+                "mnc": "05",
+                "apn": "globul",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "GLOBUL MMS",
+                "mcc": "284",
+                "mnc": "05",
+                "apn": "mms.globul.bg",
+                "user": "mms",
+                "mmsc": "http://mmsc1.mms.globul.bg:8002",
+                "mmsproxy": "192.168.87.11",
+                "mmsport": "8004",
+                "type": "mms"
+            }
+        ]
+    }
+}

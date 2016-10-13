@@ -1,0 +1,84 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Pannon MMS",
+                "mcc": "216",
+                "mnc": "01",
+                "apn": "mms",
+                "mmsc": "http://mmsc.pgsm.hu/",
+                "mmsproxy": "193.225.154.22",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Pannon",
+                "mcc": "216",
+                "mnc": "01",
+                "apn": "net",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenor MMS",
+                "mcc": "216",
+                "mnc": "01",
+                "apn": "mms",
+                "mmsc": "http://mmsc.telenor.hu/",
+                "mmsproxy": "84.225.255.1",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telenor Net",
+                "mcc": "216",
+                "mnc": "01",
+                "apn": "net",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-Mobile MMS",
+                "mcc": "216",
+                "mnc": "30",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.t-mobile.hu/servlets/mms",
+                "mmsproxy": "212.51.126.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "T-Mobile HU",
+                "mcc": "216",
+                "mnc": "30",
+                "apn": "wnw",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone HU",
+                "mcc": "216",
+                "mnc": "70",
+                "apn": "internet.vodafone.net",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone HU MMS",
+                "mcc": "216",
+                "mnc": "70",
+                "apn": "mms.vodafone.net",
+                "mmsc": "http://mms.vodafone.hu/servlets/mms",
+                "mmsproxy": "80.244.97.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "VMAX Internet",
+                "mcc": "216",
+                "mnc": "70",
+                "apn": "vitamax.internet.vodafone.net",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

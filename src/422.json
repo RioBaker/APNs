@@ -1,0 +1,47 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Oman Mobile MMS",
+                "mcc": "422",
+                "mnc": "02",
+                "apn": "MMS",
+                "user": "MMS",
+                "password": "MMS",
+                "mmsc": "http://mmsc.omanmobile.om:10021/mmsc",
+                "mmsproxy": "192.168.203.35",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Oman Mobile Internet",
+                "mcc": "422",
+                "mnc": "02",
+                "apn": "taif",
+                "user": "taif",
+                "password": "taif",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Nawras MMS",
+                "mcc": "422",
+                "mnc": "03",
+                "apn": "mms.nawras.com.om",
+                "user": "test",
+                "password": "test",
+                "mmsc": "http://10.128.240.16/servlets/mms",
+                "mmsproxy": "10.128.240.19",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Nawras GPRS",
+                "mcc": "422",
+                "mnc": "03",
+                "apn": "isp.nawras.com.om",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

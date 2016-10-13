@@ -1,0 +1,105 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Digicel JM",
+                "mcc": "338",
+                "mnc": "050",
+                "apn": "web.digiceljamaica.com",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Digicel JM MMS",
+                "mcc": "338",
+                "mnc": "050",
+                "apn": "wap",
+                "user": "",
+                "password": "",
+                "mmsproxy": "172.16.7.12",
+                "mmsport": "8080",
+                "mmsc": "http://mms.digicelgroup.com",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel BM",
+                "mcc": "338",
+                "mnc": "050",
+                "apn": "web.digicelbermuda.com",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Lime Internet Postpaid",
+                "mcc": "338",
+                "mnc": "18",
+                "apn": "internet",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Lime Postpaid MMS",
+                "mcc": "338",
+                "mnc": "18",
+                "apn": "multimedia",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.20.5.34",
+                "mmsport": "8799",
+                "mmsc": "http://mmsc",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Claro JM",
+                "mcc": "338",
+                "mnc": "070",
+                "apn": "internet.ideasclaro.com.jm",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Claro JM MMS",
+                "mcc": "338",
+                "mnc": "070",
+                "apn": "mms.ideasclaro.com.jm",
+                "user": "",
+                "password": "",
+                "mmsproxy": "190.80.147.118",
+                "mmsport": "8080",
+                "mmsc": "http://mms.ideasclaro.com.jm/mms/wapenc",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Lime Internet Postpaid",
+                "mcc": "338",
+                "mnc": "180",
+                "apn": "internet",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Lime Postpaid MMS",
+                "mcc": "338",
+                "mnc": "180",
+                "apn": "multimedia",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.20.5.34",
+                "mmsport": "8799",
+                "mmsc": "http://mmsc",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

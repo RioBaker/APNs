@@ -1,0 +1,58 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "VFNZ PXT",
+                "mcc": "530",
+                "mnc": "01",
+                "apn": "live.vodafone.com",
+                "mmsc": "http://pxt.vodafone.net.nz/pxtsend",
+                "mmsproxy": "172.30.38.3",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "VFNZ Internet",
+                "mcc": "530",
+                "mnc": "01",
+                "apn": "www.vodafone.net.nz",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TelecomDefault",
+                "mcc": "530",
+                "mnc": "02",
+                "apn": "wap.telecom.co.nz",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telecom MMS",
+                "mcc": "530",
+                "mnc": "02",
+                "apn": "wap.telecom.co.nz",
+                "mmsc": "http://lsmmsc.xtra.co.nz",
+                "mmsproxy": "210.55.11.73",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "2degrees Internet",
+                "mcc": "530",
+                "mnc": "24",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "2degrees MMS",
+                "mcc": "530",
+                "mnc": "24",
+                "apn": "mms",
+                "mmsc": "http://mms.2degreesmobile.net.nz:48090",
+                "mmsproxy": "118.148.1.118",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

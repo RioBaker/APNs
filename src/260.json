@@ -1,0 +1,274 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Plus Internet",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Plus MMS",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "mms",
+                "mmsc": "http://mms.plusgsm.pl:8002",
+                "mmsproxy": "212.2.96.16",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "GaduAIR",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "internet.gadu-gadu.pl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "GaduAIR MMS",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "mms.gadu-gadu.pl",
+                "mmsc": "http://mms.gadu-gadu.pl:8002/",
+                "mmsproxy": "212.2.96.16",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "FM Group Mobile",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "www.fmgmobile.pl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "FM Group Mobile MMS",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "mms.fmgmobile.pl",
+                "mmsc": "http://mms.fmgmobile.pl:8002/",
+                "mmsproxy": "212.2.96.16",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "mBank mobile",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "www.mobile.pl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "mBank mobile MMS",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "mms.mobile.pl",
+                "mmsc": "http://mms.mobile.pl:8002",
+                "mmsproxy": "212.2.96.16",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Carrefour Mova",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "www.mova.pl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Carrefour Mova MMS",
+                "mcc": "260",
+                "mnc": "01",
+                "apn": "mms.mova.pl",
+                "mmsc": "http://mms.mova.pl:8002/",
+                "mmsproxy": "212.2.96.16",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "T-mobile.pl",
+                "mcc": "260",
+                "mnc": "02",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-mobile.pl",
+                "mcc": "260",
+                "mnc": "02",
+                "apn": "mms",
+                "mmsc": "http://mms/servlets/mms",
+                "mmsproxy": "213.158.194.226",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "heyahinternet",
+                "mcc": "260",
+                "mnc": "02",
+                "apn": "heyah.pl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "heyahmms",
+                "mcc": "260",
+                "mnc": "02",
+                "apn": "heyahmms",
+                "mmsc": "http://mms.heyah.pl/servlets/mms",
+                "mmsproxy": "213.158.194.226",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Era Internet",
+                "mcc": "260",
+                "mnc": "02",
+                "apn": "erainternet",
+                "user": "erainternet",
+                "password": "erainternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tak-Tak",
+                "mcc": "260",
+                "mnc": "02",
+                "apn": "erainternettt",
+                "user": "erainternet",
+                "password": "erainternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Era MMS",
+                "mcc": "260",
+                "mnc": "02",
+                "apn": "eramms",
+                "user": "eramms",
+                "password": "eramms",
+                "mmsc": "http://mms.era.pl/servlets/mms",
+                "mmsproxy": "213.158.194.226",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Mobilking",
+                "mcc": "260",
+                "mnc": "02",
+                "apn": "wapMOBILKING",
+                "user": "mobilking",
+                "password": "mobilking",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mobilking MMS",
+                "mcc": "260",
+                "mnc": "02",
+                "apn": "mmsMOBILKING",
+                "user": "mmsmobilking",
+                "password": "mmsmobilking",
+                "mmsc": "http://mms.mobilking.pl/servlets/mms",
+                "mmsproxy": "213.158.194.226",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange PL Internet",
+                "mcc": "260",
+                "mnc": "03",
+                "apn": "Internet",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange PL MMS",
+                "mcc": "260",
+                "mnc": "03",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.orange.pl",
+                "mmsproxy": "192.168.6.104",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "ASTER",
+                "mcc": "260",
+                "mnc": "03",
+                "apn": "aster.internet",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ASTER MMS",
+                "mcc": "260",
+                "mnc": "03",
+                "apn": "aster.mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.aster.pl",
+                "mmsproxy": "192.168.6.138",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "MNI",
+                "mcc": "260",
+                "mnc": "03",
+                "apn": "mni.internet",
+                "user": "mni.internet",
+                "password": "mni.internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MNI MMS",
+                "mcc": "260",
+                "mnc": "03",
+                "apn": "mni.mms",
+                "user": "mni.mms",
+                "password": "mni.mms",
+                "mmsc": "http://mms.mni.pl/",
+                "mmsproxy": "192.168.6.138",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Play Internet",
+                "mcc": "260",
+                "mnc": "06",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Play MMS",
+                "mcc": "260",
+                "mnc": "06",
+                "apn": "mms",
+                "mmsc": "http://10.10.28.164/mms/wapenc",
+                "mmsproxy": "10.10.25.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Cyfrowy Polsat",
+                "mcc": "260",
+                "mnc": "12",
+                "apn": "internet.cyfrowypolsat.pl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cyfrowy Polsat MMS",
+                "mcc": "260",
+                "mnc": "12",
+                "apn": "mms.cyfrowypolsat.pl",
+                "mmsc": "http://mms.cyfrowypolsat.pl:8002/",
+                "mmsproxy": "79.171.2.33",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "MMS",
+                "mcc": "311",
+                "mnc": "190",
+                "apn": "wap.cellular1.net",
+                "mmsc": "http://mms.cellular1.net/ecit/mms.php",
+                "type": "mms"
+            },
+            {
+                "carrier": "Farmers",
+                "mcc": "311",
+                "mnc": "210",
+                "apn": "internet.farmerswireless.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Farmers MMS",
+                "mcc": "311",
+                "mnc": "210",
+                "apn": "mms.farmers.com",
+                "mmsc": "172.16.0.37:8514",
+                "type": "mms"
+            },
+            {
+                "carrier": "GCI Data",
+                "mcc": "311",
+                "mnc": "370",
+                "apn": "web.gci",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "GCI MMS",
+                "mcc": "311",
+                "mnc": "370",
+                "apn": "mms.gci",
+                "mmsc": "http://mmsc.gci.csky.us:6672",
+                "mmscproxy": "209.4.229.92",
+                "mmscport": "9201",
+                "type": "mms"
+            }
+        ]
+    }
+}

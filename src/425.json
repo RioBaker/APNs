@@ -1,0 +1,158 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Orange IL",
+                "mcc": "425",
+                "mnc": "01",
+                "apn": "uwap.orange.co.il",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange IL MMS",
+                "mcc": "425",
+                "mnc": "01",
+                "apn": "uwap.orange.co.il",
+                "mmsc": "http://192.168.220.15/servlets/mms",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange IL Internet",
+                "mcc": "425",
+                "mnc": "01",
+                "apn": "modem.orange.net.il",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Hot Mobile",
+                "mcc": "425",
+                "mnc": "07",
+                "apn": "net.hotm",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Hot Mobile MMS",
+                "mcc": "425",
+                "mnc": "07",
+                "apn": "mms.hotm",
+                "mmsc": "http://mms.hotmobile.co.il",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Golan Telecom",
+                "mcc": "425",
+                "mnc": "08",
+                "apn": "internet.golantelecom.net.il",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Golan Telecom MMS",
+                "mcc": "425",
+                "mnc": "08",
+                "apn": "mms.golantelecom.net.il",
+                "mmsc": "http://mmsc.golantelecom.net.il",
+                "mmscproxy": "10.224.228.81",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "CellCOM",
+                "mcc": "425",
+                "mnc": "02",
+                "apn": "internetg",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "CellCOM MMS",
+                "mcc": "425",
+                "mnc": "08",
+                "apn": "mms",
+                "mmsc": "http://mms.cellcom.co.il",
+                "mmscproxy": "172.31.29.38",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Pelephone",
+                "mcc": "425",
+                "mnc": "03",
+                "apn": "internet.pelephone.net.il",
+                "user": "pcl@3g",
+                "password": "pcl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Pelephone MMS",
+                "mcc": "425",
+                "mnc": "03",
+                "apn": "mms.pelephone.net.il",
+                "user": "pcl@3g",
+                "password": "pcl",
+                "mmsc": "http://mmsu.pelephone.net.il",
+                "mmscproxy": "10.170.9.54",
+                "mmsport": "9093",
+                "type": "mms"
+            },
+            {
+                "carrier": "Ramy Levy",
+                "mcc": "425",
+                "mnc": "03",
+                "apn": "internet.rl",
+                "user": "rl@3g",
+                "password": "rl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Ramy Levy MMS",
+                "mcc": "425",
+                "mnc": "03",
+                "apn": "internet.rl",
+                "user": "rl@3g",
+                "password": "rl",
+                "mmsc": "http://mmsu.pelephone.net.il",
+                "mmscproxy": "10.170.9.54",
+                "mmsport": "9093",
+                "type": "mms"
+            },
+            {
+                "carrier": "Jawwal Internet",
+                "mcc": "425",
+                "mnc": "05",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Jawwal WAP",
+                "mcc": "425",
+                "mnc": "05",
+                "apn": "mms",
+                "proxy": "213.244.118.129",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Jawwal MMS",
+                "mcc": "425",
+                "mnc": "05",
+                "apn": "mms",
+                "mmsc": "http://mms.jawwal.ps/servlets/mms",
+                "mmscproxy": "213.244.118.129",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Pelephone Internet Static",
+                "mcc": "425",
+                "mnc": "03",
+                "apn": "org.pelephone.net.il",
+                "user": "pcl@rsingle",
+                "password": "pcl",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

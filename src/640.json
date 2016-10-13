@@ -1,0 +1,24 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Vodacom WAP",
+                "mcc": "640",
+                "mnc": "04",
+                "apn": "Wap",
+                "proxy": "10.154.0.8",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodacom MMS",
+                "mcc": "640",
+                "mnc": "04",
+                "apn": "mms",
+                "mmsc": "http://10.154.0.12/mms/",
+                "type": "mms"
+            }
+        ]
+    }
+}

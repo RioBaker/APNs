@@ -1,0 +1,112 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Digitel GSM",
+                "mcc": "734",
+                "mnc": "01",
+                "apn": "gprsweb.digitel.ve",
+                "type": "default,supl,dun",
+                "authtype": "1"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "734",
+                "mnc": "01",
+                "apn": "expresate.digitel.ve",
+                "mmsproxy": "10.99.0.10",
+                "mmsport": "8080",
+                "mmsc": "http://mms.412.com.ve/servlets/mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digitel GSM",
+                "mcc": "734",
+                "mnc": "02",
+                "apn": "gprsweb.digitel.ve",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "734",
+                "mnc": "02",
+                "apn": "expresate.digitel.ve",
+                "mmsproxy": "10.99.0.10",
+                "mmsport": "8080",
+                "mmsc": "http://mms.412.com.ve/servlets/mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digitel GSM",
+                "mcc": "734",
+                "mnc": "03",
+                "apn": "gprsweb.digitel.ve",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "734",
+                "mnc": "03",
+                "apn": "expresate.digitel.ve",
+                "mmsproxy": "10.99.0.10",
+                "mmsport": "8080",
+                "mmsc": "http://mms.412.com.ve/servlets/mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "movistar INTERNET",
+                "mcc": "734",
+                "mnc": "04",
+                "apn": "internet.movistar.ve",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "movistar MMS",
+                "mcc": "734",
+                "mnc": "04",
+                "apn": "mms.movistar.ve",
+                "mmsproxy": "200.35.64.73",
+                "mmsport": "9001",
+                "mmsc": "http://mms.movistar.com.ve:8088/mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "movistar WAP",
+                "mcc": "734",
+                "mnc": "04",
+                "apn": "wap.movistar.ve",
+                "mmsproxy": "200.35.64.73",
+                "mmsport": "9001",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MODEM",
+                "mcc": "734",
+                "mnc": "06",
+                "apn": "int.movilnet.com.ve",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "734",
+                "mnc": "06",
+                "apn": "mm.movilnet.com.ve",
+                "mmsproxy": "192.168.16.12",
+                "mmsport": "8080",
+                "mmsc": "http://mms2.movilnet.com.ve/servlets/mms",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

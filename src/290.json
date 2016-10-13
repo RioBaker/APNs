@@ -1,0 +1,24 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Tele Internet",
+                "mcc": "290",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele MMS",
+                "mcc": "290",
+                "mnc": "01",
+                "apn": "mms",
+                "mmsc": "http://mms.tele.gl/mms/wapenc",
+                "mmsproxy": "10.112.222.37",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

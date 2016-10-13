@@ -1,0 +1,67 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Swisscom MMS",
+                "mcc": "228",
+                "mnc": "01",
+                "apn": "event.swisscom.ch",
+                "mmsc": "http://mms.natel.ch:8079",
+                "mmsproxy": "192.168.210.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Swisscom Services",
+                "mcc": "228",
+                "mnc": "01",
+                "apn": "gprs.swisscom.ch",
+                "proxy": "192.168.210.1",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Sunrise Internet",
+                "mcc": "228",
+                "mnc": "02",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Sunrise MMS",
+                "mcc": "228",
+                "mnc": "02",
+                "apn": "mms.sunrise.ch",
+                "mmsc": "http://mmsc.sunrise.ch",
+                "mmsproxy": "212.35.34.75",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange CH Internet",
+                "mcc": "228",
+                "mnc": "03",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange CH MMS",
+                "mcc": "228",
+                "mnc": "03",
+                "apn": "mms",
+                "mmsc": "http://192.168.151.3:8002",
+                "mmsproxy": "192.168.151.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange Prepaid CH",
+                "mcc": "228",
+                "mnc": "03",
+                "apn": "click",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

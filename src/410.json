@@ -1,0 +1,98 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Mobilink WAP GPRS",
+                "mcc": "410",
+                "mnc": "01",
+                "apn": "connect.mobilinkworld.com",
+                "user": "Mobilink",
+                "password": "Mobilink",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mobilink MMS",
+                "mcc": "410",
+                "mnc": "01",
+                "apn": "mms.mobilinkworld.com",
+                "user": "Mobilink",
+                "password": "Mobilink",
+                "mmsc": "http://mms/",
+                "mmsproxy": "172.25.20.12",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Ufone WAP",
+                "mcc": "410",
+                "mnc": "03",
+                "apn": "Ufone.internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Ufone MMS",
+                "mcc": "410",
+                "mnc": "03",
+                "apn": "Ufone.mms",
+                "mmsc": "http://www.ufonemms.com:80/",
+                "mmsproxy": "172.16.13.27",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "ZONG WAP",
+                "mcc": "410",
+                "mnc": "04",
+                "apn": "zonginternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ZONG MMS",
+                "mcc": "410",
+                "mnc": "04",
+                "apn": "zongmms",
+                "mmsc": "http://10.81.6.11:8080",
+                "mmsproxy": "10.81.6.33",
+                "mmsport": "8000",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telenor PK WAP",
+                "mcc": "410",
+                "mnc": "06",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenor PK MMS",
+                "mcc": "410",
+                "mnc": "06",
+                "apn": "mms",
+                "user": "Telenor",
+                "password": "Telenor",
+                "mmsc": "http://mmstelenor",
+                "mmsproxy": "172.18.19.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Warid WAP",
+                "mcc": "410",
+                "mnc": "07",
+                "apn": "Wap.warid",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Warid MMS",
+                "mcc": "410",
+                "mnc": "07",
+                "apn": "mms.warid",
+                "mmsc": "http://10.4.0.132/servlets/MMS",
+                "mmsproxy": "10.4.2.1",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

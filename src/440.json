@@ -1,0 +1,37 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "spモード",
+                "mcc": "440",
+                "mnc": "10",
+                "apn": "spmode.ne.jp",
+                "user": "",
+                "server": "",
+                "password": "",
+                "mmsc": ""
+            },
+            {
+                "carrier": "mopera U（スマートフォン定額）",
+                "mcc": "440",
+                "mnc": "10",
+                "apn": "mpr2.bizho.net",
+                "user": "",
+                "server": "",
+                "password": "",
+                "mmsc": ""
+            },
+            {
+                "carrier": "mopera U設定",
+                "mcc": "440",
+                "mnc": "10",
+                "apn": "0120.mopera.net",
+                "user": "",
+                "server": "",
+                "password": "",
+                "mmsc": ""
+            }
+        ]
+    }
+}

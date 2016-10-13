@@ -1,0 +1,130 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Jeans MMS",
+                "mcc": "255",
+                "mnc": "01",
+                "apn": "mms.jeans.ua",
+                "mmsc": "http://mmsc:8002/",
+                "mmsproxy": "192.168.10.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Jeans",
+                "mcc": "255",
+                "mnc": "01",
+                "apn": "www.jeans.ua",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTS MMS",
+                "mcc": "255",
+                "mnc": "01",
+                "apn": "mms",
+                "mmsc": "http://mms/",
+                "mmsproxy": "192.168.10.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTS-internet",
+                "mcc": "255",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Beeline-internet",
+                "mcc": "255",
+                "mnc": "02",
+                "apn": "internet.beeline.ua",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Beeline MMS",
+                "mcc": "255",
+                "mnc": "02",
+                "apn": "mms.beeline.ua",
+                "mmsc": "http://mms/",
+                "mmsproxy": "172.29.18.192",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Djuice MMS",
+                "mcc": "255",
+                "mnc": "03",
+                "apn": "mms.djuice.com.ua",
+                "user": "djuice",
+                "password": "mms",
+                "mmsc": "http://mms.kyivstar.net",
+                "mmsproxy": "10.10.10.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Djuice",
+                "mcc": "255",
+                "mnc": "03",
+                "apn": "www.djuice.com.ua",
+                "type": "default,mms"
+            },
+            {
+                "carrier": "Kyivstar MMS",
+                "mcc": "255",
+                "mnc": "03",
+                "apn": "mms.kyivstar.net",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.kyivstar.net",
+                "mmsproxy": "10.10.10.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Kyivstar Internet",
+                "mcc": "255",
+                "mnc": "03",
+                "apn": "www.kyivstar.net",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Life Internet",
+                "mcc": "255",
+                "mnc": "06",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Life MMS",
+                "mcc": "255",
+                "mnc": "06",
+                "apn": "mms",
+                "mmsc": "http://mms.life.com.ua/cmmsc/post",
+                "mmsproxy": "212.58.162.230",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Utel Internet",
+                "mcc": "255",
+                "mnc": "07",
+                "apn": "3g.utel.ua",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Utel MMS",
+                "mcc": "255",
+                "mnc": "07",
+                "apn": "3g.utel.ua",
+                "mmsc": "http://10.212.1.4/mms/wapenc",
+                "mmsproxy": "10.212.3.148",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

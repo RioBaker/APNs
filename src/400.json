@@ -1,0 +1,46 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Azercell",
+                "mcc": "400",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Azercell MMS",
+                "mcc": "400",
+                "mnc": "01",
+                "apn": "mms",
+                "mmsc": "http://mms.azercell.com/cMMSC/post",
+                "mmscproxy": "10.0.154.101",
+                "mmscport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Nar",
+                "mcc": "400",
+                "mnc": "02",
+                "apn": "nar",
+                "user": "nar",
+                "password": "nar",
+                "mmsc": "http://mmsc",
+                "mmscproxy": "10.20.0.40",
+                "mmscport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Bakcell",
+                "mcc": "400",
+                "mnc": "02",
+                "apn": "mms",
+                "mmsc": "http://mms.bakcell.com/mms/wapenc",
+                "mmscproxy": "213.172.091.101",
+                "mmscport": "8080",
+                "type": "default,supl,mms"
+            }
+        ]
+    }
+}

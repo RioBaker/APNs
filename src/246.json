@@ -1,0 +1,54 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Omnitel MMS",
+                "mcc": "246",
+                "mnc": "01",
+                "apn": "gprs.mms.lt",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.omnitel.net:8002/",
+                "mmsproxy": "194.176.32.149",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Omnitel Internet",
+                "mcc": "246",
+                "mnc": "01",
+                "apn": "omnitel",
+                "user": "omni",
+                "password": "omni",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Bite LT Internet",
+                "mcc": "246",
+                "mnc": "02",
+                "apn": "internet",
+                "user": "mms@mms",
+                "password": "mms",
+                "mmsc": "http://mmsc/servlets/mms",
+                "mmsproxy": "192.168.150.2",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Tele2 Internet LT",
+                "mcc": "246",
+                "mnc": "03",
+                "apn": "internet.tele2.lt",
+                "user": "wap",
+                "password": "wap",
+                "proxy": "130.244.196.90",
+                "port": "8080",
+                "mmsc": "http://mmsc.tele2.lt/",
+                "mmsproxy": "193.12.40.29",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Cytamobile MMS",
+                "mcc": "280",
+                "mnc": "01",
+                "apn": "cytamobile",
+                "user": "user",
+                "password": "pass",
+                "mmsc": "http://mmsc.cyta.com.cy",
+                "mmsproxy": "212.31.96.161",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Cytamobile",
+                "mcc": "280",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTN CY MMS",
+                "mcc": "280",
+                "mnc": "10",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.mtn.com.cy/mmsc",
+                "mmsproxy": "172.24.97.1",
+                "mmsport": "3130",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTN Wap",
+                "mcc": "280",
+                "mnc": "10",
+                "apn": "wap",
+                "user": "wap",
+                "password": "wap",
+                "proxy": "172.24.97.3",
+                "port": "3130",
+                "type": "default"
+            },
+            {
+                "carrier": "MTN Internet",
+                "mcc": "280",
+                "mnc": "10",
+                "apn": "internet",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

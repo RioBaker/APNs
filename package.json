@@ -1,0 +1,27 @@
+{
+  "name": "android-apns-generator",
+  "version": "1.0.0",
+  "description": "Android APNs configuration",
+  "main": "merge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node merge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WOO-Electronics/APNs.git"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "APN",
+    "android"
+  ],
+  "author": "Juan Pablo Kutianski <jkutianski@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/WOO-Electronics/APNs/issues"
+  },
+  "homepage": "https://github.com/WOO-Electronics/APNs#readme",
+  "devDependencies": {
+    "xml2json": "^0.10.0"
+  }
+}

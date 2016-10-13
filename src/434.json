@@ -1,0 +1,16 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "MTS UZ",
+                "mcc": "434",
+                "mnc": "07",
+                "apn": "net.mts.uz",
+                "user": "mts",
+                "password": "mts",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Syriatel MMS",
+                "mcc": "417",
+                "mnc": "01",
+                "apn": "mms.syriatel.com",
+                "mmsc": "http://mymms.syriatel.com/",
+                "mmsproxy": "176.20.5.6",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "Syriatel",
+                "mcc": "417",
+                "mnc": "01",
+                "apn": "net.syriatel.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTN SY MMS",
+                "mcc": "417",
+                "mnc": "02",
+                "apn": "mms",
+                "mmsc": "http://10.11.161.138/:10021/mmsc",
+                "mmsproxy": "10.11.161.131",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTN SY",
+                "mcc": "417",
+                "mnc": "02",
+                "apn": "internet",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

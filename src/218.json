@@ -1,0 +1,62 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "HT Eronet",
+                "mcc": "218",
+                "mnc": "03",
+                "apn": "wap.eronet.ba",
+                "proxy": "10.12.3.10",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Ht Eronet MMS",
+                "mcc": "218",
+                "mnc": "03",
+                "apn": "mms.eronet.ba",
+                "mmsc": "http://mms.gprs.eronet.ba/mms/wapenc",
+                "mmsproxy": "10.12.3.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "m:tel",
+                "mcc": "218",
+                "mnc": "05",
+                "apn": "3g1",
+                "proxy": "192.168.61.10",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "mtelmms",
+                "mcc": "218",
+                "mnc": "05",
+                "apn": "mtelmms",
+                "mmsc": "http://mmsc.mtel.ba/mms/wapenc",
+                "mmsproxy": "192.168.61.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Bh Mobile",
+                "mcc": "218",
+                "mnc": "90",
+                "apn": "active.bhmobile.ba",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BHMobileMMS",
+                "mcc": "218",
+                "mnc": "90",
+                "apn": "mms.bhmobile.ba",
+                "mmsc": "http://mms.bhmobile.ba/cmmsc/post",
+                "mmsproxy": "195.222.56.041",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

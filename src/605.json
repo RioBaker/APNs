@@ -1,0 +1,68 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "weborange",
+                "mcc": "605",
+                "mnc": "01",
+                "apn": "weborange",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "mcc": "605",
+                "mnc": "01",
+                "apn": "mms.otun",
+                "mmsc": "http://mms.orange.tn",
+                "mmsproxy": "10.12.1.52",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "mobinet",
+                "mcc": "605",
+                "mnc": "02",
+                "apn": "gprs.tn",
+                "user": "gprs",
+                "password": "gprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "605",
+                "mnc": "02",
+                "apn": "mms.tn",
+                "user": "mms@tt1",
+                "password": "mms",
+                "mmsc": "http://",
+                "mmsproxy": "192.168.0.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "internet Tunisiana",
+                "mcc": "605",
+                "mnc": "03",
+                "apn": "internet.tunisiana.com",
+                "user": "internet",
+                "password": "internet",
+                "proxy": "10.3.2.99",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS Tunisiana",
+                "mcc": "605",
+                "mnc": "03",
+                "apn": "mms.tunisiana.com",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mmsc.tunisiana.com",
+                "mmsproxy": "10.3.2.100",
+                "mmsport": "80",
+                "type": "mms"
+            }
+        ]
+    }
+}

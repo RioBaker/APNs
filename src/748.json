@@ -1,0 +1,86 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "wapANCEL",
+                "mcc": "748",
+                "mnc": "01",
+                "apn": "wap",
+                "proxy": "200.40.246.2",
+                "port": "3128",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "mmsANCEL",
+                "mcc": "748",
+                "mnc": "01",
+                "apn": "mms",
+                "user": "",
+                "password": "",
+                "mmsproxy": "200.40.246.2",
+                "mmsport": "3128",
+                "mmsc": "http://mmsc.mms.ancelutil.com.uy",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "gprsANCEL",
+                "mcc": "748",
+                "mnc": "01",
+                "apn": "gprs.ancel",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Movistar Emoción",
+                "mcc": "748",
+                "mnc": "07",
+                "apn": "webapn.movistar.com.uy",
+                "user": "movistar",
+                "password": "movistar",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "FOTOS MMS",
+                "mcc": "748",
+                "mnc": "07",
+                "apn": "apnmms.movistar.com.uy",
+                "user": "mmsuy",
+                "password": "mmsuy",
+                "mmsproxy": "10.0.2.29",
+                "mmsport": "8080",
+                "mmsc": "http://mmsc.movistar.com.uy",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Claro UY",
+                "mcc": "748",
+                "mnc": "10",
+                "apn": "igprs.claro.com.uy",
+                "user": "ctigprs",
+                "password": "ctigprs999",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS GPRS UY",
+                "mcc": "748",
+                "mnc": "10",
+                "apn": "mms.ctimovil.com.uy",
+                "user": "ctimms",
+                "password": "ctimms999",
+                "mmsproxy": "170.51.255.240",
+                "mmsport": "8080",
+                "mmsc": "http://mms.ctimovil.com.uy",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

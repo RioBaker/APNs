@@ -1,0 +1,26 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Internet",
+                "mcc": "368",
+                "mnc": "01",
+                "apn": "internet",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Cubacel MMS",
+                "mcc": "368",
+                "mnc": "01",
+                "apn": "mms",
+                "mmsproxy": "200.13.145.52",
+                "mmsport": "8080",
+                "mmsc": "http://mms.cubacel.cu/",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

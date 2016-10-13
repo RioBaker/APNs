@@ -1,0 +1,76 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Internet Claro",
+                "mcc": "708",
+                "mnc": "001",
+                "apn": "web.megatel.hn",
+                "user": "webmegatel",
+                "password": "webmegatel",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS Claro",
+                "mcc": "708",
+                "mnc": "001",
+                "apn": "mms.megatel.hn",
+                "user": "mmsmegatel",
+                "password": "mmsmegatel",
+                "mmsproxy": "10.6.32.2",
+                "mmsport": "8080",
+                "mmsc": "http://10.6.32.27/servlets/mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "INTERNET TIGO",
+                "mcc": "708",
+                "mnc": "02",
+                "apn": "internet.tigo.hn",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS TIGO",
+                "mcc": "708",
+                "mnc": "02",
+                "apn": "mms.tigo.hn",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.16.17.12",
+                "mmsport": "8888",
+                "mmsc": "http://mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "INTERNET TIGO",
+                "mcc": "708",
+                "mnc": "020",
+                "apn": "internet.tigo.hn",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS TIGO",
+                "mcc": "708",
+                "mnc": "020",
+                "apn": "mms.tigo.hn",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.16.17.12",
+                "mmsport": "8888",
+                "mmsc": "http://mms",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

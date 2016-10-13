@@ -1,0 +1,61 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Orange GP",
+                "mcc": "340",
+                "mnc": "01",
+                "apn": "orangewap",
+                "user": "orange",
+                "password": "wap",
+                "proxy": "10.0.0.10",
+                "port": "8082",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange GP MMS",
+                "mcc": "340",
+                "mnc": "01",
+                "apn": "orangewap",
+                "user": "orange",
+                "password": "orange",
+                "mmsc": "http://193.251.160.246/servlets/mms",
+                "mmsproxy": "10.0.0.10",
+                "mmsport": "8082",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel FR",
+                "mcc": "340",
+                "mnc": "20",
+                "apn": "wap.digicelfr.com",
+                "user": "wap",
+                "password": "wap",
+                "mmsc": "http://mmc.digicelfr.com/servlets/mms",
+                "mmsproxy": "172.20.6.12",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Orangeweb",
+                "apn": "orangeweb",
+                "user": "orange",
+                "password": "orange",
+                "mcc": "340",
+                "mnc": "01",
+                "authtype": "1",
+                "type": "dun"
+            },
+            {
+                "carrier": "Orangeweb",
+                "mcc": "340",
+                "mnc": "01",
+                "apn": "orangeweb",
+                "user": "orange",
+                "password": "orange",
+                "type": "default"
+            }
+        ]
+    }
+}

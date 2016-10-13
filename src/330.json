@@ -1,0 +1,30 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "INTERNET CLARO",
+                "mcc": "330",
+                "mnc": "11",
+                "apn": "internet.claropr.com",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS CLARO",
+                "mcc": "330",
+                "mnc": "11",
+                "apn": "mms.claropr.com",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.50.38.3",
+                "mmsport": "8799",
+                "mmsc": "http://mmsg.claropr.com:10021/mmsc",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

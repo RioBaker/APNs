@@ -1,0 +1,73 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "LMT Internet",
+                "mcc": "247",
+                "mnc": "01",
+                "apn": "internet.lmt.lv",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "LMT MMS",
+                "mcc": "247",
+                "mnc": "01",
+                "apn": "mms.lmt.lv",
+                "mmsc": "http://mmsc.lmt.lv/mmsc",
+                "mmsproxy": "212.93.97.201",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Tele2 LV Internet",
+                "mcc": "247",
+                "mnc": "02",
+                "apn": "internet.tele2.lv",
+                "user": "wap",
+                "password": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele2 LV MMS",
+                "mcc": "247",
+                "mnc": "02",
+                "apn": "mms.tele2.lv",
+                "user": "wap",
+                "password": "wap",
+                "mmsc": "http://mmsc.tele2.lv/",
+                "mmsproxy": "193.12.40.38",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Bite LV Internet",
+                "mcc": "247",
+                "mnc": "05",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Bite LV MMS",
+                "mcc": "247",
+                "mnc": "05",
+                "apn": "mms",
+                "user": "mms@mms",
+                "password": "mms",
+                "mmsc": "http://mmsc/servlets/mms",
+                "mmsproxy": "192.168.150.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Bite LV WAP",
+                "mcc": "247",
+                "mnc": "05",
+                "apn": "wap",
+                "proxy": "213.226.131.133",
+                "port": "8080",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

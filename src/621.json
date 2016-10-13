@@ -1,0 +1,87 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Zain Mobile Internet",
+                "mcc": "621",
+                "mnc": "20",
+                "apn": "internet.ng.Zain.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Zain MMS",
+                "mcc": "621",
+                "mnc": "20",
+                "apn": "mms.ng.zain.com",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://172.23.1.12/mms/wapenc",
+                "mmsproxy": "172.18.254.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTN GPRS",
+                "mcc": "621",
+                "mnc": "30",
+                "apn": "web.gprs.mtnnigeria.net",
+                "user": "web",
+                "password": "web",
+                "proxy": "10.199.212.2",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTN MMS",
+                "mcc": "621",
+                "mnc": "30",
+                "apn": "web.gprs.mtnnigeria.net",
+                "user": "web",
+                "password": "web",
+                "mmsc": "http://10.199.212.8/servlets/mms",
+                "mmsproxy": "10.199.212.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "glo direct",
+                "mcc": "621",
+                "mnc": "50",
+                "apn": "glosecure",
+                "user": "gprs",
+                "password": "gprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "glo mms",
+                "mcc": "621",
+                "mnc": "50",
+                "apn": "glomms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.gloworld.com/mmsc",
+                "mmsproxy": "10.100.82.4",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "Etisalat Internet",
+                "mcc": "621",
+                "mnc": "60",
+                "apn": "etisalat",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Etisalat MMS",
+                "mcc": "621",
+                "mnc": "60",
+                "apn": "etisalat",
+                "mmsc": "http://10.71.170.30:38090/was",
+                "mmsproxy": "10.71.170.5",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

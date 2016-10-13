@@ -1,0 +1,105 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Tele2 NL",
+                "mcc": "204",
+                "mnc": "02",
+                "apn": "internet.tele2.nl",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele2 MMS NL",
+                "mcc": "204",
+                "mnc": "02",
+                "apn": "internet.tele2.nl",
+                "mmsc": "http://mmsc.tele2.nl",
+                "mmsproxy": "193.12.40.64",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "M2M Vodafone",
+                "mcc": "204",
+                "mnc": "04",
+                "apn": "internetd.gdsp",
+                "user": "guest",
+                "password": "guest",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "KPN Internet",
+                "mcc": "204",
+                "mnc": "08",
+                "apn": "internet",
+                "user": "kpn",
+                "password": "gprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "KPN",
+                "mcc": "204",
+                "mnc": "08",
+                "apn": "portalmmm.nl",
+                "mmsc": "http://mp.mobiel.kpn/mmsc",
+                "mmsproxy": "10.10.100.20",
+                "mmsport": "5080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Telfort Internet",
+                "mcc": "204",
+                "mnc": "12",
+                "apn": "internet",
+                "mmsc": "http://mms",
+                "mmsproxy": "193.113.200.195",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "T-Mobile Internet",
+                "mcc": "204",
+                "mnc": "16",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-Mobile MMS",
+                "mcc": "204",
+                "mnc": "16",
+                "apn": "mms",
+                "user": "tmobilemms",
+                "password": "tmobilemms",
+                "mmsc": "http://t-mobilemms",
+                "mmsproxy": "10.10.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange NL",
+                "mcc": "204",
+                "mnc": "20",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange NL MMS",
+                "mcc": "204",
+                "mnc": "20",
+                "apn": "mms",
+                "mmsc": "http://mms.orange.nl:8002",
+                "mmsproxy": "10.250.255.183",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "Rabo Plus",
+                "mcc": "204",
+                "mnc": "20",
+                "apn": "rabo.plus",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

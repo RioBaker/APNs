@@ -1,0 +1,95 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Orange DO",
+                "mcc": "370",
+                "mnc": "01",
+                "apn": "orangenet.com.do",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Orange DO MMS",
+                "mcc": "370",
+                "mnc": "01",
+                "apn": "orangeworld",
+                "user": "orange",
+                "password": "orange",
+                "mmsproxy": "172.16.126.70",
+                "mmsport": "8080",
+                "mmsc": "http://mms.orange.com.do/servlets/mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "INTERNET CLARO",
+                "mcc": "370",
+                "mnc": "02",
+                "apn": "internet.ideasclaro.com.do",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS CLARO",
+                "mcc": "370",
+                "mnc": "02",
+                "apn": "mms.ideasclaro.com.do",
+                "user": "",
+                "password": "",
+                "mmsproxy": "190.80.147.8",
+                "mmsport": "8080",
+                "mmsc": "http://mms.ideasclaro.com.do/mms/wapenc",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Viva Edge",
+                "mcc": "370",
+                "mnc": "04",
+                "apn": "edge.viva.net.do",
+                "proxy": "192.168.16.10",
+                "port": "9401",
+                "user": "viva",
+                "password": "viva",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Viva MMS",
+                "mcc": "370",
+                "mnc": "04",
+                "apn": "mms.viva.net.do",
+                "user": "viva",
+                "password": "viva",
+                "mmsproxy": "192.168.16.10",
+                "mmsport": "9401",
+                "mmsc": "http://10.200.16.4/mms/wapenc",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange DO MMS",
+                "mcc": "370",
+                "mnc": "01",
+                "apn": "orangeworld",
+                "mmsc": "http://mmr.orangewi.com/servlets/mms",
+                "mmsproxy": "172.16.126.70",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange DO",
+                "mcc": "370",
+                "mnc": "01",
+                "apn": "orangenet.com.do",
+                "type": "default"
+            }
+        ]
+    }
+}

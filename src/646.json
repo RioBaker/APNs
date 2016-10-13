@@ -1,0 +1,30 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Orange MG MMS",
+                "mcc": "646",
+                "mnc": "02",
+                "apn": "orangemms",
+                "user": "mms",
+                "password": "orange",
+                "mmsc": "http://10.152.10.70.38090",
+                "mmsproxy": "10.150.0.115",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange World MG",
+                "mcc": "646",
+                "mnc": "02",
+                "apn": "orangeworld",
+                "user": "world",
+                "password": "orange",
+                "proxy": "10.150.0.115",
+                "port": "8080",
+                "type": "default"
+            }
+        ]
+    }
+}

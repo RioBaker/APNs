@@ -1,0 +1,49 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "ProMonte MMS",
+                "mcc": "297",
+                "mnc": "01",
+                "apn": "mms.promonte.com",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": " http://mm.vor.promonte.com",
+                "mmsproxy": "192.168.246.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "ProMonte",
+                "mcc": "297",
+                "mnc": "01",
+                "apn": "gprs.promonte.com",
+                "user": "gprs",
+                "password": "gprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-Mobile CG MMS",
+                "mcc": "297",
+                "mnc": "02",
+                "apn": "mms",
+                "user": "38267",
+                "password": "38267",
+                "mmsc": "http://192.168.180.100/servlets/mms",
+                "mmsproxy": "10.0.5.19",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "T-Mobile CG Internet",
+                "mcc": "297",
+                "mnc": "02",
+                "apn": "tmcg-wnw",
+                "user": "38267",
+                "password": "38267",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

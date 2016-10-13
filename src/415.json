@@ -1,0 +1,67 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Alfa Internet",
+                "mcc": "415",
+                "mnc": "01",
+                "user": "mic1",
+                "password": "mic1",
+                "apn": "internet.mic1.com.lb",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Alfa MMS",
+                "mcc": "415",
+                "mnc": "01",
+                "user": "mic1",
+                "password": "mic1",
+                "apn": "mms.mic1.com.lb",
+                "mmsc": "http://mms.mic1.com.lb",
+                "mmsproxy": "192.168.23.51",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTC Touch GPRS",
+                "mcc": "415",
+                "mnc": "03",
+                "apn": "gprs.mtctouch.com.lb",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTC MMS",
+                "mcc": "415",
+                "mnc": "03",
+                "user": "mtctouch",
+                "apn": "mms.mtctouch.com.lb",
+                "mmsc": "http://mms:8080/mms/",
+                "mmsproxy": "192.168.4.103",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Alfa Internet",
+                "mcc": "415",
+                "mnc": "03",
+                "user": "mic1",
+                "password": "mic1",
+                "apn": "internet.mic1.com.lb",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Alfa MMS",
+                "mcc": "415",
+                "mnc": "03",
+                "user": "mic1",
+                "password": "mic1",
+                "apn": "mms.mic1.com.lb",
+                "mmsc": "http://mms.mic1.com.lb",
+                "mmsproxy": "192.168.23.51",
+                "mmsport": "80",
+                "type": "mms"
+            }
+        ]
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Si.mobil Internet",
+                "mcc": "293",
+                "mnc": "40",
+                "apn": "internet.simobil.si",
+                "user": "simobil",
+                "password": "internet",
+                "proxy": "80.95.224.17",
+                "port": "9201",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Si.mobil MMS",
+                "mcc": "293",
+                "mnc": "40",
+                "apn": "mms.simobil.si",
+                "user": "simobil",
+                "password": "internet",
+                "mmsc": "http://mmc",
+                "mmsproxy": "80.95.224.46",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "Mobitel Internet",
+                "mcc": "293",
+                "mnc": "41",
+                "apn": "internet",
+                "user": "mobitel",
+                "password": "internet",
+                "proxy": "213.229.249.40",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mobitel MMS",
+                "mcc": "293",
+                "mnc": "41",
+                "apn": "internet",
+                "user": "mobitel",
+                "password": "internet",
+                "mmsc": "http://mms.mobitel.si/servlets/mms",
+                "mmsproxy": "213.229.249.40",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "T-2 Internet",
+                "mcc": "293",
+                "mnc": "64",
+                "apn": "internet.t-2.net",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-2 MMS",
+                "mcc": "293",
+                "mnc": "64",
+                "apn": "mms.t-2.net",
+                "mmsc": "http://www.mms.t-2.net:8002",
+                "mmsproxy": "172.20.18.137",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Tusmobil Internet",
+                "mcc": "293",
+                "mnc": "70",
+                "apn": "internet.tusmobil.si",
+                "user": "tusmobil",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tusmobil MMS",
+                "mcc": "293",
+                "mnc": "70",
+                "apn": "mms.tusmobil.si",
+                "user": "tusmobil",
+                "password": "internet",
+                "mmsc": "http://mms.tusmobil.si:8002",
+                "mmsproxy": "91.185.221.85",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

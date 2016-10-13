@@ -1,0 +1,170 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "DNA Internet",
+                "mcc": "244",
+                "mnc": "03",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "DNA MMS",
+                "mcc": "244",
+                "mnc": "03",
+                "apn": "mms",
+                "mmsc": "http://mmsc.dnafinland.fi/",
+                "mmsproxy": "10.1.1.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "DNA Internet",
+                "mcc": "244",
+                "mnc": "04",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "DNA MMS",
+                "mcc": "244",
+                "mnc": "04",
+                "apn": "mms",
+                "user": "dna",
+                "password": "mms",
+                "mmsc": "http://mmsc.dnafinland.fi/",
+                "mmsproxy": "10.1.1.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Elisa Internet",
+                "mcc": "244",
+                "mnc": "05",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Elisa MMS",
+                "mcc": "244",
+                "mnc": "05",
+                "apn": "mms",
+                "mmsc": "http://mms.elisa.fi",
+                "mmsproxy": "213.161.41.57",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "TDC Internet",
+                "mcc": "244",
+                "mnc": "10",
+                "apn": "internet.song.fi",
+                "user": "song@internet",
+                "password": "songnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TDC MMS",
+                "mcc": "244",
+                "mnc": "10",
+                "apn": "mms.song.fi",
+                "mmsc": "http://mms.song.fi",
+                "mmsproxy": "213.161.41.58",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "DNA Pro Internet",
+                "mcc": "244",
+                "mnc": "12",
+                "apn": "dnapro.fi",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "DNA Pro MMS",
+                "mcc": "244",
+                "mnc": "12",
+                "apn": "mms.dnapro.fi",
+                "mmsc": "http://mmsc.dnapro.fi/",
+                "mmsproxy": "10.1.1.21",
+                "mmsport": "8080",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "TDC Internet Finland",
+                "mcc": "244",
+                "mnc": "12",
+                "apn": "inet.tdc.fi",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TDC MMS Finland",
+                "mcc": "244",
+                "mnc": "12",
+                "apn": "mms.tdc.fi",
+                "mmsc": "http://mmsc.tdc.fi",
+                "mmsproxy": "10.1.12.2",
+                "mmsport": "8080",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "DNA Internet",
+                "mcc": "244",
+                "mnc": "13",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "DNA MMS",
+                "mcc": "244",
+                "mnc": "13",
+                "apn": "mms",
+                "user": "dna",
+                "password": "mms",
+                "mmsc": "http://mmsc.dnafinland.fi/",
+                "mmsproxy": "10.1.1.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Saunalahti Internet",
+                "mcc": "244",
+                "mnc": "21",
+                "apn": "internet.saunalahti",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Saunalahti MMS",
+                "mcc": "244",
+                "mnc": "21",
+                "apn": "mms.saunalahti.fi",
+                "mmsc": "http://mms.saunalahti.fi:8002/",
+                "mmsproxy": "62.142.4.197",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "TeliaSonera Internet",
+                "mcc": "244",
+                "mnc": "91",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Sonera MMS",
+                "mcc": "244",
+                "mnc": "91",
+                "apn": "wap.sonera.net",
+                "mmsc": "http://mms.sonera.fi:8002",
+                "mmsproxy": "195.156.25.33",
+                "mmsport": "80",
+                "type": "mms"
+            }
+        ]
+    }
+}

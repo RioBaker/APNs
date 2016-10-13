@@ -1,0 +1,119 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Maxis MMS",
+                "mcc": "502",
+                "mnc": "12",
+                "apn": "net",
+                "user": "maxis",
+                "password": "wap",
+                "mmsc": "http://172.16.74.100:10021/mmsc",
+                "mmsproxy": "202.75.133.49",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Maxis Internet",
+                "mcc": "502",
+                "mnc": "12",
+                "apn": "net",
+                "user": "maxis",
+                "password": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Maxis 3G MMS",
+                "mcc": "502",
+                "mnc": "12",
+                "apn": "unet",
+                "user": "maxis",
+                "password": "wap",
+                "mmsc": "http://172.16.74.100:10021/mmsc",
+                "mmsproxy": "202.75.133.49",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Maxis 3G Internet",
+                "mcc": "502",
+                "mnc": "12",
+                "apn": "unet",
+                "user": "maxis",
+                "password": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "DiGi MMS",
+                "mcc": "502",
+                "mnc": "16",
+                "apn": "digimms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.digi.com.my/servlets/mms",
+                "mmsproxy": "203.92.128.160",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "DiGi Internet",
+                "mcc": "502",
+                "mnc": "16",
+                "apn": "diginet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "U Mobile MMS",
+                "mcc": "502",
+                "mnc": "18",
+                "apn": "my3g",
+                "mmsc": "http://10.30.3.11/servlets/mms",
+                "mmsproxy": "10.30.5.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "U Mobile Internet",
+                "mcc": "502",
+                "mnc": "18",
+                "apn": "my3g",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Celcom Internet",
+                "mcc": "502",
+                "mnc": "19",
+                "apn": "celcom.net.my",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Celcom 3G MMS",
+                "mcc": "502",
+                "mnc": "19",
+                "apn": "celcom3g",
+                "mmsc": "http://mms.celcom.net.my",
+                "mmsproxy": "10.128.1.242",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Celcom 3G Internet",
+                "mcc": "502",
+                "mnc": "19",
+                "apn": "celcom3g",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Celcom MMS",
+                "mcc": "502",
+                "mnc": "19",
+                "apn": "mms.celcom.net.my",
+                "mmsc": "http://mms.celcom.net.my",
+                "mmsproxy": "10.128.1.242",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

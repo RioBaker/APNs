@@ -1,0 +1,30 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Omms CI",
+                "mcc": "612",
+                "mnc": "03",
+                "apn": "orangecimms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://172.20.6.1/servlets/mms",
+                "mmsproxy": "172.20.4.33",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "OWORLD CI",
+                "mcc": "612",
+                "mnc": "03",
+                "apn": "orangeciwap",
+                "user": "wap",
+                "password": "wap",
+                "proxy": "172.20.4.33",
+                "port": "8080",
+                "type": "default"
+            }
+        ]
+    }
+}

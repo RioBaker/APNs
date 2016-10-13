@@ -1,0 +1,134 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "CSL Data",
+                "mcc": "454",
+                "mnc": "00",
+                "apn": "hkcsl",
+                "mmsc": "http://192.168.58.171:8002",
+                "mmsproxy": "192.168.59.51",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "CSL Data",
+                "mcc": "454",
+                "mnc": "02",
+                "apn": "hkcsl",
+                "mmsc": "http://192.168.58.171:8002",
+                "mmsproxy": "192.168.59.51",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "3 HK",
+                "mcc": "454",
+                "mnc": "03",
+                "apn": "mobile.three.com.hk",
+                "mmsc": "http://mms.um.three.com.hk:10021/mmsc",
+                "mmsproxy": "172.20.97.116",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "3-DB-MMS",
+                "mcc": "454",
+                "mnc": "04",
+                "apn": "mms-g.three.com.hk",
+                "mmsc": "http://10.30.15.51:10021/mmsc",
+                "mmsproxy": "10.30.15.53",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "3-DB-GPRS",
+                "mcc": "454",
+                "mnc": "04",
+                "apn": "web-g.three.com.hk",
+                "proxy": "10.30.15.53",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SmarTone HK",
+                "mcc": "454",
+                "mnc": "06",
+                "apn": "SmarTone",
+                "mmsc": "http://mms.smartone.com/server",
+                "mmsproxy": "10.9.9.9",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "CSL Data",
+                "mcc": "454",
+                "mnc": "10",
+                "apn": "hkcsl",
+                "mmsc": "http://192.168.58.171:8002",
+                "mmsproxy": "192.168.59.51",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "CMHK MMS",
+                "mcc": "454",
+                "mnc": "12",
+                "apn": "peoples.mms",
+                "mmsc": "http://mms.hk.chinamobile.com/mms",
+                "mmsproxy": "172.31.31.36",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "CMHK GPRS",
+                "mcc": "454",
+                "mnc": "12",
+                "apn": "peoples.net",
+                "proxy": "172.31.31.36",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "PCCW_GPRS",
+                "mcc": "454",
+                "mnc": "16",
+                "apn": "pccwdata",
+                "proxy": "10.131.2.8",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "PCCW_MMS",
+                "mcc": "454",
+                "mnc": "16",
+                "apn": "pccwmms",
+                "mmsc": "http://mmsc.mms.pccwmobile.com:8002/",
+                "mmsproxy": "10.131.2.8",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "CSL Data",
+                "mcc": "454",
+                "mnc": "18",
+                "apn": "hkcsl",
+                "mmsc": "http://192.168.58.171:8002",
+                "mmsproxy": "192.168.59.51",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "PCCW 3G",
+                "mcc": "454",
+                "mnc": "19",
+                "apn": "pccw",
+                "mmsc": "http://3gmms.pccwmobile.com:8080/was",
+                "mmsproxy": "10.140.14.10",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            }
+        ]
+    }
+}

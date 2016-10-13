@@ -1,0 +1,99 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "INTERNET CLARO",
+                "mcc": "704",
+                "mnc": "01",
+                "apn": "internet.ideasclaro",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS CLARO",
+                "mcc": "704",
+                "mnc": "01",
+                "apn": "mms.ideasclaro",
+                "user": "",
+                "password": "",
+                "mmsproxy": "216.230.133.66",
+                "mmsport": "8080",
+                "mmsc": "http://mms.ideasclaro.com:8002",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "BROADBAND TIGO",
+                "mcc": "704",
+                "mnc": "02",
+                "apn": "broadband.tigo.gt",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS TIGO",
+                "mcc": "704",
+                "mnc": "02",
+                "apn": "mms.tigo.gt",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.16.17.12",
+                "mmsport": "8888",
+                "mmsc": "http://mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Internet GT",
+                "mcc": "704",
+                "mnc": "03",
+                "apn": "internet.movistar.gt",
+                "user": "movistargt",
+                "password": "movistargt",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS2 GPRS",
+                "mcc": "704",
+                "mnc": "03",
+                "apn": "mms.movistar.gt",
+                "user": "movistargt",
+                "password": "movistargt",
+                "mmsproxy": "10.12.22.1",
+                "mmsport": "80",
+                "mmsc": "http://mms.movistar.gt",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Internet GT",
+                "mcc": "704",
+                "mnc": "030",
+                "apn": "internet.movistar.gt",
+                "user": "movistargt",
+                "password": "movistargt",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS2 GPRS",
+                "mcc": "704",
+                "mnc": "030",
+                "apn": "mms.movistar.gt",
+                "user": "movistargt",
+                "password": "movistargt",
+                "mmsproxy": "10.12.22.1",
+                "mmsport": "80",
+                "mmsc": "http://mms.movistar.gt",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

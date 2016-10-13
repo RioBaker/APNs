@@ -1,0 +1,126 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "TIM IT WAP",
+                "mcc": "222",
+                "mnc": "01",
+                "apn": "wap.tim.it",
+                "user": "WAPTIM",
+                "password": "WAPTIM",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TIM IT",
+                "mcc": "222",
+                "mnc": "01",
+                "apn": "ibox.tim.it",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "iTIM",
+                "mcc": "222",
+                "mnc": "01",
+                "apn": "unico.tim.it",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TIM IT MMS",
+                "mcc": "222",
+                "mnc": "01",
+                "apn": "unico.tim.it",
+                "mmsc": "http://mms.tim.it/servlets/mms",
+                "mmsproxy": "213.230.130.89",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IT MMS",
+                "mcc": "222",
+                "mnc": "10",
+                "apn": "mms.vodafone.it",
+                "mmsc": "http://mms.vodafone.it/servlets/mms",
+                "mmsproxy": "10.128.224.10",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IT",
+                "mcc": "222",
+                "mnc": "10",
+                "apn": "mobile.vodafone.it",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone WEB",
+                "mcc": "222",
+                "mnc": "10",
+                "apn": "web.omnitel.it",
+                "type": "dun"
+            },
+            {
+                "carrier": "Wind IT WEB",
+                "mcc": "222",
+                "mnc": "88",
+                "apn": "internet.wind",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Wind BIZ WEB",
+                "mcc": "222",
+                "mnc": "88",
+                "apn": "internet.wind.biz",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Wind MMS",
+                "mcc": "222",
+                "mnc": "88",
+                "apn": "mms.wind",
+                "mmsc": "http://mms.wind.it",
+                "mmsproxy": "212.245.244.100",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "3 IT",
+                "mcc": "222",
+                "mnc": "99",
+                "apn": "tre.it",
+                "mmsc": "http://10.216.59.240:10021/mmsc",
+                "mmsproxy": "62.13.171.3",
+                "mmsport": "8799",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Fastweb WEB",
+                "mcc": "222",
+                "mnc": "99",
+                "apn": "apn.fastweb.it",
+                "mmsc": "http://mms.fastweb.it/mms/wapenc",
+                "mmsproxy": "10.0.65.9",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Noverca WEB",
+                "mcc": "222",
+                "mnc": "01",
+                "apn": "web.noverca.it",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Noverca MMS",
+                "mcc": "222",
+                "mnc": "01",
+                "apn": "mms.noverca.it",
+                "mmsc": "http://mms.noverca.it/",
+                "mmsproxy": "213.230.130.89",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

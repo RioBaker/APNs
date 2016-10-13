@@ -1,0 +1,119 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "VN MOBIFONE MMS",
+                "mcc": "452",
+                "mnc": "01",
+                "apn": "m-i090",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://203.162.21.114/mmsc",
+                "mmsproxy": "203.162.21.114",
+                "mmsport": "3130",
+                "type": "mms"
+            },
+            {
+                "carrier": "VN MOBIFONE Email",
+                "mcc": "452",
+                "mnc": "01",
+                "apn": "m-wap",
+                "user": "mms",
+                "password": "mms",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vinaphone MMS",
+                "mcc": "452",
+                "mnc": "02",
+                "apn": "m3-mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.vinaphone.com.vn",
+                "mmsproxy": "10.1.10.46",
+                "mmsport": "8000",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vinaphone Email",
+                "mcc": "452",
+                "mnc": "02",
+                "apn": "m3-world",
+                "user": "mms",
+                "password": "mms",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Viettel Email",
+                "mcc": "452",
+                "mnc": "04",
+                "apn": "v-internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Viettel MMS",
+                "mcc": "452",
+                "mnc": "04",
+                "apn": "v-mms",
+                "mmsc": "http://mms.viettelmobile.com.vn/mms/wapenc",
+                "mmsproxy": "192.168.233.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vietnamobile Email",
+                "mcc": "452",
+                "mnc": "05",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vietnamobile MMS",
+                "mcc": "452",
+                "mnc": "05",
+                "apn": "mms",
+                "mmsc": "http://10.10.128.58/servlets/mms",
+                "mmsproxy": "10.10.128.44",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BEELINE Email",
+                "mcc": "452",
+                "mnc": "07",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BEELINE MMS",
+                "mcc": "452",
+                "mnc": "07",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms",
+                "mmsproxy": "10.16.70.199",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "EVNTelecom Email",
+                "mcc": "452",
+                "mnc": "08",
+                "apn": "e-internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "EVNTelecom MMS",
+                "mcc": "452",
+                "mnc": "08",
+                "apn": "e-wap",
+                "mmsc": "http://10.18.2.172:38090",
+                "mmsproxy": "10.18.2.183",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

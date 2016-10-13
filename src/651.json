@@ -1,0 +1,26 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "VCL Internet GPRS",
+                "mcc": "651",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "VCL MMS GPRS",
+                "mcc": "651",
+                "mnc": "01",
+                "apn": "mms",
+                "proxy": "10.113.63.11",
+                "port": "8080",
+                "mmsc": "http://mmsc.vodacom4me.co.ls",
+                "mmsproxy": "10.113.63.11",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

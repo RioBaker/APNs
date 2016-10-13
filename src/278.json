@@ -1,0 +1,26 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Vodafone MT",
+                "mcc": "278",
+                "mnc": "01",
+                "apn": "internet",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone MT MMS",
+                "mcc": "278",
+                "mnc": "01",
+                "apn": "mms.vodafone.com.mt",
+                "mmsc": "http://mms.vodafone.com.mt/servlets/mms",
+                "mmsproxy": "10.12.0.3",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

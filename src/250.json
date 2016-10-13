@@ -1,0 +1,87 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "MTS RU Internet",
+                "mcc": "250",
+                "mnc": "01",
+                "apn": "internet.mts.ru",
+                "user": "mts",
+                "password": "mts",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTS RU MMS",
+                "mcc": "250",
+                "mnc": "01",
+                "apn": "mms.mts.ru",
+                "user": "mts",
+                "password": "mts",
+                "mmsc": "http://mmsc",
+                "mmsproxy": "192.168.192.192",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "Megafon Internet",
+                "mcc": "250",
+                "mnc": "02",
+                "apn": "internet",
+                "user": "gdata",
+                "password": "gdata",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Megafon MMS",
+                "mcc": "250",
+                "mnc": "02",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mmsc:8002",
+                "mmsproxy": "10.10.10.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Beeline RU Internet",
+                "mcc": "250",
+                "mnc": "99",
+                "apn": "internet.beeline.ru",
+                "user": "beeline",
+                "password": "beeline",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Beeline RU MMS",
+                "mcc": "250",
+                "mnc": "99",
+                "apn": "mms.beeline.ru",
+                "user": "beeline",
+                "password": "beeline",
+                "mmsc": "http://mms/",
+                "mmsproxy": "192.168.94.23",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Tele2 RU Internet",
+                "mcc": "250",
+                "mnc": "20",
+                "apn": "internet.tele2.ru",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele2 RU MMS",
+                "mcc": "250",
+                "mnc": "20",
+                "apn": "mms.tele2.ru",
+                "mmsc": "http://mmsc.tele2.ru",
+                "mmsproxy": "193.12.40.65",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

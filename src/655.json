@@ -1,0 +1,101 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Vodacom",
+                "mcc": "655",
+                "mnc": "01",
+                "apn": "internet",
+                "proxy": "196.6.128.12",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS Vodacom",
+                "mcc": "655",
+                "mnc": "01",
+                "apn": "mms.vodacom.net",
+                "proxy": "196.6.128.13",
+                "port": "8080",
+                "mmsc": "http://mmsc.vodacom4me.co.za/",
+                "mmsproxy": "196.6.128.13",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "8.ta internet",
+                "mcc": "655",
+                "mnc": "02",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "8.ta mms",
+                "mcc": "655",
+                "mnc": "02",
+                "apn": "mms",
+                "proxy": "41.151.254.162",
+                "port": "8080",
+                "mmsc": "http://mms.8ta.com:38090/was",
+                "mmsproxy": "41.151.254.162",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Smartdata",
+                "mcc": "655",
+                "mnc": "07",
+                "apn": "internet",
+                "proxy": "196.31.116.250",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cell C MMS",
+                "mcc": "655",
+                "mnc": "07",
+                "apn": "mms",
+                "proxy": "196.31.116.250",
+                "port": "8080",
+                "mmsc": "http://mms.cmobile.co.za",
+                "mmsproxy": "196.31.116.250",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "virgin_internet",
+                "mcc": "655",
+                "mnc": "07",
+                "apn": "vdata",
+                "proxy": "196.31.116.241",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "virgin_mms",
+                "mcc": "655",
+                "mnc": "07",
+                "apn": "vmms",
+                "proxy": "196.31.116.242",
+                "port": "8080",
+                "mmsc": "http://mms.virginmobile.co.za",
+                "mmsproxy": "196.31.116.242",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTN Data",
+                "mcc": "655",
+                "mnc": "10",
+                "apn": "myMTN",
+                "user": "mtn",
+                "password": "mtn",
+                "mmsc": "http://mms.mtn.co.za/mms/wapenc",
+                "mmsproxy": "196.11.240.241",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            }
+        ]
+    }
+}

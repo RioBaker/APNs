@@ -1,0 +1,76 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "SmarTone MAC",
+                "mcc": "455",
+                "mnc": "00",
+                "apn": "smartgprs",
+                "proxy": "10.9.9.29",
+                "port": "8080",
+                "mmsc": "http://mms.smartone.com.mo/dmog/mo",
+                "mmsproxy": "10.9.9.29",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "CTM",
+                "mcc": "455",
+                "mnc": "01",
+                "apn": "ctm-mobile",
+                "proxy": "192.168.99.2",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "CTM MMS",
+                "mcc": "455",
+                "mnc": "01",
+                "apn": "ctmmms",
+                "mmsc": "http://mms.wap.ctm.net:8002",
+                "mmsproxy": "192.168.99.3",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "3 Macau MMS",
+                "mcc": "455",
+                "mnc": "03",
+                "apn": "mms.hutchisonmacau.com",
+                "mmsc": "http://10.30.15.51:10021/mmsc",
+                "mmsproxy": "10.30.15.53",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "3 Macau",
+                "mcc": "455",
+                "mnc": "03",
+                "apn": "web-g.three.com.hk",
+                "user": "hutchison",
+                "password": "1234",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "CTM",
+                "mcc": "455",
+                "mnc": "04",
+                "apn": "ctm-mobile",
+                "proxy": "192.168.99.2",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "CTM MMS",
+                "mcc": "455",
+                "mnc": "04",
+                "apn": "ctmmms",
+                "mmsc": "http://mms.wap.ctm.net:8002",
+                "mmsproxy": "192.168.99.3",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

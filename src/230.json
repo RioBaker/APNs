@@ -1,0 +1,71 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "T-Mobile CZ",
+                "mcc": "230",
+                "mnc": "01",
+                "apn": "internet.t-mobile.cz",
+                "user": "wap",
+                "password": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "T-Mobile MMS",
+                "mcc": "230",
+                "mnc": "01",
+                "apn": "mms.t-mobile.cz",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms",
+                "mmsproxy": "10.0.0.10",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "o2 CZ internet",
+                "mcc": "230",
+                "mnc": "02",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "o2 CZ MMS",
+                "mcc": "230",
+                "mnc": "02",
+                "apn": "mms",
+                "mmsc": "http://mms.o2active.cz:8002",
+                "mmsproxy": "160.218.160.218",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone CZ",
+                "mcc": "230",
+                "mnc": "03",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone CZ MMS",
+                "mcc": "230",
+                "mnc": "03",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms",
+                "mmsproxy": "10.11.10.111",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone CZ Prepaid",
+                "mcc": "230",
+                "mnc": "03",
+                "apn": "ointernet",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

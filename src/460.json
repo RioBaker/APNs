@@ -1,0 +1,134 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "中国移动 (China Mobile) GPRS",
+                "mcc": "460",
+                "mnc": "00",
+                "apn": "cmnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动 (China Mobile) WAP",
+                "mcc": "460",
+                "mnc": "00",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动彩信 (China Mobile)",
+                "mcc": "460",
+                "mnc": "00",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "mmsc": "http://mmsc.monternet.com",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "沃3G连接互联网 (China Unicom)",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "3gnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "沃3G手机上网 (China Unicom)",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "3gwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "联通2GNET上网 (China Unicom)",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "uninet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "联通彩信 (China Unicom)",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "3gwap",
+                "mmsc": "http://mmsc.myuni.com.cn",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "联通2g彩信 (China Unicom)",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "uniwap",
+                "mmsc": "http://mmsc.myuni.com.cn",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "中国移动 (China Mobile) GPRS",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动 (China Mobile) WAP",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动彩信 (China Mobile)",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "mmsc": "http://mmsc.monternet.com",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "中国移动 (China Mobile) GPRS",
+                "mcc": "460",
+                "mnc": "07",
+                "apn": "cmnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动 (China Mobile) WAP",
+                "mcc": "460",
+                "mnc": "07",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动彩信 (China Mobile)",
+                "mcc": "460",
+                "mnc": "07",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "mmsc": "http://mmsc.monternet.com",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            }
+        ]
+    }
+}

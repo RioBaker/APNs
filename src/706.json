@@ -1,0 +1,122 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "INTERNET CLARO",
+                "mcc": "706",
+                "mnc": "01",
+                "apn": "internet.ideasclaro",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS CLARO",
+                "mcc": "706",
+                "mnc": "01",
+                "apn": "mms.ideasclaro",
+                "user": "",
+                "password": "",
+                "mmsproxy": "216.230.133.66",
+                "mmsport": "8080",
+                "mmsc": "http://mms.ideasclaro.com:8002",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel LTE",
+                "mcc": "706",
+                "mnc": "02",
+                "apn": "wap",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Digicel MMS",
+                "mcc": "706",
+                "mnc": "02",
+                "apn": "wap",
+                "user": "",
+                "password": "",
+                "mmsproxy": "172.26.5.12",
+                "mmsport": "8080",
+                "mmsc": "http://mms.digicelgroup.com",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "INTERNET TIGO SV",
+                "mcc": "706",
+                "mnc": "03",
+                "apn": "internet.tigo.sv",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS TIGO SV",
+                "mcc": "706",
+                "mnc": "03",
+                "apn": "mms.tigo.sv",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.16.17.12",
+                "mmsport": "8888",
+                "mmsc": "http://mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Movistar SV",
+                "mcc": "706",
+                "mnc": "04",
+                "apn": "internet.movistar.sv",
+                "user": "movistarsv",
+                "password": "movistarsv",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Movistar SV MMS",
+                "mcc": "706",
+                "mnc": "04",
+                "apn": "mms.movistar.sv",
+                "user": "movistarsv",
+                "password": "movistarsv",
+                "mmsproxy": "10.12.20.1",
+                "mmsport": "80",
+                "mmsc": "http://mms.movistar.sv",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Movistar SV",
+                "mcc": "706",
+                "mnc": "40",
+                "apn": "internet.movistar.sv",
+                "user": "movistarsv",
+                "password": "movistarsv",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Movistar SV MMS",
+                "mcc": "706",
+                "mnc": "40",
+                "apn": "mms.movistar.sv",
+                "user": "movistarsv",
+                "password": "movistarsv",
+                "mmsproxy": "10.12.20.1",
+                "mmsport": "80",
+                "mmsc": "http://mms.movistar.sv",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "myGlobe Internet Postpaid",
+                "mcc": "515",
+                "mnc": "02",
+                "apn": "internet.globe.com.ph",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "myGlobe Internet Prepaid",
+                "mcc": "515",
+                "mnc": "02",
+                "apn": "http.globe.com.ph",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "myGlobe MMS",
+                "mcc": "515",
+                "mnc": "02",
+                "apn": "mms.globe.com.ph",
+                "mmsc": "http://192.40.100.22:10021/mmsc",
+                "mmsproxy": "203.177.42.214",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Smart Internet",
+                "mcc": "515",
+                "mnc": "03",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SmartMMS",
+                "mcc": "515",
+                "mnc": "03",
+                "apn": "mms",
+                "mmsc": "http://10.102.61.238:8002",
+                "mmsproxy": "10.102.61.46",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "SUN INTERNET",
+                "mcc": "515",
+                "mnc": "05",
+                "apn": "minternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SUN MMS",
+                "mcc": "515",
+                "mnc": "05",
+                "apn": "mms",
+                "mmsc": "http://mmscenter.suncellular.com.ph",
+                "mmsproxy": "202.138.159.78",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "RED INTERNET",
+                "mcc": "515",
+                "mnc": "18",
+                "apn": "redinternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "RED MMS",
+                "mcc": "515",
+                "mnc": "18",
+                "apn": "redmms",
+                "mmsc": "http://10.102.61.193:8002/mmsc",
+                "mmsproxy": "10.138.3.35",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Orange MMS",
+                "mcc": "617",
+                "mnc": "01",
+                "apn": "orangemms",
+                "user": "mmsc",
+                "password": "mmsc",
+                "mmsc": "http://10.2.1.20:8514",
+                "mmsproxy": "10.2.1.20",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange Internet",
+                "mcc": "617",
+                "mnc": "01",
+                "apn": "orange",
+                "type": "default"
+            }
+        ]
+    }
+}

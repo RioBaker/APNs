@@ -1,0 +1,14 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "BATELCO BS",
+                "mcc": "364",
+                "mnc": "390",
+                "apn": "internet.btcbahamas.com",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

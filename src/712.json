@@ -1,0 +1,99 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Kolbi",
+                "mcc": "712",
+                "mnc": "01",
+                "apn": "kolbi3g",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Multimedia",
+                "mcc": "712",
+                "mnc": "01",
+                "apn": "kolbi3g",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.184.202.24",
+                "mmsport": "8080",
+                "mmsc": "http://mmsice",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Kolbi",
+                "mcc": "712",
+                "mnc": "02",
+                "apn": "kolbi3g",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Multimedia",
+                "mcc": "712",
+                "mnc": "02",
+                "apn": "kolbi3g",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.184.202.24",
+                "mmsport": "8080",
+                "mmsc": "http://mmsice",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "INTERNET CLARO",
+                "mcc": "712",
+                "mnc": "03",
+                "apn": "internet.ideasclaro",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS CLARO",
+                "mcc": "712",
+                "mnc": "03",
+                "apn": "mms.ideasclaro",
+                "user": "",
+                "password": "",
+                "mmsproxy": "216.230.133.66",
+                "mmsport": "8080",
+                "mmsc": "http://mms.ideasclaro.com:8002",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "movistar INTERNET",
+                "mcc": "712",
+                "mnc": "04",
+                "apn": "internet.movistar.cr",
+                "user": "movistarcr",
+                "password": "movistarcr",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "movistar MMS",
+                "mcc": "712",
+                "mnc": "04",
+                "apn": "mms.movistar.cr",
+                "user": "movistarcr",
+                "password": "movistarcr",
+                "mmsproxy": "10.221.79.83",
+                "mmsport": "80",
+                "mmsc": "http://mms.movistar.cr",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

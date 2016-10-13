@@ -1,0 +1,70 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Setar MMS",
+                "mcc": "363",
+                "mnc": "01",
+                "apn": "mms.setar.aw",
+                "mmsc": "http://mms.setar.aw",
+                "mmscproxy": "209.88.130.210",
+                "mmscport": "8081",
+                "type": "mms"
+            },
+            {
+                "carrier": "Setar",
+                "mcc": "363",
+                "mnc": "01",
+                "apn": "wap.setar.aw",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "INTERNET Aruba",
+                "mcc": "363",
+                "mnc": "02",
+                "apn": "web.digicelaruba.com",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS Digicel",
+                "mcc": "363",
+                "mnc": "02",
+                "apn": "wap",
+                "user": "",
+                "password": "",
+                "mmsproxy": "172.16.7.12",
+                "mmsport": "8080",
+                "mmsc": "http://mms.digicelgroup.com",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "INTERNET Aruba",
+                "mcc": "363",
+                "mnc": "020",
+                "apn": "web.digicelaruba.com",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS Digicel",
+                "mcc": "363",
+                "mnc": "020",
+                "apn": "wap",
+                "user": "",
+                "password": "",
+                "mmsproxy": "172.16.7.12",
+                "mmsport": "8080",
+                "mmsc": "http://mms.digicelgroup.com",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

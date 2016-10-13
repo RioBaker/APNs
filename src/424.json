@@ -1,0 +1,41 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Etisalat MMS",
+                "mcc": "424",
+                "mnc": "02",
+                "apn": "etisalat",
+                "mmsc": "http://mms/servlets/mms",
+                "mmsproxy": "10.12.0.32",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "DATA Package",
+                "mcc": "424",
+                "mnc": "02",
+                "apn": "etisalat.ae",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "du",
+                "mcc": "424",
+                "mnc": "03",
+                "apn": "du",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "du MMS",
+                "mcc": "424",
+                "mnc": "03",
+                "apn": "du",
+                "mmsc": "http://mms.du.ae",
+                "mmsproxy": "10.19.18.4",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}
