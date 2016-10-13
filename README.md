@@ -1,3 +1,3 @@
 # Android APNs confiuration tool
 
-Use `npm start` to compile the configuration file.
+Modify the `src/*.json` and use `npm start` to compile the configuration file.
