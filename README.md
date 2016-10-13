@@ -1,4 +1,4 @@
-# Android APNs confiuration tool
+# Android APNs configuration tool
 
 Use `npm i android-apns-generator` to install via NPM.
 
