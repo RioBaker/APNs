@@ -3,11 +3,58 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Postpaid Internet",
+                "mcc": "364",
+                "mnc": "390",
+                "apn": "internet1.btcbahamas.com",
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": ""
+            },
+            {
+                "carrier": "Postpaid MMS",
+                "mcc": "364",
+                "mnc": "390",
+                "apn": "ppmms1.btcbahamas.com",
+                "user": "",
+                "password": "",
+                "mmsproxy": "172.16.220.44",
+                "mmsport": "8080"
+            },
+            {
                 "carrier": "BATELCO BS",
                 "mcc": "364",
                 "mnc": "390",
                 "apn": "internet.btcbahamas.com",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
+            },
+            {
+                "carrier": "Postpaid Internet",
+                "mcc": "364",
+                "mnc": "39",
+                "apn": "internet1.btcbahamas.com",
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": "",
+                "type": "supl"
+            },
+            {
+                "carrier": "Postpaid MMS",
+                "mcc": "364",
+                "mnc": "39",
+                "apn": "ppmms1.btcbahamas.com",
+                "user": "",
+                "password": "",
+                "mmsproxy": "172.16.220.44",
+                "mmsport": "8080",
+                "type": "mms"
             }
         ]
     }

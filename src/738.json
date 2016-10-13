@@ -1,0 +1,99 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "G TT WEB",
+                "mcc": "738",
+                "mnc": "002",
+                "apn": "internet.cellinkgy.com",
+                "user": "cellink",
+                "password": "cellink",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "G TT MMS",
+                "mcc": "738",
+                "mnc": "002",
+                "apn": "mms.cellinkgy.com",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.0.1.99",
+                "mmsport": "8080",
+                "mmsc": "http://10.0.1.88/mms/wapenc",
+                "user": "cellink",
+                "password": "cellink",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel Web",
+                "mcc": "738",
+                "mnc": "01",
+                "apn": "web",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Digicel MMS",
+                "mcc": "738",
+                "mnc": "01",
+                "apn": "wap",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "172.20.6.12",
+                "mmsport": "8080",
+                "mmsc": "http://mmc.digicelgy.com/servlets/mms",
+                "user": "wap",
+                "password": "wap",
+                "type": "mms"
+            },
+            {
+                "carrier": "G TT WEB",
+                "mcc": "738",
+                "mnc": "02",
+                "apn": "internet.cellinkgy.com",
+                "user": "cellink",
+                "password": "cellink",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "G TT MMS",
+                "mcc": "738",
+                "mnc": "02",
+                "apn": "mms.cellinkgy.com",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.0.1.99",
+                "mmsport": "8080",
+                "mmsc": "http://10.0.1.88/mms/wapenc",
+                "user": "cellink",
+                "password": "cellink",
+                "type": "mms"
+            },
+            {
+                "carrier": "G TT WEB",
+                "mcc": "738",
+                "mnc": "020",
+                "apn": "internet.cellinkgy.com",
+                "user": "cellink",
+                "password": "cellink",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "G TT MMS",
+                "mcc": "738",
+                "mnc": "020",
+                "apn": "mms.cellinkgy.com",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.0.1.99",
+                "mmsport": "8080",
+                "mmsc": "http://10.0.1.88/mms/wapenc",
+                "user": "cellink",
+                "password": "cellink",
+                "type": "mms"
+            }
+        ]
+    }
+}

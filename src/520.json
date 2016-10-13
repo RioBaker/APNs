@@ -3,7 +3,28 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "AIS Internet",
+                "carrier": "TrueMove-H",
+                "mcc": "520",
+                "mnc": "00",
+                "apn": "internet",
+                "user": "true",
+                "password": "true",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TrueMove-H MMS",
+                "mcc": "520",
+                "mnc": "00",
+                "apn": "hmms",
+                "user": "true",
+                "password": "true",
+                "mmsc": "http://mms.trueh.com:8002",
+                "mmsproxy": "10.4.7.39",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "AIS GPRS Internet",
                 "mcc": "520",
                 "mnc": "01",
                 "apn": "internet",
@@ -20,24 +41,75 @@
                 "type": "mms"
             },
             {
+                "carrier": "AIS Internet",
+                "mcc": "520",
+                "mnc": "03",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AIS MMS",
+                "mcc": "520",
+                "mnc": "03",
+                "apn": "mms",
+                "mmsc": "http://mms.ais.co.th",
+                "mmsproxy": "203.170.229.34",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "DTAC MMS",
+                "mcc": "520",
+                "mnc": "05",
+                "apn": "mms",
+                "mmsc": "http://mms2.dtac.co.th:8002",
+                "mmsproxy": "10.10.10.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "DTAC GPRS WEB",
+                "mcc": "520",
+                "mnc": "05",
+                "apn": "www.dtac.co.th",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TOT 3G",
+                "mcc": "520",
+                "mnc": "15",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TOT 3G MMS",
+                "mcc": "520",
+                "mnc": "15",
+                "apn": "mms",
+                "mmsc": "http://mms.tot3g.net:8002",
+                "mmsproxy": "10.218.24.83",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
                 "carrier": "DTAC MMS",
                 "mcc": "520",
                 "mnc": "18",
                 "apn": "mms",
-                "mmsc": "http://mms.dtac.co.th:8002/",
+                "mmsc": "http://mms.dtac.co.th:8002",
                 "mmsproxy": "203.155.200.133",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "DTAC Internet",
+                "carrier": "DTAC GPRS WEB",
                 "mcc": "520",
                 "mnc": "18",
                 "apn": "www.dtac.co.th",
                 "type": "default,supl"
             },
             {
-                "carrier": "True GPRS Inet",
+                "carrier": "True",
                 "mcc": "520",
                 "mnc": "99",
                 "apn": "internet",
@@ -46,13 +118,13 @@
                 "type": "default,supl"
             },
             {
-                "carrier": "True GPRS MMS",
+                "carrier": "True MMS",
                 "mcc": "520",
                 "mnc": "99",
                 "apn": "mms",
                 "user": "true",
                 "password": "true",
-                "mmsc": "http://mms.trueworld.net:8002/",
+                "mmsc": "http://mms.trueworld.net:8002",
                 "mmsproxy": "10.4.7.39",
                 "mmsport": "8080",
                 "type": "mms"

@@ -1,0 +1,79 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "vodafone fj",
+                "mcc": "542",
+                "mnc": "01",
+                "apn": "live.vodafone.com.fj",
+                "proxy": "10.202.2.40",
+                "port": "8080",
+                "mmsproxy": "10.202.2.40",
+                "mmsport": "8080",
+                "mmsc": "http://pxt.vodafone.net.fj/pxtsend",
+                "authtype": "3",
+                "user": "",
+                "password": "",
+                "type": "*"
+            },
+            {
+                "carrier": "Vodafone FJ MMS",
+                "mcc": "542",
+                "mnc": "01",
+                "apn": "live.vodafone.com.fj",
+                "mmsc": "http://pxt.vodafone.net.fj/pxtsend",
+                "mmsproxy": "010.202.002.040",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone FJ",
+                "mcc": "542",
+                "mnc": "01",
+                "apn": "vfinternet.fj",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Digicel Web",
+                "mcc": "542",
+                "mnc": "02",
+                "apn": "web.digicelpacific.com",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Digicel MMS",
+                "mcc": "542",
+                "mnc": "02",
+                "apn": "wap.digicelpacific.com",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.150.122.12",
+                "mmsport": "8080",
+                "mmsc": "http://mms.digicelpacific.com:8990",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel FJ MMS",
+                "mcc": "542",
+                "mnc": "02",
+                "apn": "wap.digicelpacific.com",
+                "mmsc": "http://mms.digicelpacific.com:8990",
+                "mmsproxy": "10.150.122.12",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel FJ",
+                "mcc": "542",
+                "mnc": "02",
+                "apn": "web.digicelpacific.com",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

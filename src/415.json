@@ -3,63 +3,101 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Alfa Internet",
+                "carrier": "ALFA_WAP",
                 "mcc": "415",
                 "mnc": "01",
+                "apn": "wap.mic1.com.lb",
+                "proxy": "192.168.23.50",
+                "port": "80",
                 "user": "mic1",
                 "password": "mic1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ALFA_INTERNET",
+                "mcc": "415",
+                "mnc": "01",
                 "apn": "internet.mic1.com.lb",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Alfa",
+                "mcc": "415",
+                "mnc": "01",
+                "apn": "internet.mic1.com.lb",
+                "user": "mic1",
+                "password": "mic1",
                 "type": "default,supl"
             },
             {
                 "carrier": "Alfa MMS",
                 "mcc": "415",
                 "mnc": "01",
+                "apn": "mms.mic1.com.lb",
                 "user": "mic1",
                 "password": "mic1",
-                "apn": "mms.mic1.com.lb",
                 "mmsc": "http://mms.mic1.com.lb",
                 "mmsproxy": "192.168.23.51",
-                "mmsport": "80",
+                "mmsport": "9201",
                 "type": "mms"
             },
             {
-                "carrier": "MTC Touch GPRS",
+                "carrier": "Alfa WAP",
+                "mcc": "415",
+                "mnc": "01",
+                "apn": "wap.mic1.com.lb",
+                "user": "mic1",
+                "password": "mic1",
+                "proxy": "192.168.23.50",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "mtcgprs",
                 "mcc": "415",
                 "mnc": "03",
                 "apn": "gprs.mtctouch.com.lb",
                 "type": "default,supl"
             },
             {
-                "carrier": "MTC MMS",
+                "carrier": "mtc touch",
                 "mcc": "415",
                 "mnc": "03",
-                "user": "mtctouch",
+                "apn": "gprs.mtctouch.com.lb",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "mtc touch MMS",
+                "mcc": "415",
+                "mnc": "03",
                 "apn": "mms.mtctouch.com.lb",
+                "user": "mtctouch",
                 "mmsc": "http://mms:8080/mms/",
                 "mmsproxy": "192.168.4.103",
-                "mmsport": "80",
+                "mmsport": "9201",
                 "type": "mms"
             },
             {
-                "carrier": "Alfa Internet",
+                "carrier": "Alfa WAP",
                 "mcc": "415",
                 "mnc": "03",
+                "apn": "wap.mic1.com.lb",
                 "user": "mic1",
                 "password": "mic1",
-                "apn": "internet.mic1.com.lb",
+                "proxy": "192.168.023.050",
+                "port": "80",
                 "type": "default,supl"
             },
             {
                 "carrier": "Alfa MMS",
                 "mcc": "415",
                 "mnc": "03",
+                "apn": "mms.mic1.com.lb",
                 "user": "mic1",
                 "password": "mic1",
-                "apn": "mms.mic1.com.lb",
                 "mmsc": "http://mms.mic1.com.lb",
                 "mmsproxy": "192.168.23.51",
-                "mmsport": "80",
+                "mmsport": "9201",
                 "type": "mms"
             }
         ]

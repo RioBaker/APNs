@@ -1,0 +1,14 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Africell Gambia",
+                "mcc": "607",
+                "mnc": "02",
+                "apn": "africellnet",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

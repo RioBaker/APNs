@@ -38,6 +38,73 @@
                 "mmsc": "http://mms.vtext.com/servlets/mms",
                 "protocol": "IPV4V6",
                 "roaming_protocol": "IPV4V6"
+            },
+            {
+                "carrier": "SPRINT test ISP",
+                "mcc": "001",
+                "mnc": "01",
+                "apn": "n.ispsn",
+                "type": "default,mms",
+                "mmsc": "http://mms.sprintpcs.com",
+                "mmsproxy": "68.28.31.7",
+                "mmsport": "80",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6"
+            },
+            {
+                "carrier": "SPRINT test OTA",
+                "mcc": "001",
+                "mnc": "01",
+                "apn": "otasn",
+                "type": "fota",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6"
+            },
+            {
+                "carrier": "SPRINT test PAM",
+                "mcc": "001",
+                "mnc": "01",
+                "apn": "pamsn",
+                "type": "dun",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6"
+            },
+            {
+                "carrier": "VZW Test Internet",
+                "mcc": "001",
+                "mnc": "010",
+                "apn": "VZWINTERNET",
+                "type": "default,dun,supl",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6"
+            },
+            {
+                "carrier": "VZW Test FOTA",
+                "mcc": "001",
+                "mnc": "010",
+                "apn": "VZWADMIN",
+                "type": "fota",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6"
+            },
+            {
+                "carrier": "VZW Test IMS",
+                "mcc": "001",
+                "mnc": "010",
+                "apn": "VZWIMS",
+                "type": "ims",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6"
+            },
+            {
+                "carrier": "VZW Test CBS",
+                "mcc": "001",
+                "mnc": "010",
+                "apn": "VZWAPP",
+                "type": "cbs,mms",
+                "mmsc": "http://mms.vtext.com/servlets/mms",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6"
             }
         ]
     }

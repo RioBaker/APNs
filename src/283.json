@@ -1,0 +1,110 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Beeline AM",
+                "mcc": "283",
+                "mnc": "01",
+                "apn": "internet.beeline.am",
+                "proxy": "",
+                "port": "",
+                "user": "internet",
+                "password": "internet",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BeeLine AM MMS",
+                "mcc": "283",
+                "mnc": "01",
+                "apn": "mms.beeline.am",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mms/",
+                "mmsproxy": "10.3.2.205",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "VivaCell-MTS Internet",
+                "mcc": "283",
+                "mnc": "05",
+                "apn": "inet.vivacell.am",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "VivaCell-MTS MMS",
+                "mcc": "283",
+                "mnc": "05",
+                "apn": "mms.vivacell.am",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "83.217.226.72",
+                "mmsport": "8080",
+                "mmsc": "http://mms.vivacell.am/mmsc",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "VivaCell",
+                "mcc": "283",
+                "mnc": "05",
+                "apn": "connect.vivacell.am",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "VivaCell MMS",
+                "mcc": "283",
+                "mnc": "05",
+                "apn": "mms.vivacell.am",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mms.vivacell.am/mmsc",
+                "mmsproxy": "83.217.226.72",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange AM",
+                "mcc": "283",
+                "mnc": "10",
+                "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange AM MMS",
+                "mcc": "283",
+                "mnc": "10",
+                "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mms/",
+                "mmsproxy": "192.168.220.251",
+                "mmsport": "3128",
+                "type": "mms"
+            }
+        ]
+    }
+}

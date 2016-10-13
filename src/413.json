@@ -1,0 +1,174 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Mobitel",
+                "mcc": "413",
+                "mnc": "01",
+                "apn": "mobitel3g",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mobitel MMS",
+                "mcc": "413",
+                "mnc": "01",
+                "apn": "wapmms",
+                "mmsc": "http://192.168.50.165",
+                "mmsproxy": "192.168.50.163",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Mobitel WAP",
+                "mcc": "413",
+                "mnc": "01",
+                "apn": "mobitel3g",
+                "proxy": "192.168.050.163",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Dialog Mobile Broadband",
+                "mcc": "413",
+                "mnc": "02",
+                "apn": "dialogbb",
+                "server": "dialog",
+                "mmsc": "http://mms.dialog.lk:3130/mmsc",
+                "mmsproxy": "192.168.122.2",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Dialog WAP Prepaid",
+                "mcc": "413",
+                "mnc": "02",
+                "apn": "ppwap",
+                "proxy": "192.168.122.2",
+                "mmsport": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Dialog Internet Prepaid",
+                "mcc": "413",
+                "mnc": "02",
+                "apn": "www.dialogsl.com",
+                "proxy": "192.168.122.2",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Dialog Internet Postpaid",
+                "mcc": "413",
+                "mnc": "02",
+                "apn": "dialogbb",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Dialog MMS Prepaid",
+                "mcc": "413",
+                "mnc": "02",
+                "apn": "ppwap",
+                "mmsc": "http://mms.dialog.lk:3130/mmsc",
+                "mmsproxy": "192.168.122.2",
+                "type": "mms"
+            },
+            {
+                "carrier": "Dialog MMS Postpaid",
+                "mcc": "413",
+                "mnc": "02",
+                "apn": "www.dialogsl.com",
+                "mmsc": "http://mms.dialog.lk:3130/mmsc",
+                "mmsproxy": "192.168.122.2",
+                "type": "mms"
+            },
+            {
+                "carrier": "Etisalat",
+                "mcc": "413",
+                "mnc": "03",
+                "apn": "ebb",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Etisalat MMS",
+                "mcc": "413",
+                "mnc": "03",
+                "apn": "mms",
+                "mmsc": "http://mms.etisalt.lk:8085",
+                "mmsproxy": "192.168.104.4",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Etisalat Internet Prepaid",
+                "mcc": "413",
+                "mnc": "03",
+                "apn": "web",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Etisalat Internet Postpaid",
+                "mcc": "413",
+                "mnc": "03",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Etisalat WAP",
+                "mcc": "413",
+                "mnc": "03",
+                "apn": "wap",
+                "proxy": "192.168.104.4",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Postpaid",
+                "mcc": "413",
+                "mnc": "05",
+                "apn": "airteldata",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "413",
+                "mnc": "05",
+                "apn": "airtellive",
+                "mmsc": "http://mms.airtel.lk",
+                "mmsproxy": "10.200.184.86",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel Prepaid",
+                "mcc": "413",
+                "mnc": "05",
+                "apn": "airtellive",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel",
+                "mcc": "413",
+                "mnc": "05",
+                "apn": "default",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Hutch3G",
+                "mcc": "413",
+                "mnc": "08",
+                "apn": "hutch3g",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Hutch WAP",
+                "mcc": "413",
+                "mnc": "08",
+                "apn": "hutch3g",
+                "proxy": "10.220.135.249",
+                "port": "8080",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

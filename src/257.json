@@ -3,78 +3,102 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Velcom BY - Web Plus",
-                "mcc": "257",
-                "mnc": "01",
-                "apn": "plus.belcom.by",
-                "user": "plus",
-                "password": "plus",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Velcom BY - Web 500",
-                "mcc": "257",
-                "mnc": "01",
-                "apn": "vmi.belcom.by",
-                "user": "vmi",
-                "password": "vmi",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Velcom Web",
-                "mcc": "257",
-                "mnc": "01",
-                "apn": "web.belcom.by",
-                "user": "web",
-                "password": "web",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Velcom BY - Web Basic",
-                "mcc": "257",
-                "mnc": "01",
-                "apn": "web1.belcom.by",
-                "user": "web1",
-                "password": "web1",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Velcom BY - Web 25",
-                "mcc": "257",
-                "mnc": "01",
-                "apn": "web2.belcom.by",
-                "user": "web2",
-                "password": "web2",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Velcom BY - Web 250",
-                "mcc": "257",
-                "mnc": "01",
-                "apn": "web3.belcom.by",
-                "user": "web3",
-                "password": "web3",
-                "type": "default,supl"
-            },
-            {
                 "carrier": "Velcom MMS",
                 "mcc": "257",
                 "mnc": "01",
-                "apn": "mms.belcom.by",
+                "apn": "mms.velcom.by",
+                "proxy": "",
+                "port": "",
                 "user": "mms",
                 "password": "mms",
+                "server": "mms.velcom.by",
                 "mmsc": "http://mms.velcom.by/servlets/mms",
                 "mmsproxy": "10.200.15.15",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
+                "carrier": "Velcom BY // Web Plus",
+                "mcc": "257",
+                "mnc": "01",
+                "apn": "plus.velcom.by",
+                "proxy": "",
+                "port": "",
+                "user": "plus",
+                "password": "plus",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Velcom BY // Web 500",
+                "mcc": "257",
+                "mnc": "01",
+                "apn": "vmi.velcom.by",
+                "proxy": "",
+                "port": "",
+                "user": "vmi",
+                "password": "vmi",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Velcom Web",
+                "mcc": "257",
+                "mnc": "01",
+                "apn": "web.velcom.by",
+                "proxy": "",
+                "port": "",
+                "user": "web",
+                "password": "web",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Velcom BY // Web Basic",
+                "mcc": "257",
+                "mnc": "01",
+                "apn": "web1.velcom.by",
+                "proxy": "",
+                "port": "",
+                "user": "web1",
+                "password": "web1",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Velcom BY // Web 25",
+                "mcc": "257",
+                "mnc": "01",
+                "apn": "web2.velcom.by",
+                "proxy": "",
+                "port": "",
+                "user": "web2",
+                "password": "web2",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Velcom BY // Web 250",
+                "mcc": "257",
+                "mnc": "01",
+                "apn": "web3.velcom.by",
+                "proxy": "",
+                "port": "",
+                "user": "web3",
+                "password": "web3",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "MTS BY",
                 "mcc": "257",
                 "mnc": "02",
                 "apn": "mts",
+                "proxy": "",
+                "port": "",
                 "user": "mts",
                 "password": "mts",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
@@ -82,6 +106,8 @@
                 "mcc": "257",
                 "mnc": "02",
                 "apn": "mts",
+                "proxy": "",
+                "port": "",
                 "user": "mts",
                 "password": "mts",
                 "mmsc": "http://mmsc",
@@ -90,14 +116,49 @@
                 "type": "mms"
             },
             {
-                "carrier": "Life Internet",
+                "carrier": "life Internet",
+                "mcc": "257",
+                "mnc": "04",
+                "apn": "internet.life.com.by",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "life MMS",
                 "mcc": "257",
                 "mnc": "04",
                 "apn": "mms.life.com.by",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.10.10.20",
+                "mmsport": "8080",
+                "mmsc": "http://mms.life.com.by/mmsc",
+                "type": "mms"
+            },
+            {
+                "carrier": "Life:) // Internet",
+                "mcc": "257",
+                "mnc": "04",
+                "apn": "mms.life.com.by",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Life:) // MMS",
+                "mcc": "257",
+                "mnc": "04",
+                "apn": "mms.life.com.by",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
                 "mmsc": "http://mms.life.com.by/mmsc/",
                 "mmsproxy": "10.10.10.20",
                 "mmsport": "8080",
-                "type": "default,supl"
+                "type": "mms"
             }
         ]
     }

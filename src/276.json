@@ -3,10 +3,39 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "AMC",
+                "mcc": "276",
+                "mnc": "01",
+                "apn": "internet.amc",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "AMC MMS",
+                "mcc": "276",
+                "mnc": "01",
+                "apn": "mms",
+                "mmsc": "http://195.167.65.220:8002",
+                "mmsproxy": "10.10.10.20",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone AL",
+                "mcc": "276",
+                "mnc": "02",
+                "apn": "vodafoneweb",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Vodafone AL",
                 "mcc": "276",
                 "mnc": "02",
                 "apn": "Twa",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
@@ -14,10 +43,38 @@
                 "mcc": "276",
                 "mnc": "02",
                 "apn": "vfalmms",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
                 "mmsc": "http://mmsc.vodafone.al",
                 "mmsproxy": "10.0.9.2",
                 "mmsport": "8080",
                 "type": "mms"
+            },
+            {
+                "carrier": "Eagle Mobile",
+                "mcc": "276",
+                "mnc": "03",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Eagle Mobile MMS",
+                "mcc": "276",
+                "mnc": "03",
+                "apn": "mms",
+                "mmsc": "http://192.168.140.164:38090",
+                "mmsproxy": "192.168.141.25",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Plus",
+                "mcc": "276",
+                "mnc": "04",
+                "apn": "plusweb",
+                "type": "default,supl"
             }
         ]
     }

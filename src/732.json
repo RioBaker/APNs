@@ -3,27 +3,50 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "WEB Comcel 3GSM",
+                "carrier": "Web Comcel 3GSM",
                 "mcc": "732",
                 "mnc": "101",
                 "apn": "internet.comcel.com.co",
                 "user": "COMCELWEB",
                 "password": "COMCELWEB",
                 "authtype": "1",
-                "type": "default,supl,dun"
+                "type": "default,supl"
             },
             {
-                "carrier": "MMS Comcel 3GSM",
+                "carrier": "MMS COMCEL 3GSM",
                 "mcc": "732",
                 "mnc": "101",
-                "apn": "mms.comcel.com.co",
+                "apn": "mms.comcel.com.co ",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "198.228.90.228",
+                "mmsport": "8799",
+                "mmsc": "http://mms.movistar.com.co",
                 "user": "COMCELMMS",
                 "password": "COMCELMMS",
-                "mmsproxy": "198.228.90.225",
-                "mmsport": "8799",
-                "mmsc": "http://www.comcel.com.co/mms/",
                 "authtype": "1",
                 "type": "mms"
+            },
+            {
+                "carrier": "Movistar CO",
+                "mcc": "732",
+                "mnc": "102",
+                "apn": "internet.movistar.com.co",
+                "user": "movistar",
+                "password": "movistar",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Movistar CO",
+                "mcc": "732",
+                "mnc": "102",
+                "apn": "internet.movistar.com.co",
+                "proxy": "",
+                "port": "",
+                "user": "movistar",
+                "password": "movistar",
+                "mmsc": "",
+                "type": "default,supl"
             },
             {
                 "carrier": "TIGO WEB",
@@ -32,7 +55,6 @@
                 "apn": "web.colombiamovil.com.co",
                 "user": "",
                 "password": "",
-                "authtype": "1",
                 "type": "default,supl,dun"
             },
             {
@@ -55,7 +77,6 @@
                 "apn": "web.colombiamovil.com.co",
                 "user": "",
                 "password": "",
-                "authtype": "1",
                 "type": "default,supl,dun"
             },
             {
@@ -72,27 +93,56 @@
                 "type": "mms"
             },
             {
-                "carrier": "movistar INTERNET",
+                "carrier": "OLA",
+                "mcc": "732",
+                "mnc": "111",
+                "apn": "internet",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "OLA MMS",
+                "mcc": "732",
+                "mnc": "111",
+                "apn": "mms.comcel.com.co",
+                "mmsc": "http://mms.ola.com.co",
+                "mmsproxy": "200.058.228.081",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "Movistar INTERNET",
                 "mcc": "732",
                 "mnc": "123",
                 "apn": "internet.movistar.com.co",
                 "user": "movistar",
                 "password": "movistar",
                 "authtype": "1",
-                "type": "default,supl,dun"
+                "type": "default,supl"
             },
             {
-                "carrier": "movistar MMS",
+                "carrier": "Movistar MMS",
                 "mcc": "732",
                 "mnc": "123",
                 "apn": "mms.movistar.com.co",
-                "user": "movistar",
-                "password": "movistar",
+                "proxy": "",
+                "port": "",
                 "mmsproxy": "192.168.222.7",
                 "mmsport": "9001",
                 "mmsc": "http://mms.movistar.com.co",
+                "user": "movistar",
+                "password": "movistar",
                 "authtype": "1",
                 "type": "mms"
+            },
+            {
+                "carrier": "ETB 4G",
+                "mcc": "732",
+                "mnc": "187",
+                "apn": "internetmovil.etb.net.co",
+                "authtype": "0",
+                "type": "default,supl"
             }
         ]
     }

@@ -3,6 +3,29 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "OWORLD",
+                "mcc": "612",
+                "mnc": "03",
+                "apn": "orangeciwap",
+                "proxy": "172.20.4.33",
+                "port": "8080",
+                "user": "wap",
+                "password": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Omms",
+                "mcc": "612",
+                "mnc": "03",
+                "apn": "orangecimms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://172.20.6.1/servlets/mms",
+                "mmsproxy": "172.20.4.33",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
                 "carrier": "Omms CI",
                 "mcc": "612",
                 "mnc": "03",
@@ -23,7 +46,25 @@
                 "password": "wap",
                 "proxy": "172.20.4.33",
                 "port": "8080",
-                "type": "default"
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTN CI MMS",
+                "mcc": "612",
+                "mnc": "05",
+                "apn": "mms.mtn.ci",
+                "mmsc": "http://mms.mtn.ci/mms/wapenc",
+                "mmsproxy": "172.16.100.5",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTN CI",
+                "mcc": "612",
+                "mnc": "05",
+                "apn": "web.mtn.ci",
+                "server": "*",
+                "type": "default,supl"
             }
         ]
     }

@@ -3,10 +3,39 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "T-Mobile HR",
+                "mcc": "219",
+                "mnc": "01",
+                "apn": "web.htgprs",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TM HR WAP",
+                "apn": "www.htgprs.hr",
+                "proxy": "10.12.0.3",
+                "port": "8080",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "mcc": "219",
+                "mnc": "01",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "T-Mobile HR MMS",
                 "mcc": "219",
                 "mnc": "01",
                 "apn": "mms.htgprs",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
                 "mmsc": "http://mms.t-mobile.hr/servlets/mms",
                 "mmsproxy": "10.12.0.4",
                 "mmsport": "8080",
@@ -16,30 +45,39 @@
                 "carrier": "T-Mobile HR",
                 "mcc": "219",
                 "mnc": "01",
-                "apn": "web.htgprs",
+                "apn": "internet.ht.hr",
                 "type": "default,supl"
             },
             {
                 "carrier": "Tele2 HR",
                 "mcc": "219",
                 "mnc": "02",
-                "apn": "internet.tele2.hr",
+                "apn": "wap.tele2.hr",
                 "mmsc": "http://mmsc.tele2.hr",
                 "mmsproxy": "193.12.40.66",
                 "mmsport": "8080",
                 "type": "default,supl,mms"
             },
             {
-                "carrier": "VIPnet MMS",
+                "carrier": "Tele2 HR",
+                "mcc": "219",
+                "mnc": "02",
+                "apn": "wap.tele2.hr",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mmsc.tele2.hr",
+                "mmsproxy": "193.12.40.66",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "VIPnet",
                 "mcc": "219",
                 "mnc": "10",
-                "apn": "mms.vipnet.hr",
-                "user": "38591",
-                "password": "38591",
-                "mmsc": "http://mms.vipnet.hr/servlets/mms",
-                "mmsproxy": "212.91.99.91",
-                "mmsport": "8080",
-                "type": "mms"
+                "apn": "gprs0.vipnet.hr",
+                "type": "default,supl"
             },
             {
                 "carrier": "VIPnet",
@@ -48,8 +86,18 @@
                 "apn": "data.vip.hr",
                 "user": "38591",
                 "password": "38591",
-                "proxy": "219.91.99.91",
+                "server": "219.91.99.91",
                 "type": "default,supl"
+            },
+            {
+                "carrier": "VIPnet MMS",
+                "mcc": "219",
+                "mnc": "10",
+                "apn": "mms.vipnet.hr",
+                "mmsc": "http://mms.vipnet.hr/servlets/mms",
+                "mmsproxy": "212.91.99.91",
+                "mmsport": "8080",
+                "type": "mms"
             }
         ]
     }

@@ -1,0 +1,94 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Qtel gprs",
+                "mcc": "427",
+                "mnc": "01",
+                "apn": "gprs.qtel",
+                "proxy": "10.23.8.3",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Qtel mms",
+                "apn": "mms.qtel",
+                "mmsc": "http://mmsr.qtelmms.qa",
+                "mmsproxy": "10.23.8.3",
+                "mmsport": "8080",
+                "mcc": "427",
+                "mnc": "01",
+                "type": "mms"
+            },
+            {
+                "carrier": "Q-tel MMS",
+                "mcc": "427",
+                "mnc": "01",
+                "apn": "mms.qtel",
+                "user": "mms",
+                "password": "gprs",
+                "mmsc": "http://mmsr.qtelmma.qa",
+                "mmsproxy": "10.23.8.3",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "Q-tel",
+                "mcc": "427",
+                "mnc": "01",
+                "apn": "web.qtel",
+                "user": "gprs",
+                "password": "gprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "VFQ MMS",
+                "mcc": "427",
+                "mnc": "02",
+                "apn": "vodafone.com.qa",
+                "proxy": "10.101.97.102",
+                "port": "80",
+                "mmsc": "http://mms.vodafone.com.qa/mmsc",
+                "mmsproxy": "10.101.97.102",
+                "mmsport": "80",
+                "authtype": "1",
+                "type": "*"
+            },
+            {
+                "carrier": "VFQ Internet",
+                "mcc": "427",
+                "mnc": "02",
+                "apn": "web.vodafone.com.qa",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "WAP",
+                "mcc": "427",
+                "mnc": "02",
+                "apn": "vodafone.com.qa",
+                "proxy": "10.101.97.102",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone QA MMS",
+                "mcc": "427",
+                "mnc": "02",
+                "apn": "vodafone.com.qa",
+                "mmsc": "http://mms.vodafone.com.qa/mmsc",
+                "mmsproxy": "10.101.97.102",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone QA",
+                "mcc": "427",
+                "mnc": "02",
+                "apn": "web.vodafone.com.qa",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

@@ -3,24 +3,19 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "ZAIN MMS",
-                "mcc": "419",
-                "mnc": "02",
-                "apn": "pps",
-                "user": "annyway",
-                "password": "online",
-                "mmsc": "http://mms.zain",
-                "mmsproxy": "176.0.0.65",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "ZAIN MI",
+                "carrier": "MI",
                 "mcc": "419",
                 "mnc": "02",
                 "apn": "pps",
                 "user": "pps",
                 "password": "pps",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTC Vodafone KW",
+                "mcc": "419",
+                "mnc": "02",
+                "apn": "apn01",
                 "type": "default,supl"
             },
             {
@@ -36,36 +31,47 @@
                 "type": "mms"
             },
             {
-                "carrier": "MTC Vodafone KW",
+                "carrier": "Zain KW",
                 "mcc": "419",
                 "mnc": "02",
-                "apn": "apn01",
+                "apn": "pps",
+                "user": "pps",
+                "password": "pps",
                 "type": "default,supl"
             },
             {
-                "carrier": "Wataniya MMS",
+                "carrier": "Zain KW MMS",
                 "mcc": "419",
-                "mnc": "03",
-                "apn": "mms.wataniya.com",
-                "mmsc": "http://action.wataniya.com",
-                "mmsproxy": "194.126.53.64",
+                "mnc": "02",
+                "apn": "pps",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.zain",
+                "mmsproxy": "176.0.0.65",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Wataniya",
+                "carrier": "Wataniya Internet",
+                "mcc": "419",
+                "mnc": "03",
+                "apn": "action.wataniya.com",
+                "type": "*"
+            },
+            {
+                "carrier": "wataniya",
                 "mcc": "419",
                 "mnc": "03",
                 "apn": "action.wataniya.com",
                 "type": "default,supl"
             },
             {
-                "carrier": "Viva KW MMS",
+                "carrier": "wataniya MMS",
                 "mcc": "419",
-                "mnc": "04",
-                "apn": "viva",
-                "mmsc": "http://172.16.128.80:38090/was",
-                "mmsproxy": "172.16.128.228",
+                "mnc": "03",
+                "apn": "mms.wataniya.com",
+                "mmsc": "http://action.wataniya.com",
+                "mmsproxy": "194.126.053.064",
                 "mmsport": "8080",
                 "type": "mms"
             },
@@ -77,10 +83,10 @@
                 "type": "default,supl"
             },
             {
-                "carrier": "VIVA MMS",
+                "carrier": "Viva KW MMS",
                 "mcc": "419",
                 "mnc": "04",
-                "apn": "VIVA",
+                "apn": "viva",
                 "mmsc": "http://172.16.128.80:38090/was",
                 "mmsproxy": "172.16.128.228",
                 "mmsport": "8080",

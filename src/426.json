@@ -3,41 +3,89 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Batelco BH Internet",
+                "carrier": "Internet",
                 "mcc": "426",
                 "mnc": "01",
                 "apn": "internet.batelco.com",
                 "type": "default,supl"
             },
             {
-                "carrier": "Batelco BH MMS",
+                "carrier": "batelco WAP",
+                "mcc": "426",
+                "mnc": "01",
+                "apn": "wap.batelco.com",
+                "proxy": "192.168.1.2",
+                "port": "80",
+                "user": "wap",
+                "password": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "batelco MMS",
                 "mcc": "426",
                 "mnc": "01",
                 "apn": "mms.batelco.com",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "192.168.1.2",
+                "mmsport": "80",
+                "mmsc": "http://192.168.36.10/servlets/mms",
+                "type": "mms"
+            },
+            {
+                "carrier": "BATELCO BH",
+                "mcc": "426",
+                "mnc": "01",
+                "apn": "internet.batelco.com",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BATELCO BH MMS",
+                "mcc": "426",
+                "mnc": "01",
+                "apn": "mms.batelco.com",
+                "user": "wap",
+                "password": "wap",
                 "mmsc": "http://192.168.36.10/servlets/mms",
                 "mmsproxy": "192.168.1.2",
                 "mmsport": "80",
                 "type": "mms"
             },
             {
-                "carrier": "Zain Internet",
+                "carrier": "Zain Wap",
                 "mcc": "426",
                 "mnc": "02",
-                "apn": "connect.mobilinkworld.com",
-                "user": "Mobilink",
-                "password": "Mobilink",
+                "apn": "wap",
+                "proxy": "172.18.85.34",
+                "port": "8080",
+                "mmsc": "",
+                "user": "wap",
+                "password": "wap",
                 "type": "default,supl"
             },
             {
-                "carrier": "MTC Vodafone BH MMS",
+                "carrier": "Zain Internet",
+                "mcc": "426",
+                "mnc": "02",
+                "apn": "internet",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Zain MMS",
                 "mcc": "426",
                 "mnc": "02",
                 "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "172.18.85.34",
+                "mmsport": "8080",
+                "mmsc": "http:// 172.18.83.129",
                 "user": "mms",
                 "password": "mms",
-                "mmsc": "http://172.18.83.129",
-                "mmsproxy": "172.18.85.34",
-                "mmsport": "80",
                 "type": "mms"
             },
             {
@@ -50,14 +98,59 @@
                 "type": "default,supl"
             },
             {
-                "carrier": "VIVA BH",
+                "carrier": "MTC Vodafone BH MMS",
+                "mcc": "426",
+                "mnc": "02",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://172.18.83.129",
+                "mmsproxy": "172.18.85.34",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "VIVA GPRS",
                 "mcc": "426",
                 "mnc": "04",
                 "apn": "viva.bh",
                 "type": "default,supl"
             },
             {
-                "carrier": "VIVA BH MMS",
+                "carrier": "VIVA WAP",
+                "mcc": "426",
+                "mnc": "04",
+                "apn": "vivawap.bh",
+                "proxy": "172.18.142.36",
+                "port": "8080",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "VIVA MMS",
+                "mcc": "426",
+                "mnc": "04",
+                "apn": "vivawap.bh",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "172.18.142.36",
+                "mmsport": "8080",
+                "mmsc": "http://mms.viva.com.bh:38090 ",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Viva BH",
+                "mcc": "426",
+                "mnc": "04",
+                "apn": "viva.bh",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Viva BH MMS",
                 "mcc": "426",
                 "mnc": "04",
                 "apn": "vivawap.bh",

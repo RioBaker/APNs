@@ -3,10 +3,42 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Telstra Internet",
+                "mcc": "505",
+                "mnc": "01",
+                "apn": "telstra.wap",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telstra Broadband",
+                "mcc": "505",
+                "mnc": "01",
+                "apn": "telstra.internet",
+                "user": "",
+                "password": "",
+                "type": "dun"
+            },
+            {
                 "carrier": "Telstra MMS",
                 "mcc": "505",
                 "mnc": "01",
                 "apn": "telstra.mms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.1.1.180",
+                "mmsport": "80",
+                "mmsc": "http://mmsc.telstra.com:8002",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telstra MMS",
+                "mcc": "505",
+                "mnc": "01",
+                "apn": "Telstra.mms",
                 "mmsc": "http://mmsc.telstra.com:8002",
                 "mmsproxy": "10.1.1.180",
                 "mmsport": "80",
@@ -16,14 +48,72 @@
                 "carrier": "Telstra Internet",
                 "mcc": "505",
                 "mnc": "01",
-                "apn": "telstra.wap",
+                "apn": "Telstra.wap",
                 "type": "default,supl"
             },
             {
-                "carrier": "Optus Yes Internet",
+                "carrier": "Telstra w/ Portal",
+                "mcc": "505",
+                "mnc": "01",
+                "apn": "telstra.internet",
+                "proxy": "10.1.1.181",
+                "port": "80",
+                "mmsc": "http://mmsc.telstra.com:8002",
+                "mmsproxy": "10.1.1.181",
+                "mmsport": "80",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Telstra 3G Pay by Time",
+                "mcc": "505",
+                "mnc": "01",
+                "apn": "telstra.pcpack",
+                "password": "telstra",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Optus Preconnect",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "preconnect",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Optus Yesinternet",
                 "mcc": "505",
                 "mnc": "02",
                 "apn": "yesinternet",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Optus ConnectCap",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "connectcap",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Optus Connect",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "connect",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Optus Business Mobile Broadband",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "yesbusiness",
+                "user": "",
+                "password": "",
                 "type": "default,supl"
             },
             {
@@ -31,23 +121,170 @@
                 "mcc": "505",
                 "mnc": "02",
                 "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "61.88.190.10",
+                "mmsport": "8070",
+                "mmsc": "http://mmsc.optus.com.au:8002/",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Optus Streaming",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "yesinternet",
+                "proxy": "172.22.1.3",
+                "port": "554",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Exetel",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "exetel1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Optus",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Optus MMS",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "mms",
+                "user": "*",
+                "password": "*",
+                "server": "*",
+                "proxy": "202.139.83.152",
+                "port": "8070",
                 "mmsc": "http://mmsc.optus.com.au:8002/",
                 "mmsproxy": "61.88.190.10",
                 "mmsport": "8070",
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone live!",
+                "carrier": "Virgin AU",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "virgininternet",
+                "user": "*",
+                "password": "*",
+                "server": "*",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Virgin AU MMS",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "virginmms",
+                "user": "*",
+                "password": "*",
+                "server": "*",
+                "proxy": "202.139.083.152",
+                "port": "8070",
+                "mmsc": "http://mms.virginvibe.com.au:8002/",
+                "mmsproxy": "202.139.083.152",
+                "mmsport": "8070",
+                "type": "mms"
+            },
+            {
+                "carrier": "Optus Internet",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "yesinternet",
+                "user": "*",
+                "password": "*",
+                "server": "*",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Apex Telecom",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "splns357",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Boost MMS",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "mms",
+                "user": "",
+                "password": "",
+                "proxy": "61.88.190.10",
+                "port": "8070",
+                "mmsc": "http://mmsc.optus.com.au:8002/",
+                "mmsproxy": "61.88.190.10",
+                "mmsport": "8070",
+                "type": "mms",
+                "authtype": "3"
+            },
+            {
+                "carrier": "Boost Mobile",
+                "mcc": "505",
+                "mnc": "02",
+                "apn": "yesinternet",
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": "",
+                "mmsc": "",
+                "type": "default,supl",
+                "authtype": "3"
+            },
+            {
+                "carrier": "Vodafone Live!",
                 "mcc": "505",
                 "mnc": "03",
                 "apn": "live.vodafone.com",
+                "proxy": "10.202.2.60",
+                "port": "8080",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone PXT",
+                "mcc": "505",
+                "mnc": "03",
+                "apn": "live.vodafone.com",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.202.2.60",
+                "mmsport": "8080",
+                "mmsc": "http://pxt.vodafone.net.au/pxtsend",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone AU",
+                "mcc": "505",
+                "mnc": "03",
+                "apn": "live.vodafone.com",
+                "user": "*",
+                "password": "*",
+                "server": "*",
                 "mmsc": "http://pxt.vodafone.net.au/pxtsend",
                 "mmsproxy": "10.202.2.60",
                 "mmsport": "8080",
-                "type": "default,supl,mms"
+                "type": "mms,default,supl"
             },
             {
-                "carrier": "Planet 3",
+                "carrier": "3 AU",
                 "mcc": "505",
                 "mnc": "06",
                 "apn": "3services",
@@ -108,6 +345,15 @@
                 "type": "default,supl,mms"
             },
             {
+                "carrier": "Lycamobile AU",
+                "mcc": "505",
+                "mnc": "19",
+                "apn": "data.lycamobile.com.au",
+                "user": "lmau",
+                "password": "plus",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Telstra MMS",
                 "mcc": "505",
                 "mnc": "71",
@@ -139,6 +385,18 @@
                 "mcc": "505",
                 "mnc": "72",
                 "apn": "Telstra.wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telstra Internet",
+                "mcc": "505",
+                "mnc": "72",
+                "apn": "Telstra.wap",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {

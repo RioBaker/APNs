@@ -3,22 +3,77 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Orange IMO",
+                "mcc": "259",
+                "mnc": "01",
+                "apn": "wap.orange.md",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://wap.orange.md/",
+                "mmsproxy": "9201",
+                "mmsport": "8799",
+                "type": "*"
+            },
+            {
                 "carrier": "Orange MMS",
+                "mcc": "259",
+                "mnc": "01",
                 "apn": "mms.orange.md",
                 "mmsc": "http://mms/mms",
                 "mmsproxy": "192.168.127.125",
                 "mmsport": "3128",
-                "mcc": "259",
-                "mnc": "01",
                 "type": "mms"
             },
             {
                 "carrier": "Orange IMO",
+                "mcc": "259",
+                "mnc": "01",
                 "apn": "wap.orange.md",
                 "proxy": "192.168.127.124",
                 "mmsport": "3128",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MD MOLDCELL",
                 "mcc": "259",
-                "mnc": "01",
+                "mnc": "02",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MD MOLDCELL",
+                "mcc": "259",
+                "mnc": "02",
+                "apn": "mms",
+                "mmsproxy": "10.0.10.10",
+                "mmsport": "9401",
+                "mmsc": "http://mms.moldcell.md/cmmsc/post",
+                "type": "mms"
+            },
+            {
+                "carrier": "Unite Internet PrePay",
+                "mcc": "259",
+                "mnc": "05",
+                "apn": "internet3g.unite.md",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Unite Internet PostPay",
+                "mcc": "259",
+                "mnc": "05",
+                "apn": "internet.unite.md",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Unite MMS",
+                "mcc": "259",
+                "mnc": "05",
+                "apn": "mms.unite.md",
+                "mmsc": "http://10.32.15.68:38090/was",
+                "mmsproxy": "10.32.15.164",
+                "mmsport": "8080",
                 "type": "mms"
             }
         ]

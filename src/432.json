@@ -1,0 +1,45 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "MCI-GPRS",
+                "mcc": "432",
+                "mnc": "11",
+                "apn": "mcinet",
+                "proxy": "192.168.194.73",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MCI-MMS",
+                "mcc": "432",
+                "mnc": "11",
+                "apn": "mcinet",
+                "mmsproxy": "192.168.193.134",
+                "mmsport": "38090",
+                "mmsc": "http://mci.ir",
+                "type": "mms"
+            },
+            {
+                "carrier": "Irancell-GPRS",
+                "mcc": "432",
+                "mnc": "35",
+                "apn": "mtnirancell",
+                "proxy": "10.131.26.138",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Irancell-MMS",
+                "mcc": "432",
+                "mnc": "35",
+                "apn": "mtnirancell",
+                "mmsproxy": "10.131.26.138",
+                "mmsport": "8080",
+                "mmsc": "http://mms:8002",
+                "type": "mms"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "MTN",
+                "mcc": "653",
+                "mnc": "10",
+                "apn": "mymtn.co.sz",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "authtype": "1",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

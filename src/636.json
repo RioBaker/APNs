@@ -1,0 +1,16 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "MTN",
+                "mcc": "636",
+                "mnc": "01",
+                "apn": "etc.com",
+                "user": "etc",
+                "password": "etc",
+                "type": "*"
+            }
+        ]
+    }
+}

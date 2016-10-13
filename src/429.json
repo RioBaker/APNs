@@ -1,0 +1,120 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "GPRS APN",
+                "mcc": "429",
+                "mnc": "01",
+                "apn": "ntwap",
+                "proxy": "192.80.7.133",
+                "port": "8000",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "WEB",
+                "mcc": "429",
+                "mnc": "01",
+                "apn": "ntnet",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "429",
+                "mnc": "01",
+                "apn": "ntmms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "192.80.7.133",
+                "mmsport": "8000",
+                "mmsc": "http://192.80.11.180",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Nepal Telecom Internet",
+                "mcc": "429",
+                "mnc": "01",
+                "apn": "ntnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Nepal Telecom MMS",
+                "mcc": "429",
+                "mnc": "01",
+                "apn": "ntmms",
+                "mmsc": "http://192.80.11.180",
+                "mmsproxy": "192.80.7.133",
+                "mmsport": "8000",
+                "type": "mms"
+            },
+            {
+                "carrier": "WEB",
+                "mcc": "429",
+                "mnc": "02",
+                "apn": "web",
+                "proxy": "192.168.19.15",
+                "port": "8080",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "429",
+                "mnc": "02",
+                "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "192.168.19.15",
+                "mmsport": "8080",
+                "mmsc": "http://192.168.19.15",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Nepal Telecom WAP",
+                "mcc": "429",
+                "mnc": "02",
+                "apn": "ntwap",
+                "proxy": "192.80.7.133",
+                "port": "8000",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Ncell Internet",
+                "mcc": "429",
+                "mnc": "02",
+                "apn": "web",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Ncell MMS",
+                "mcc": "429",
+                "mnc": "02",
+                "apn": "mms",
+                "mmsc": "http://192.168.19.15",
+                "mmsproxy": "192.168.19.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Ncell WAP",
+                "mcc": "429",
+                "mnc": "02",
+                "apn": "web",
+                "proxy": "192.168.19.15",
+                "port": "8080",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

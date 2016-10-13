@@ -3,17 +3,15 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "M-Tel WAP",
-                "mcc": "284",
-                "mnc": "01",
-                "apn": "wap-gprs.mtel.bg",
-                "type": "default"
-            },
-            {
                 "carrier": "M-Tel Internet",
                 "mcc": "284",
                 "mnc": "01",
                 "apn": "inet-gprs.mtel.bg",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
@@ -21,6 +19,8 @@
                 "mcc": "284",
                 "mnc": "01",
                 "apn": "mms-gprs.mtel.bg",
+                "proxy": "",
+                "port": "",
                 "user": "mtel",
                 "password": "mtel",
                 "mmsc": "http://mmsc/",
@@ -29,26 +29,50 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vivacom WAP",
+                "carrier": "VIVACOM Internet",
                 "mcc": "284",
                 "mnc": "03",
-                "apn": "wap.vivacom.bg",
-                "user": "wap",
-                "password": "wap",
-                "proxy": "192.168.123.123",
-                "port": "8080",
+                "apn": "internet.vivacom.bg",
+                "proxy": "",
+                "port": "",
+                "user": "VIVACOM",
+                "password": "VIVACOM",
+                "mmsc": "",
+                "authtype": "0",
                 "type": "default,supl"
             },
             {
-                "carrier": "Vivacom MMS",
+                "carrier": "VIVACOM MMS",
                 "mcc": "284",
                 "mnc": "03",
                 "apn": "mms.vivacom.bg",
+                "proxy": "",
+                "port": "",
                 "user": "mms",
                 "password": "mms",
                 "mmsc": "http://mmsc.vivacom.bg",
                 "mmsproxy": "192.168.123.123",
                 "mmsport": "8080",
+                "authtype": "0",
+                "type": "mms"
+            },
+            {
+                "carrier": "Telenor Internet",
+                "mcc": "284",
+                "mnc": "05",
+                "apn": "telenor",
+                "user": "telenor",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenor MMS",
+                "mcc": "284",
+                "mnc": "05",
+                "apn": "mms.telenor.bg",
+                "user": "mms",
+                "mmsc": "http://mmsc1.mms.telenor.bg:8002",
+                "mmsproxy": "192.168.87.11",
+                "mmsport": "8004",
                 "type": "mms"
             },
             {
@@ -56,6 +80,11 @@
                 "mcc": "284",
                 "mnc": "05",
                 "apn": "globul",
+                "proxy": "192.168.88.11",
+                "port": "8004",
+                "user": "globul",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
@@ -63,11 +92,21 @@
                 "mcc": "284",
                 "mnc": "05",
                 "apn": "mms.globul.bg",
+                "proxy": "",
+                "port": "",
                 "user": "mms",
+                "password": "",
                 "mmsc": "http://mmsc1.mms.globul.bg:8002",
                 "mmsproxy": "192.168.87.11",
                 "mmsport": "8004",
                 "type": "mms"
+            },
+            {
+                "carrier": "Bulsatcom",
+                "mcc": "284",
+                "mnc": "11",
+                "apn": "bulsat.com",
+                "type": "default,supl"
             }
         ]
     }

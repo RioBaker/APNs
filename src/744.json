@@ -3,25 +3,25 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "VOX INTERNET",
-                "mcc": "744",
-                "mnc": "01",
-                "apn": "vox.internet",
-                "authtype": "1",
-                "type": "default,supl,dun"
-            },
-            {
-                "carrier": "VOX MMS",
+                "carrier": "Vox MMS",
                 "mcc": "744",
                 "mnc": "01",
                 "apn": "vox.mms",
+                "mmsc": "http://mms.vox.com.py/mmsc",
                 "user": "vox",
                 "password": "vox",
-                "mmsproxy": "172.24.97.29",
-                "mmsport": "8080",
-                "mmsc": "http://mms.vox.com.py/mmsc",
-                "authtype": "1",
+                "proxy": "172.24.97.29",
+                "port": "8080",
                 "type": "mms"
+            },
+            {
+                "carrier": "Vox INTERNET",
+                "mcc": "744",
+                "mnc": "01",
+                "apn": "vox.internet",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
             },
             {
                 "carrier": "Claro PY",
@@ -31,7 +31,7 @@
                 "user": "ctigprs",
                 "password": "ctigprs999",
                 "authtype": "1",
-                "type": "default,supl,dun"
+                "type": "default,supl"
             },
             {
                 "carrier": "MMS GPRS PY",
@@ -47,24 +47,26 @@
                 "type": "mms"
             },
             {
-                "carrier": "TIGO PY",
+                "carrier": "INTERNET TIGO PY",
                 "mcc": "744",
                 "mnc": "04",
                 "apn": "internet.tigo.py",
-                "authtype": "1",
-                "type": "default,supl,dun"
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": "",
+                "type": "default,supl"
             },
             {
-                "carrier": "MMS Tigo",
+                "carrier": "MMS TIGO PY",
                 "mcc": "744",
                 "mnc": "04",
                 "apn": "mms.tigo.py",
-                "user": "tigo",
-                "password": "tigo",
+                "user": "",
+                "password": "",
                 "mmsproxy": "10.16.17.12",
                 "mmsport": "8888",
                 "mmsc": "http://mms",
-                "authtype": "1",
                 "type": "mms"
             },
             {
@@ -72,18 +74,18 @@
                 "mcc": "744",
                 "mnc": "05",
                 "apn": "internet",
-                "user": "personal",
-                "password": "personal",
+                "user": "",
+                "password": "",
                 "authtype": "1",
-                "type": "default,supl,dun"
+                "type": "default,supl"
             },
             {
                 "carrier": "Personal MMS Py",
                 "mcc": "744",
                 "mnc": "05",
                 "apn": "mms",
-                "user": "mms",
-                "password": "mms",
+                "user": "",
+                "password": "",
                 "mmsproxy": "172.16.192.7",
                 "mmsport": "8080",
                 "mmsc": "http://mms",

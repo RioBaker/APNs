@@ -3,21 +3,43 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Vodacom WAP",
+                "carrier": "Vodacom Internet",
                 "mcc": "640",
                 "mnc": "04",
-                "apn": "Wap",
-                "proxy": "10.154.0.8",
-                "port": "9401",
+                "apn": "internet",
+                "user": "",
+                "password": "",
                 "type": "default,supl"
             },
             {
                 "carrier": "Vodacom MMS",
                 "mcc": "640",
                 "mnc": "04",
-                "apn": "mms",
+                "apn": "MMS",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.154.0.8",
+                "mmsport": "9401",
                 "mmsc": "http://10.154.0.12/mms/",
+                "user": "",
+                "password": "",
                 "type": "mms"
+            },
+            {
+                "carrier": "Vodacom WAP",
+                "mcc": "640",
+                "mnc": "04",
+                "apn": "wap",
+                "proxy": "10.154.0.8",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Tanzania",
+                "mcc": "640",
+                "mnc": "05",
+                "apn": "internet",
+                "type": "default,supl"
             }
         ]
     }

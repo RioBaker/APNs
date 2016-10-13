@@ -3,6 +3,39 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "PrimeTel",
+                "mcc": "280",
+                "mnc": "01",
+                "apn": "ip.primetel",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cyta",
+                "mcc": "280",
+                "mnc": "01",
+                "apn": "cytamobile",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mmsc.cyta.com.cy",
+                "mmsproxy": "212.31.96.161",
+                "mmsport": "8080",
+                "type": "mms,default,supl"
+            },
+            {
+                "carrier": "Cytamobile",
+                "mcc": "280",
+                "mnc": "01",
+                "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Cytamobile MMS",
                 "mcc": "280",
                 "mnc": "01",
@@ -10,22 +43,29 @@
                 "user": "user",
                 "password": "pass",
                 "mmsc": "http://mmsc.cyta.com.cy",
-                "mmsproxy": "212.31.96.161",
-                "mmsport": "8080",
+                "mmsproxy": "212.031.096.161",
+                "mmsport": "9201",
                 "type": "mms"
             },
             {
-                "carrier": "Cytamobile",
+                "carrier": "MTN Mobile Broadband",
                 "mcc": "280",
-                "mnc": "01",
+                "mnc": "10",
                 "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
-                "carrier": "MTN CY MMS",
+                "carrier": "MTN MMS",
                 "mcc": "280",
                 "mnc": "10",
                 "apn": "mms",
+                "proxy": "",
+                "port": "",
                 "user": "mms",
                 "password": "mms",
                 "mmsc": "http://mms.mtn.com.cy/mmsc",
@@ -34,21 +74,15 @@
                 "type": "mms"
             },
             {
-                "carrier": "MTN Wap",
+                "carrier": "CallSat",
                 "mcc": "280",
-                "mnc": "10",
-                "apn": "wap",
-                "user": "wap",
-                "password": "wap",
-                "proxy": "172.24.97.3",
-                "port": "3130",
-                "type": "default"
-            },
-            {
-                "carrier": "MTN Internet",
-                "mcc": "280",
-                "mnc": "10",
+                "mnc": "20",
                 "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             }
         ]

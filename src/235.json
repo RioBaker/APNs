@@ -1,0 +1,23 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "OVIVO MMS",
+                "mcc": "235",
+                "mnc": "15",
+                "apn": "ovivomvno.com",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mms.gprsconnect.com/servlets/mms",
+                "mmsproxy": "212.183.137.12",
+                "mmsport": "8799",
+                "mvno_type": "spn",
+                "mvno_match_data": "Ovivo",
+                "type": "mms"
+            }
+        ]
+    }
+}

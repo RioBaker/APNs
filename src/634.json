@@ -1,0 +1,67 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Zain Internet",
+                "mcc": "634",
+                "mnc": "01",
+                "apn": "internet",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Zain MMS",
+                "mcc": "634",
+                "mnc": "01",
+                "apn": "MMS",
+                "mmsc": "http://mms.zain.sd",
+                "mmsproxy": "172.20.2.124",
+                "mmsport": "80",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTN",
+                "mcc": "634",
+                "mnc": "02",
+                "apn": "internet",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "634",
+                "mnc": "02",
+                "apn": "mms",
+                "mmsc": "http://mms.mtn.sd/mmsc",
+                "mmsproxy": "172.24.97.20",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Sudina ONE",
+                "apn": "sudaninet",
+                "user": "sudani",
+                "password": "sudani",
+                "mcc": "634",
+                "mnc": "07",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Sudani One MMS",
+                "mcc": "634",
+                "mnc": "07",
+                "apn": "sudanimms",
+                "user": "sudani",
+                "password": "sudani",
+                "mmsc": "http://10.50.182.30:38090/was",
+                "mmsproxy": "10.50.189.114",
+                "mmsport": "8080",
+                "authtype": "1",
+                "type": "mms"
+            }
+        ]
+    }
+}

@@ -3,26 +3,48 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "INTERNET CLARO",
+                "carrier": "LTE CLARO",
                 "mcc": "330",
-                "mnc": "11",
-                "apn": "internet.claropr.com",
-                "user": "",
-                "password": "",
+                "mnc": "110",
+                "apn": "lte.claropr.com",
                 "authtype": "1",
-                "type": "default,supl,dun"
+                "type": "default,supl"
             },
             {
                 "carrier": "MMS CLARO",
                 "mcc": "330",
-                "mnc": "11",
-                "apn": "mms.claropr.com",
-                "user": "",
-                "password": "",
+                "mnc": "110",
+                "apn": "mmslte.claropr.com",
+                "mmsc": "http://mmsg.claropr.com:10021/mmsc",
                 "mmsproxy": "10.50.38.3",
                 "mmsport": "8799",
-                "mmsc": "http://mmsg.claropr.com:10021/mmsc",
                 "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Claro PR",
+                "mcc": "330",
+                "mnc": "11",
+                "apn": "internet.claropr.com",
+                "proxy": "",
+                "port": "8080",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Claro PR MMS",
+                "mcc": "330",
+                "mnc": "11",
+                "apn": "mms.claropr.com",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mmsg.claropr.com:1021/mmsc",
+                "mmsproxy": "10.50.38.3",
+                "mmsport": "8799",
                 "type": "mms"
             }
         ]

@@ -1,0 +1,105 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Imédia",
+                "mcc": "604",
+                "mnc": "00",
+                "apn": "wap.meditel.ma",
+                "proxy": "10.8.8.8",
+                "port": "8080",
+                "user": "MEDIWAP",
+                "password": "MEDIWAP",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Meditel Internet",
+                "mcc": "604",
+                "mnc": "00",
+                "apn": "internet1.meditel.ma",
+                "user": "MEDINET",
+                "password": "MEDINET",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Meditel MMS",
+                "mcc": "604",
+                "mnc": "00",
+                "apn": "mms.meditel.ma",
+                "user": "MEDIMMS",
+                "password": "MEDIMMS",
+                "mmsc": "http://mms.meditel.ma:8088/mms",
+                "mmsproxy": "10.8.8.9",
+                "mmsport": "8080",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Mobile Zone",
+                "mcc": "604",
+                "mnc": "01",
+                "apn": "wap.iamgprs.ma",
+                "proxy": "212.217.54.133",
+                "port": "8080",
+                "mmsc": "",
+                "authtype": "1",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mobile Internet",
+                "mcc": "604",
+                "mnc": "01",
+                "apn": "www.iamgprs1.ma",
+                "authtype": "1",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS IAM",
+                "mcc": "604",
+                "mnc": "01",
+                "apn": "Mmsiam",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.16.35.50",
+                "mmsport": "8080",
+                "mmsc": "http://mms:8002/",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Mobile TV",
+                "mcc": "604",
+                "mnc": "01",
+                "apn": "wap.iamgprs.ma",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IAM",
+                "mcc": "604",
+                "mnc": "01",
+                "apn": "www.iamgprs1.ma",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IAM MMS",
+                "mcc": "604",
+                "mnc": "01",
+                "apn": "mmsiam",
+                "mmsc": "http://mms:8002",
+                "mmsproxy": "10.16.35.50",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
+            }
+        ]
+    }
+}

@@ -3,31 +3,27 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Beeline Internet",
+                "carrier": "BeeLine KZ",
                 "mcc": "401",
                 "mnc": "01",
                 "apn": "internet.beeline.kz",
-                "user": "@internet.beeline",
-                "password": "beeline",
+                "proxy": "",
+                "port": "",
+                "user": "internet.beeline",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
-                "carrier": "Beeline MMS",
-                "mcc": "401",
-                "mnc": "01",
-                "apn": "mms.beeline.kz",
-                "user": "@mms.beeline",
-                "password": "beeline",
-                "mmsc": "http://mms.beeline.kz/mms/wapenc",
-                "mmsproxy": "172.27.6.93",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Kcell Internet",
+                "carrier": "Kcell",
                 "mcc": "401",
                 "mnc": "02",
                 "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
@@ -35,27 +31,26 @@
                 "mcc": "401",
                 "mnc": "02",
                 "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
                 "mmsc": "http://mms.kcell.kz/post",
                 "mmsproxy": "195.47.255.7",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Tele2 Internet",
+                "carrier": "Kcell WAP",
                 "mcc": "401",
-                "mnc": "77",
-                "apn": "internet",
+                "mnc": "02",
+                "apn": "wap",
+                "proxy": "195.47.255.7",
+                "port": "8080",
+                "mmsc": "",
+                "user": "",
+                "password": "",
                 "type": "default,supl"
-            },
-            {
-                "carrier": "Tele2 MMS",
-                "mcc": "401",
-                "mnc": "77",
-                "apn": "mms",
-                "mmsc": "http://mms.neogsm.kz/mms/wapenc",
-                "mmsproxy": "10.1.26.10",
-                "mmsport": "8080",
-                "type": "mms"
             }
         ]
     }

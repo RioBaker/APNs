@@ -1,0 +1,66 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Mobilis",
+                "mcc": "603",
+                "mnc": "01",
+                "apn": "internet",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mobilis MMS",
+                "mcc": "603",
+                "mnc": "01",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://172.025.049.009/servlets/mms",
+                "mmsproxy": "172.25.49.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Djezzy",
+                "mcc": "603",
+                "mnc": "02",
+                "apn": "djezzy.internet",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Djezzy MMS",
+                "mcc": "603",
+                "mnc": "02",
+                "apn": "djezzy.mms",
+                "mmsc": "http://172.024.97.152:10021/mmsc",
+                "mmsproxy": "172.024.97.158",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Nedjma",
+                "mcc": "603",
+                "mnc": "03",
+                "apn": "internet",
+                "user": "nedjma",
+                "password": "nedjma",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Nedjma MMS",
+                "mcc": "603",
+                "mnc": "03",
+                "apn": "nedjmaMMS",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://10.10.111.1",
+                "mmsproxy": "192.168.52.3",
+                "mmsport": "9201",
+                "type": "mms"
+            }
+        ]
+    }
+}

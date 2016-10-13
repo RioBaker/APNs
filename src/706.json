@@ -3,49 +3,60 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "INTERNET CLARO",
+                "carrier": "Claro SV",
                 "mcc": "706",
                 "mnc": "01",
-                "apn": "internet.ideasclaro",
-                "user": "",
-                "password": "",
-                "authtype": "1",
-                "type": "default,supl,dun"
+                "apn": "internet.claro.sv",
+                "type": "default,supl"
             },
             {
-                "carrier": "MMS CLARO",
+                "carrier": "Claro SV MMS",
                 "mcc": "706",
                 "mnc": "01",
-                "apn": "mms.ideasclaro",
-                "user": "",
-                "password": "",
+                "apn": "mms.claro.sv",
+                "mmsc": "http://mms.claro.sv",
                 "mmsproxy": "216.230.133.66",
                 "mmsport": "8080",
-                "mmsc": "http://mms.ideasclaro.com:8002",
-                "authtype": "1",
                 "type": "mms"
             },
             {
-                "carrier": "Digicel LTE",
+                "carrier": "Digicel Web",
                 "mcc": "706",
                 "mnc": "02",
-                "apn": "wap",
+                "apn": "web",
                 "user": "",
                 "password": "",
-                "authtype": "1",
-                "type": "default,supl,dun"
+                "type": "default,supl"
             },
             {
                 "carrier": "Digicel MMS",
                 "mcc": "706",
                 "mnc": "02",
                 "apn": "wap",
-                "user": "",
-                "password": "",
+                "proxy": "",
+                "port": "",
                 "mmsproxy": "172.26.5.12",
                 "mmsport": "8080",
                 "mmsc": "http://mms.digicelgroup.com",
-                "authtype": "1",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel SV",
+                "mcc": "706",
+                "mnc": "02",
+                "apn": "wap.digicelsv.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Digicel SV MMS",
+                "mcc": "706",
+                "mnc": "02",
+                "apn": "wap.digicelsv.com",
+                "mmsc": "http://172.26.5.132/servlets/mms",
+                "mmsproxy": "172.26.5.12",
+                "mmsport": "8080",
                 "type": "mms"
             },
             {
@@ -55,8 +66,9 @@
                 "apn": "internet.tigo.sv",
                 "user": "",
                 "password": "",
-                "authtype": "1",
-                "type": "default,supl,dun"
+                "proxy": "",
+                "port": "",
+                "type": "default,supl"
             },
             {
                 "carrier": "MMS TIGO SV",
@@ -68,7 +80,43 @@
                 "mmsproxy": "10.16.17.12",
                 "mmsport": "8888",
                 "mmsc": "http://mms",
-                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "INTERNET TIGO SV",
+                "mcc": "706",
+                "mnc": "030",
+                "apn": "internet.tigo.sv",
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS TIGO SV",
+                "mcc": "706",
+                "mnc": "030",
+                "apn": "mms.tigo.sv",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.16.17.12",
+                "mmsport": "8888",
+                "mmsc": "http://mms",
+                "type": "mms"
+            },
+            {
+                "carrier": "Movistar MMS",
+                "mcc": "706",
+                "mnc": "04",
+                "apn": "mms.movistar.sv",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.12.20.1",
+                "mmsport": "80",
+                "mmsc": "http://mms.movistar.sv",
+                "user": "movistarsv",
+                "password": "movistarsv",
                 "type": "mms"
             },
             {
@@ -76,45 +124,51 @@
                 "mcc": "706",
                 "mnc": "04",
                 "apn": "internet.movistar.sv",
+                "proxy": "",
+                "port": "",
                 "user": "movistarsv",
                 "password": "movistarsv",
-                "authtype": "1",
-                "type": "default,supl,dun"
+                "mmsc": "",
+                "type": "default, supl"
             },
             {
                 "carrier": "Movistar SV MMS",
                 "mcc": "706",
                 "mnc": "04",
                 "apn": "mms.movistar.sv",
+                "proxy": "",
+                "port": "",
                 "user": "movistarsv",
                 "password": "movistarsv",
+                "mmsc": "http://mms.movistar.sv",
                 "mmsproxy": "10.12.20.1",
                 "mmsport": "80",
-                "mmsc": "http://mms.movistar.sv",
-                "authtype": "1",
                 "type": "mms"
             },
             {
                 "carrier": "Movistar SV",
                 "mcc": "706",
-                "mnc": "40",
+                "mnc": "040",
                 "apn": "internet.movistar.sv",
+                "proxy": "",
+                "port": "",
                 "user": "movistarsv",
                 "password": "movistarsv",
-                "authtype": "1",
-                "type": "default,supl,dun"
+                "mmsc": "",
+                "type": "default, supl"
             },
             {
                 "carrier": "Movistar SV MMS",
                 "mcc": "706",
-                "mnc": "40",
+                "mnc": "040",
                 "apn": "mms.movistar.sv",
+                "proxy": "",
+                "port": "",
                 "user": "movistarsv",
                 "password": "movistarsv",
+                "mmsc": "http://mms.movistar.sv",
                 "mmsproxy": "10.12.20.1",
                 "mmsport": "80",
-                "mmsc": "http://mms.movistar.sv",
-                "authtype": "1",
                 "type": "mms"
             }
         ]

@@ -1,0 +1,43 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Unitel Internet",
+                "mcc": "631",
+                "mnc": "02",
+                "apn": "internet.unitel.co.ao",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Unitel MMS",
+                "mcc": "631",
+                "mnc": "02",
+                "apn": "mms.unitel.co.ao",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.128.2.70",
+                "mmsport": "8080",
+                "mmsc": "http://10.128.4.10/wapenc",
+                "type": "mms"
+            },
+            {
+                "carrier": "Movicel Angola",
+                "mcc": "631",
+                "mnc": "04",
+                "apn": "internet.movicel.co.ao",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Movicel Angola MMS",
+                "mcc": "631",
+                "mnc": "04",
+                "apn": "mms.movicel.co.ao",
+                "mmsc": "http://10.33.14.180:8080",
+                "mmsproxy": "10.33.15.133",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

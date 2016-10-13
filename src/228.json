@@ -3,29 +3,63 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Swisscom MMS",
-                "mcc": "228",
-                "mnc": "01",
-                "apn": "event.swisscom.ch",
-                "mmsc": "http://mms.natel.ch:8079",
-                "mmsproxy": "192.168.210.2",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Swisscom Services",
+                "carrier": "Swisscom",
                 "mcc": "228",
                 "mnc": "01",
                 "apn": "gprs.swisscom.ch",
-                "proxy": "192.168.210.1",
-                "port": "8080",
+                "user": "",
+                "password": "",
+                "authtype": "3",
                 "type": "default,supl"
+            },
+            {
+                "carrier": "Swisscom-MMS",
+                "mcc": "228",
+                "mnc": "01",
+                "apn": "event.swisscom.ch",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "192.168.210.2",
+                "mmsport": "8080",
+                "mmsc": "http://mms.natel.ch:8079",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "mms"
+            },
+            {
+                "carrier": "RBM Internet",
+                "mcc": "228",
+                "mnc": "02",
+                "apn": "internet",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "A1 MMS",
+                "mcc": "228",
+                "mnc": "02",
+                "apn": "mms.sunrise.ch",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "212.35.34.75",
+                "mmsport": "8080",
+                "mmsc": "http://mmsc.sunrise.ch",
+                "user": "",
+                "password": "",
+                "type": "mms"
             },
             {
                 "carrier": "Sunrise Internet",
                 "mcc": "228",
                 "mnc": "02",
                 "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
@@ -33,20 +67,69 @@
                 "mcc": "228",
                 "mnc": "02",
                 "apn": "mms.sunrise.ch",
+                "proxy": "",
+                "port": "",
+                "user": "mms",
+                "password": "mms",
                 "mmsc": "http://mmsc.sunrise.ch",
                 "mmsproxy": "212.35.34.75",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Orange CH Internet",
+                "carrier": "Orange Internet",
+                "mcc": "228",
+                "mnc": "03",
+                "apn": "internet",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "mcc": "228",
+                "mnc": "03",
+                "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "192.168.151.2",
+                "mmsport": "8080",
+                "mmsc": "http://192.168.151.3:8002",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange prepay",
+                "mcc": "228",
+                "mnc": "03",
+                "apn": "click",
+                "proxy": "192.168.10.2",
+                "port": "8080",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange Internet",
                 "mcc": "228",
                 "mnc": "03",
                 "apn": "internet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Orange CH MMS",
+                "carrier": "Orange Prepaid CH",
+                "mcc": "228",
+                "mnc": "03",
+                "apn": "click",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
                 "mcc": "228",
                 "mnc": "03",
                 "apn": "mms",
@@ -56,10 +139,12 @@
                 "type": "mms"
             },
             {
-                "carrier": "Orange Prepaid CH",
+                "carrier": "Lycamobile CH",
                 "mcc": "228",
-                "mnc": "03",
-                "apn": "click",
+                "mnc": "54",
+                "apn": "data.lycamobile.ch",
+                "user": "lmch",
+                "password": "plus",
                 "type": "default,supl"
             }
         ]

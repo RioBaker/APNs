@@ -1,0 +1,14 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Africell Sierra Leone",
+                "mcc": "619",
+                "mnc": "03",
+                "apn": "africellnet",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

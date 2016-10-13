@@ -3,36 +3,49 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "LMT Internet",
+                "carrier": "LMT",
                 "mcc": "247",
                 "mnc": "01",
                 "apn": "internet.lmt.lv",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
                 "carrier": "LMT MMS",
                 "mcc": "247",
                 "mnc": "01",
-                "apn": "mms.lmt.lv",
+                "apn": "internet.lmt.lv",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
                 "mmsc": "http://mmsc.lmt.lv/mmsc",
                 "mmsproxy": "212.93.97.201",
-                "mmsport": "80",
+                "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Tele2 LV Internet",
+                "carrier": "Tele2 Internet LV",
                 "mcc": "247",
                 "mnc": "02",
                 "apn": "internet.tele2.lv",
                 "user": "wap",
                 "password": "wap",
+                "proxy": "",
+                "port": "",
                 "type": "default,supl"
             },
             {
-                "carrier": "Tele2 LV MMS",
+                "carrier": "Tele2 MMS LV",
                 "mcc": "247",
                 "mnc": "02",
                 "apn": "mms.tele2.lv",
+                "proxy": "",
+                "port": "",
                 "user": "wap",
                 "password": "wap",
                 "mmsc": "http://mmsc.tele2.lv/",
@@ -45,28 +58,26 @@
                 "mcc": "247",
                 "mnc": "05",
                 "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
-                "carrier": "Bite LV MMS",
+                "carrier": "Bite MMS",
                 "mcc": "247",
                 "mnc": "05",
                 "apn": "mms",
+                "proxy": "",
+                "port": "",
                 "user": "mms@mms",
-                "password": "mms",
+                "password": "",
                 "mmsc": "http://mmsc/servlets/mms",
                 "mmsproxy": "192.168.150.2",
                 "mmsport": "8080",
                 "type": "mms"
-            },
-            {
-                "carrier": "Bite LV WAP",
-                "mcc": "247",
-                "mnc": "05",
-                "apn": "wap",
-                "proxy": "213.226.131.133",
-                "port": "8080",
-                "type": "default,supl"
             }
         ]
     }

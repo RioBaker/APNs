@@ -1,0 +1,30 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Digicel Web",
+                "mcc": "549",
+                "mnc": "00",
+                "apn": "web.digicelsamoa.ws",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Digicel MMS",
+                "mcc": "549",
+                "mnc": "00",
+                "apn": "wap.digicelpacific.ws",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.148.122.12",
+                "mmsport": "8080",
+                "mmsc": "http://mms.digicelsamoa.net:8990",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            }
+        ]
+    }
+}

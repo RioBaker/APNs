@@ -3,76 +3,94 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "VIVA3G",
+                "carrier": "Viva Edge",
+                "mcc": "736",
+                "mnc": "01",
+                "apn": "edge.viva.net.do",
+                "user": "viva",
+                "password": "viva",
+                "mmsc": "http://wap.viva.net.do/WapDeck/",
+                "proxy": "192.168.016.010",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Viva MMS",
+                "mcc": "736",
+                "mnc": "01",
+                "apn": "mms.viva.net.do",
+                "user": "viva",
+                "password": "viva",
+                "mmsproxy": "192.168.016.010",
+                "mmsport": "9401",
+                "mmsc": "http://10.200.16.4/mms/wapenc",
+                "type": "mms"
+            },
+            {
+                "carrier": "Viva GPRS",
                 "mcc": "736",
                 "mnc": "01",
                 "apn": "internet.nuevatel.com",
-                "user": "",
-                "password": "",
-                "proxy": "192.168.101.004",
+                "proxy": "192.168.101.4",
                 "port": "3128",
-                "authtype": "1",
-                "type": "default,supl,dun"
+                "type": "default,supl"
             },
             {
-                "carrier": "VIVAMMS",
+                "carrier": "Viva MMS",
                 "mcc": "736",
                 "mnc": "01",
                 "apn": "mms.nuevatel.com",
-                "user": "",
-                "password": "",
-                "mmsproxy": "192.168.101.004",
-                "mmsport": "3128",
+                "server": "mmsgw.nuevatel.com:1981",
                 "mmsc": "http://mmsgw.nuevatel.com:1981",
-                "authtype": "1",
+                "mmsproxy": "192.168.101.4",
+                "mmsport": "3128",
                 "type": "mms"
             },
             {
-                "carrier": "ENTEL MMS GPRS",
+                "carrier": "ENTEL 4G",
+                "mcc": "736",
+                "mnc": "02",
+                "apn": "4g.entel",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ENTEL MMS",
                 "mcc": "736",
                 "mnc": "02",
                 "apn": "mms.movil.com.bo",
-                "user": "",
-                "password": "",
-                "mmsproxy": "172.27.7.10",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "127.27.7.10",
                 "mmsport": "8080",
                 "mmsc": "http://mms.movil.com.bo/servlets/mms",
-                "authtype": "1",
+                "user": "",
+                "password": "",
                 "type": "mms"
             },
             {
-                "carrier": "MMSTIGO",
+                "carrier": "INTERNET TIGO BO",
+                "mcc": "736",
+                "mnc": "03",
+                "apn": "internet.tigo.bo",
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": "",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS TIGO BO",
                 "mcc": "736",
                 "mnc": "03",
                 "apn": "mms.tigo.bo",
                 "user": "",
                 "password": "",
                 "mmsproxy": "172.25.100.8",
-                "mmsport": "8080",
+                "mmsport": "8888",
                 "mmsc": "http://mms",
-                "authtype": "1",
                 "type": "mms"
-            },
-            {
-                "carrier": "Tigo",
-                "mcc": "736",
-                "mnc": "03",
-                "apn": "internet.tigo.bo",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Entel",
-                "mcc": "736",
-                "mnc": "02",
-                "apn": "4g.entel",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Viva",
-                "mcc": "736",
-                "mnc": "01",
-                "apn": "3g.nuevatel.com",
-                "type": "default,supl"
             }
         ]
     }

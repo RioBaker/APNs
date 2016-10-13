@@ -9,6 +9,10 @@
                 "apn": "internet",
                 "proxy": "213.167.138.200",
                 "port": "8080",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "authtype": "3",
                 "type": "default,supl"
             },
             {
@@ -16,16 +20,38 @@
                 "mcc": "274",
                 "mnc": "01",
                 "apn": "mms.simi.is",
-                "mmsc": "http://mms.simi.is/servlets/mms",
+                "proxy": "",
+                "port": "",
                 "mmsproxy": "213.167.138.200",
                 "mmsport": "8080",
+                "mmsc": "http://mms.simi.is/servlets/mms",
+                "user": "",
+                "password": "",
+                "authtype": "3",
                 "type": "mms"
+            },
+            {
+                "carrier": "Siminn Internet",
+                "mcc": "274",
+                "mnc": "01",
+                "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
             },
             {
                 "carrier": "Vodafone Internet",
                 "mcc": "274",
                 "mnc": "02",
                 "apn": "gprs.is",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
@@ -33,6 +59,10 @@
                 "mcc": "274",
                 "mnc": "02",
                 "apn": "mms.gprs.is",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
                 "mmsc": "http://mmsc.vodafone.is",
                 "mmsproxy": "10.22.0.10",
                 "mmsport": "8080",
@@ -43,6 +73,10 @@
                 "mcc": "274",
                 "mnc": "11",
                 "apn": "mms.nova.is",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
                 "mmsc": "http://mmsc.nova.is",
                 "mmsproxy": "10.10.2.60",
                 "mmsport": "8080",
@@ -53,9 +87,22 @@
                 "mcc": "274",
                 "mnc": "11",
                 "apn": "net.nova.is",
-                "proxy": "10.10.2.60",
-                "port": "8080",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
                 "type": "default,supl"
+            },
+            {
+                "carrier": "Tal",
+                "mcc": "274",
+                "mnc": "12",
+                "apn": "internet.tal.is",
+                "mmsc": "http://mms.tal.is/servlets/mms",
+                "mmsproxy": "213.167.138.210",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
             }
         ]
     }

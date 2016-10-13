@@ -1,0 +1,27 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Vodacom CD",
+                "mcc": "630",
+                "mnc": "01",
+                "apn": "vodanet",
+                "user": "vodalive",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodacom CD",
+                "mcc": "630",
+                "mnc": "01",
+                "apn": "vodanet",
+                "proxy": "",
+                "port": "",
+                "user": "vodalive",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

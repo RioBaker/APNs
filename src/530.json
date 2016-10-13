@@ -3,9 +3,56 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "VFNZ PXT",
+                "carrier": "Vodafone NZ",
                 "mcc": "530",
                 "mnc": "01",
+                "apn": "www.vodafone.net.nz",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone NZ-MMS",
+                "mcc": "530",
+                "mnc": "01",
+                "apn": "live.vodafone.com",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "172.30.38.3",
+                "mmsport": "8080",
+                "mmsc": "http://pxt.vodafone.net.nz/pxtsend",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone NZ MMS",
+                "mcc": "530",
+                "mnc": "01",
+                "apn": "live.vodafone.com",
+                "mmsc": "http://pxt.vodafone.net.nz/pxtsend",
+                "mmsproxy": "172.030.038.003",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone NZ",
+                "mcc": "530",
+                "mnc": "01",
+                "apn": "www.vodafone.net.nz",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telecom NZ",
+                "mcc": "530",
+                "mnc": "02",
+                "apn": "internet.telecom.co.nz",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "VFNZ PXT",
+                "mcc": "530",
+                "mnc": "02",
                 "apn": "live.vodafone.com",
                 "mmsc": "http://pxt.vodafone.net.nz/pxtsend",
                 "mmsproxy": "172.30.38.3",
@@ -13,23 +60,73 @@
                 "type": "mms"
             },
             {
+                "carrier": "Telecom NZ MMS",
+                "mcc": "530",
+                "mnc": "02",
+                "apn": "wap.telecom.co.nz",
+                "mmsc": "http://lsmmsc.xtra.co.nz",
+                "mmsproxy": "210.55.11.73",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
                 "carrier": "VFNZ Internet",
                 "mcc": "530",
-                "mnc": "01",
+                "mnc": "02",
                 "apn": "www.vodafone.net.nz",
                 "type": "default,supl"
             },
             {
-                "carrier": "TelecomDefault",
+                "carrier": "Telecom NZ",
                 "mcc": "530",
-                "mnc": "02",
-                "apn": "wap.telecom.co.nz",
+                "mnc": "03",
+                "apn": "internet.telecom.co.nz",
                 "type": "default,supl"
             },
             {
-                "carrier": "Telecom MMS",
+                "carrier": "Telecom NZ MMS",
                 "mcc": "530",
-                "mnc": "02",
+                "mnc": "03",
+                "apn": "wap.telecom.co.nz",
+                "mmsc": "http://lsmmsc.xtra.co.nz",
+                "mmsproxy": "210.55.11.73",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "TelecomDefault",
+                "mcc": "530",
+                "mnc": "05",
+                "apn": "wap.telecom.co.nz",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "TelecomMMS",
+                "mcc": "530",
+                "mnc": "05",
+                "apn": "wap.telecom.co.nz",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "210.55.11.73",
+                "mmsport": "8080",
+                "mmsc": "http://lsmmsc.xtra.co.nz",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "XT Mobile",
+                "mcc": "530",
+                "mnc": "05",
+                "apn": "internet.telecom.co.nz",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "XT Mobile MMS",
+                "mcc": "530",
+                "mnc": "05",
                 "apn": "wap.telecom.co.nz",
                 "mmsc": "http://lsmmsc.xtra.co.nz",
                 "mmsproxy": "210.55.11.73",
@@ -52,6 +149,18 @@
                 "mmsproxy": "118.148.1.118",
                 "mmsport": "8080",
                 "type": "mms"
+            },
+            {
+                "carrier": "2 degrees mobile",
+                "mcc": "530",
+                "mnc": "24",
+                "apn": "2degrees",
+                "proxy": "118.148.1.118",
+                "port": "8080",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl,mms"
             }
         ]
     }

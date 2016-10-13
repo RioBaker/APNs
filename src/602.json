@@ -3,50 +3,48 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Mobinil MMS",
-                "mcc": "602",
-                "mnc": "01",
-                "apn": "mobinilmms",
-                "mmsc": "http://10.7.13.24:8002",
-                "mmsproxy": "http://62.241.155.45",
-                "mmsport": "8205",
-                "type": "mms"
-            },
-            {
-                "carrier": "Mobinil Internet",
+                "carrier": "Mobinil",
                 "mcc": "602",
                 "mnc": "01",
                 "apn": "mobinilweb",
-                "type": "default"
-            },
-            {
-                "carrier": "Mobinil Web",
-                "mcc": "602",
-                "mnc": "01",
-                "apn": "MobinilWeb",
+                "authtype": "2",
                 "type": "default,supl"
             },
             {
-                "carrier": "Mobinil MMS",
-                "mcc": "602",
-                "mnc": "01",
+                "carrier": "mobinilmms",
                 "apn": "mobinilmms",
                 "mmsc": "http://10.7.13.24:8002/",
                 "mmsproxy": "62.241.155.45",
                 "mmsport": "8080",
+                "mcc": "602",
+                "mnc": "01",
+                "authtype": "2",
                 "type": "mms"
             },
             {
-                "carrier": "VF internet",
+                "carrier": "Vodafone live!",
+                "mcc": "602",
+                "mnc": "02",
+                "apn": "wap.Vodafone.com.eg",
+                "user": "wap",
+                "password": "wap",
+                "proxy": "163.121.178.2",
+                "port": "8080",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone GPRS Internet",
                 "mcc": "602",
                 "mnc": "02",
                 "apn": "internet.vodafone.net",
                 "user": "internet",
                 "password": "internet",
+                "authtype": "3",
                 "type": "default,supl"
             },
             {
-                "carrier": "VF MMS",
+                "carrier": "Vodafone MMS",
                 "mcc": "602",
                 "mnc": "02",
                 "apn": "mms.vodafone.com.eg",
@@ -55,6 +53,49 @@
                 "mmsc": "http://mms.vodafone.com.eg/servlets/mms",
                 "mmsproxy": "163.121.178.2",
                 "mmsport": "8080",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone EG",
+                "mcc": "602",
+                "mnc": "02",
+                "apn": "internet.vodafone.net",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone EG MMS",
+                "mcc": "602",
+                "mnc": "02",
+                "apn": "mms.vodafone.com.eg",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.vodafone.com.eg/servlets/mms",
+                "mmsproxy": "163.121.178.002",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Etisalat WAP",
+                "apn": "etisalat",
+                "mmsc": "http://10.71.131.7:38090",
+                "mmsproxy": "10.71.130.29",
+                "mmsport": "8080",
+                "mcc": "602",
+                "mnc": "03",
+                "authtype": "1",
+                "type": "*"
+            },
+            {
+                "carrier": "Etisalat MMS",
+                "apn": "etisalat",
+                "mmsc": "http://10.71.131.7:38090",
+                "mmsproxy": "10.71.130.29",
+                "mmsport": "8080",
+                "mcc": "602",
+                "mnc": "03",
                 "type": "mms"
             },
             {
@@ -62,17 +103,22 @@
                 "mcc": "602",
                 "mnc": "03",
                 "apn": "Etisalat",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Etisalat MMS",
-                "mcc": "602",
-                "mnc": "03",
-                "apn": "Etisalat",
                 "mmsc": "http://10.71.131.7:38090",
                 "mmsproxy": "10.71.130.29",
                 "mmsport": "8080",
-                "type": "mms"
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone GPRS Internet",
+                "mcc": "602",
+                "mnc": "12",
+                "apn": "internet.vodafone.net",
+                "proxy": "",
+                "port": "",
+                "user": "internet",
+                "password": "internet",
+                "authtype": "2",
+                "type": "default,supl"
             }
         ]
     }

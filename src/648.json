@@ -1,0 +1,16 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Econet",
+                "mcc": "648",
+                "mnc": "04",
+                "apn": "econet.net",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

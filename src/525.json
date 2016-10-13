@@ -3,24 +3,95 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "IDEAS E-mail",
+                "carrier": "SingTel",
                 "mcc": "525",
                 "mnc": "01",
                 "apn": "e-ideas",
-                "mmsc": "http://mms.singtel.com:10021/mmsc",
-                "mmsproxy": "165.21.42.84",
-                "mmsport": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEAS",
+                "mcc": "525",
+                "mnc": "01",
+                "apn": "e-ideas",
                 "type": "default,supl,mms"
             },
             {
-                "carrier": "IDEAS E-mail",
+                "carrier": "IDEAS MMS",
                 "mcc": "525",
-                "mnc": "02",
+                "mnc": "01",
                 "apn": "e-ideas",
+                "user": "65IDEAS",
+                "password": "65ideas",
                 "mmsc": "http://mms.singtel.com:10021/mmsc",
                 "mmsproxy": "165.21.42.84",
                 "mmsport": "8080",
-                "type": "default,supl,mms"
+                "type": "mms"
+            },
+            {
+                "carrier": "SingTel",
+                "mcc": "525",
+                "mnc": "02",
+                "apn": "e-ideas",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SingTel MMS",
+                "mcc": "525",
+                "mnc": "02",
+                "apn": "e-ideas",
+                "user": "65IDEAS",
+                "password": "65ideas",
+                "mmsc": "http://mms.singtel.com:10021/mmsc",
+                "mmsproxy": "165.21.42.84",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "M1",
+                "mcc": "525",
+                "mnc": "03",
+                "apn": "sunsurf",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "M1 MMS",
+                "mcc": "525",
+                "mnc": "03",
+                "apn": "miworld",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "172.16.14.10",
+                "mmsport": "8080",
+                "mmsc": "http://mmsgw:8002",
+                "user": "65",
+                "password": "user123",
+                "type": "mms"
+            },
+            {
+                "carrier": "M1 MMS",
+                "mcc": "525",
+                "mnc": "03",
+                "apn": "Miworld",
+                "proxy": "172.16.1.23",
+                "port": "9201",
+                "mmsc": "http://mmsgw:8002",
+                "mmsproxy": "172.16.14.10",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "MiWorld WAP (GPRS)",
+                "mcc": "525",
+                "mnc": "03",
+                "apn": "miworld",
+                "user": "65",
+                "password": "user123",
+                "proxy": "172.16.1.23",
+                "port": "8081",
+                "type": "default,supl"
             },
             {
                 "carrier": "M1 MMS",
@@ -32,14 +103,21 @@
                 "mmsc": "http://mmsgw:8002",
                 "mmsproxy": "172.16.14.10",
                 "mmsport": "8080",
+                "authtype": "1",
                 "type": "mms"
             },
             {
-                "carrier": "M1 E-mail",
+                "carrier": "M1",
                 "mcc": "525",
                 "mnc": "03",
                 "apn": "sunsurf",
-                "user": "65",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Sunsurf Internet",
+                "mcc": "525",
+                "mnc": "03",
+                "apn": "sunsurf",
                 "type": "default,supl"
             },
             {
@@ -54,15 +132,13 @@
                 "mcc": "525",
                 "mnc": "05",
                 "apn": "shmms",
-                "user": "star",
-                "password": "hub",
-                "mmsc": "http://mms.starhubgee.com.sg:8002",
+                "mmsc": "http://mms.starhubgee.com.sg:8002/",
                 "mmsproxy": "10.12.1.80",
                 "mmsport": "80",
                 "type": "mms"
             },
             {
-                "carrier": "Gee!",
+                "carrier": "Gee! (GPRS)",
                 "mcc": "525",
                 "mnc": "05",
                 "apn": "shwap",
@@ -73,10 +149,10 @@
                 "type": "default,supl"
             },
             {
-                "carrier": "StarHub E-mail",
+                "carrier": "StarHub",
                 "mcc": "525",
                 "mnc": "05",
-                "apn": "shwap",
+                "apn": "shwapint",
                 "type": "default,supl"
             }
         ]

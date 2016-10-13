@@ -3,19 +3,43 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Vodafone",
+                "carrier": "Vodafone Net2",
                 "mcc": "268",
                 "mnc": "01",
                 "apn": "net2.vodafone.pt",
+                "proxy": "iproxy.vodafone.pt",
+                "port": "80",
+                "mmsproxy": "iproxy.vodafone.pt",
+                "mmsport": "80",
+                "mmsc": "http://mms.vodafone.pt/servlets/mms",
                 "user": "vodafone",
                 "password": "vodafone",
+                "authtype": "3",
+                "type": "default,mms"
+            },
+            {
+                "carrier": "Vodafone PT Internet",
+                "mcc": "268",
+                "mnc": "01",
+                "apn": "net2.vodafone.pt",
                 "proxy": "iproxy.vodafone.pt",
                 "port": "80",
                 "mmsc": "http://mms.vodafone.pt/servlets/mms",
                 "mmsproxy": "iproxy.vodafone.pt",
                 "mmsport": "80",
-                "authtype": "0",
-                "type": "default,supl,mms,a-gps"
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone PT WAP MMS",
+                "mcc": "268",
+                "mnc": "01",
+                "apn": "vas.vodafone.pt",
+                "user": "vas",
+                "password": "vas",
+                "mmsc": "http://mms/servlets/mms",
+                "mmsproxy": "213.30.27.63",
+                "mmsport": "8799",
+                "type": "mms"
             },
             {
                 "carrier": "Vodafone PT WAP",
@@ -26,129 +50,123 @@
                 "password": "wap",
                 "proxy": "172.16.19.50",
                 "port": "8799",
-                "authtype": "0",
-                "type": "default"
-            },
-            {
-                "carrier": "Vodafone PT MMS",
-                "mcc": "268",
-                "mnc": "01",
-                "apn": "vas.vodafone.pt",
-                "user": "vas",
-                "password": "vas",
-                "mmsc": "http://mms/servlets/mms",
-                "mmsproxy": "213.30.27.63",
-                "mmsport": "8799",
-                "authtype": "0",
-                "type": "mms"
-            },
-            {
-                "carrier": "Vodafone PT Internet",
-                "mcc": "268",
-                "mnc": "01",
-                "apn": "internet.vodafone.pt",
-                "type": "dun"
-            },
-            {
-                "carrier": "Vodafone Corporate",
-                "mcc": "268",
-                "mnc": "01",
-                "apn": "internet.vodafone.pt",
-                "type": "default"
-            },
-            {
-                "carrier": "PortalOptimus",
-                "mcc": "268",
-                "mnc": "03",
-                "apn": "umts",
-                "mmsc": "http://mmsc:10021/mmsc",
-                "mmsproxy": "69.169.066.5",
-                "mmsport": "8799",
-                "type": "default,supl,mms,a-gps"
-            },
-            {
-                "carrier": "tmn internet",
-                "mcc": "268",
-                "mnc": "06",
-                "apn": "internet",
                 "type": "default,supl"
             },
             {
-                "carrier": "mms tmn",
+                "carrier": "Optimus",
                 "mcc": "268",
-                "mnc": "06",
-                "apn": "mmsc.tmn.pt",
-                "user": "tmn",
-                "password": "tmnnet",
-                "mmsc": "http://mmsc/",
-                "mmsproxy": "10.111.2.16",
-                "mmsport": "8080",
+                "mnc": "03",
+                "apn": "umts",
+                "proxy": "62.169.66.5",
+                "port": "8799",
+                "mmsproxy": "62.169.66.5",
+                "mmsport": "8799",
+                "mmsc": "http://mmsc:10021/mmsc",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,mms"
+            },
+            {
+                "carrier": "NOS Internet",
+                "mcc": "268",
+                "mnc": "03",
+                "apn": "umts",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "NOS MMS",
+                "mcc": "268",
+                "mnc": "03",
+                "apn": "mms",
+                "mmsc": "http://mmsc:10021/mmsc",
+                "mmsproxy": "62.169.66.5",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "PT - Optimus Web",
+                "mcc": "268",
+                "mnc": "03",
+                "apn": "umts",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "PT - Optimus MMS",
+                "mcc": "268",
+                "mnc": "03",
+                "apn": "umts",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mmsc:10021/mmsc",
+                "mmsproxy": "62.169.66.5",
+                "mmsport": "8799",
                 "authtype": "1",
                 "type": "mms"
             },
             {
-                "carrier": "Zon Internet",
+                "carrier": "Lycamobile PT",
                 "mcc": "268",
-                "mnc": "01",
-                "apn": "internet.zon.pt",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Zon MMS",
-                "mcc": "268",
-                "mnc": "01",
-                "apn": "vas.zon.pt",
-                "user": "vas",
-                "password": "vas",
-                "mmsc": "http://mms/servlets/mms",
-                "mmsproxy": "213.30.27.63",
-                "mmsport": "8799",
-                "type": "mms"
-            },
-            {
-                "carrier": "Lycamobile",
-                "mcc": "268",
-                "mnc": "01",
+                "mnc": "04",
                 "apn": "data.lycamobile.pt",
                 "user": "lmpt",
                 "password": "plus",
                 "type": "default,supl"
             },
             {
-                "carrier": "Uzo Internet",
+                "carrier": "Lycamobile",
                 "mcc": "268",
-                "mnc": "06",
-                "apn": "http://m.uzo.pt",
+                "mnc": "04",
+                "apn": "data.lycamobile.pt",
+                "proxy": "",
+                "port": "",
+                "user": "lmpt",
+                "password": "plus",
+                "mmsc": "",
+                "mvno_type": "spn",
+                "mvno_match_data": "Lycamobile",
                 "type": "default,supl"
             },
             {
-                "carrier": "Uzo MMS",
+                "carrier": "MEO Internet",
+                "mcc": "268",
+                "mnc": "06",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MEO MMS",
                 "mcc": "268",
                 "mnc": "06",
                 "apn": "mmsc.tmn.pt",
                 "user": "tmn",
                 "password": "tmnnet",
-                "mmsc": "http://mmsc/",
-                "mmsproxy": "010.111.002.016",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Phone-ix",
-                "mcc": "268",
-                "mnc": "06",
-                "apn": "internet.phone-ix.pt",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Phone-ix MMS",
-                "mcc": "268",
-                "mnc": "06",
-                "apn": "apn.mms.pt",
-                "mmsc": "http://mmsc/",
+                "mmsc": "http://mmsc",
                 "mmsproxy": "10.111.2.16",
                 "mmsport": "8080",
                 "type": "mms"
+            },
+            {
+                "carrier": "Vectone Mobile",
+                "mcc": "268",
+                "mnc": "07",
+                "apn": "webpt.mundio.com",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "mvno_type": "spn",
+                "mvno_match_data": "Vectone Mobile",
+                "type": "default,supl"
             }
         ]
     }

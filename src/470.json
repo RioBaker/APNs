@@ -1,0 +1,191 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "GP-INTERNET",
+                "mcc": "470",
+                "mnc": "01",
+                "apn": "gpinternet",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "GP-MMS",
+                "mcc": "470",
+                "mnc": "01",
+                "apn": "gpmms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.128.1.2",
+                "mmsport": "8080",
+                "mmsc": "http://mms.gpsurf.net/servlets/mms",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "GP-WAP",
+                "mcc": "470",
+                "mnc": "01",
+                "apn": "gpwap",
+                "proxy": "10.128.1.2",
+                "port": "8080",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Grameenphone",
+                "mcc": "470",
+                "mnc": "01",
+                "apn": "gpinternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Grameenphone MMS",
+                "mcc": "470",
+                "mnc": "01",
+                "apn": "gpmms",
+                "mmsc": "http://mms.gpsurf.net/servlets/mms",
+                "mmsproxy": "10.128.1.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Grameenphone WAP",
+                "mcc": "470",
+                "mnc": "01",
+                "apn": "gpinternet",
+                "proxy": "10.128.1.2",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Grameenphone",
+                "mcc": "470",
+                "mnc": "01",
+                "apn": "gpinterneth",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Robi MMS",
+                "mcc": "470",
+                "mnc": "02",
+                "apn": "wap",
+                "mmsc": "http://192.168.23.4/was",
+                "mmsproxy": "192.168.023.007",
+                "mmsport": "9028",
+                "type": "mms"
+            },
+            {
+                "carrier": "Robi",
+                "mcc": "470",
+                "mnc": "02",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Robi WAP",
+                "mcc": "470",
+                "mnc": "02",
+                "apn": "wap",
+                "proxy": "10.128.1.2",
+                "port": "9208",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Banglalink MMS",
+                "mcc": "470",
+                "mnc": "03",
+                "apn": "blmms",
+                "mmsc": "http://",
+                "mmsproxy": "10.10.55.34",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Banglalink",
+                "mcc": "470",
+                "mnc": "03",
+                "apn": "blweb",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Banglalink WAP",
+                "mcc": "470",
+                "mnc": "03",
+                "apn": "blwap",
+                "proxy": "10.10.55.34",
+                "port": "8799",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele Talk",
+                "mcc": "470",
+                "mnc": "04",
+                "apn": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tele Talk WAP",
+                "mcc": "470",
+                "mnc": "04",
+                "apn": "wap",
+                "proxy": "192.168.145.101",
+                "port": "9201",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel BD",
+                "mcc": "470",
+                "mnc": "07",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel BD MMS",
+                "mcc": "470",
+                "mnc": "07",
+                "apn": "mms",
+                "mmsc": "http://10.6.0.21/servlets/mms",
+                "mmsproxy": "10.6.0.2",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel BD WAP",
+                "mcc": "470",
+                "mnc": "07",
+                "apn": "wap",
+                "proxy": "10.6.0.2",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Warid BD",
+                "mcc": "470",
+                "mnc": "07",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Warid BD MMS",
+                "mcc": "470",
+                "mnc": "07",
+                "apn": "mms",
+                "mmsc": "http://mms.waridtel.com.bd/index.jsp",
+                "mmsproxy": "10.128.5.6",
+                "mmsport": "8080",
+                "type": "mms"
+            }
+        ]
+    }
+}

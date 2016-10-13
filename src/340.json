@@ -3,7 +3,39 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Orange GP",
+                "carrier": "Orange World",
+                "mcc": "340",
+                "mnc": "01",
+                "apn": "orangeweb",
+                "user": "orange",
+                "password": "orange",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange World",
+                "mcc": "340",
+                "mnc": "01",
+                "apn": "Orange MMS",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.0.0.10",
+                "mmsport": "8082",
+                "mmsc": "http://193.251.160.246/servlets/mms",
+                "user": "orange",
+                "password": "orange",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange web",
+                "mcc": "340",
+                "mnc": "01",
+                "apn": "orangeweb",
+                "user": "orange",
+                "password": "orange",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange World Caraïbe",
                 "mcc": "340",
                 "mnc": "01",
                 "apn": "orangewap",
@@ -14,7 +46,7 @@
                 "type": "default,supl"
             },
             {
-                "carrier": "Orange GP MMS",
+                "carrier": "Orange MMS Caraïbe",
                 "mcc": "340",
                 "mnc": "01",
                 "apn": "orangewap",
@@ -26,35 +58,61 @@
                 "type": "mms"
             },
             {
-                "carrier": "Digicel FR",
+                "carrier": "Orangeweb",
+                "mcc": "340",
+                "mnc": "01",
+                "apn": "orangeweb",
+                "user": "orange",
+                "password": "orange",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Onlyplanet",
+                "mcc": "340",
+                "mnc": "02",
+                "apn": "onlywap",
+                "proxy": "10.4.85.50",
+                "port": "8080",
+                "user": "only",
+                "password": "only",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "onlymms",
+                "mcc": "340",
+                "mnc": "02",
+                "apn": "onlymms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.4.85.50",
+                "mmsport": "8080",
+                "mmsc": "http://10.4.85.50:8514",
+                "user": "only",
+                "password": "only",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel FR Web",
                 "mcc": "340",
                 "mnc": "20",
-                "apn": "wap.digicelfr.com",
+                "apn": "web.digicelfr.com",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Digicel FR MMS",
+                "mcc": "340",
+                "mnc": "20",
+                "apn": "wap",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "172.24.2.101",
+                "mmsport": "8080",
+                "mmsc": "http://mmc.digicelfr.com/servlets/mms",
                 "user": "wap",
                 "password": "wap",
-                "mmsc": "http://mmc.digicelfr.com/servlets/mms",
-                "mmsproxy": "172.20.6.12",
-                "mmsport": "8080",
-                "type": "default,supl,mms"
-            },
-            {
-                "carrier": "Orangeweb",
-                "apn": "orangeweb",
-                "user": "orange",
-                "password": "orange",
-                "mcc": "340",
-                "mnc": "01",
-                "authtype": "1",
-                "type": "dun"
-            },
-            {
-                "carrier": "Orangeweb",
-                "mcc": "340",
-                "mnc": "01",
-                "apn": "orangeweb",
-                "user": "orange",
-                "password": "orange",
-                "type": "default"
+                "type": "mms"
             }
         ]
     }

@@ -3,19 +3,92 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Orange UG Internet",
+                "carrier": "Airtel UG",
+                "mcc": "641",
+                "mnc": "01",
+                "apn": "web.ug.zain.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTN UG",
+                "mcc": "641",
+                "mnc": "10",
+                "apn": "yellopix.mtn.co.ug",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTN",
+                "mcc": "641",
+                "mnc": "10",
+                "apn": "yellopix.men.co.ug",
+                "proxy": "10.120.0.138",
+                "port": "8080",
+                "mmsproxy": "10.120.0.138",
+                "mmsport": "8080",
+                "mmsc": "http://mtn.mmsc/servlets/mms",
+                "type": "*"
+            },
+            {
+                "carrier": "Uganda Telecom",
+                "mcc": "641",
+                "mnc": "11",
+                "apn": "utweb",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ORANGE WAP",
                 "mcc": "641",
                 "mnc": "14",
                 "apn": "orange.ug",
-                "type": "default"
+                "proxy": "10.201.20.4",
+                "port": "9201",
+                "type": "default,supl"
             },
             {
-                "carrier": "Orange UG MMS",
+                "carrier": "Orange MMS",
+                "mcc": "641",
+                "mnc": "14",
+                "apn": "orangemms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.201.20.4",
+                "mmsport": "9201",
+                "mmsc": "http://10.201.20.5",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange Internet UG",
+                "mcc": "641",
+                "mnc": "14",
+                "apn": "orange.ug",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
                 "mcc": "641",
                 "mnc": "14",
                 "apn": "orangemms",
                 "mmsc": "http://mms/",
                 "type": "mms"
+            },
+            {
+                "carrier": "Orange UG",
+                "mcc": "641",
+                "mnc": "14",
+                "apn": "orange.ug",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Waridtel UG",
+                "mcc": "641",
+                "mnc": "22",
+                "apn": "web.waridtel.co.ug",
+                "type": "default,supl"
             }
         ]
     }

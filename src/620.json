@@ -1,0 +1,93 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "MTN MMS",
+                "mcc": "620",
+                "mnc": "01",
+                "apn": "MMS",
+                "mmsproxy": "172.17.3.5",
+                "mmsport": "8080",
+                "mmsc": "http://172.17.3.7",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTN INTERNET",
+                "mcc": "620",
+                "mnc": "01",
+                "apn": "WAP",
+                "proxy": "172.17.3.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "internet",
+                "mcc": "620",
+                "mnc": "02",
+                "apn": "browse",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "620",
+                "mnc": "02",
+                "apn": "MMS",
+                "mmsproxy": "172.24.97.1",
+                "mmsport": "8080",
+                "mmsc": "http://mms.onetouch.com.gh/mmsc",
+                "type": "mms"
+            },
+            {
+                "carrier": "Tigo MMS",
+                "mcc": "620",
+                "mnc": "03",
+                "apn": "wap.tigo.com.gh",
+                "mmsproxy": "10.4.1.7",
+                "mmsport": "8080",
+                "mmsc": "http://mmsc.tigo.com.gh:19090",
+                "type": "mms"
+            },
+            {
+                "carrier": "Tigo WEB1",
+                "mcc": "620",
+                "mnc": "03",
+                "apn": "web.tigo.com.gh",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tigo WEB2",
+                "mcc": "620",
+                "mnc": "03",
+                "apn": "tigo.3G",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tigo WAP",
+                "mcc": "620",
+                "mnc": "03",
+                "apn": "wap.tigo.com.gh",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Zain WAP",
+                "mcc": "620",
+                "mnc": "06",
+                "apn": "wap",
+                "proxy": "10.93.85.88",
+                "port": "9401",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Zain MMS",
+                "mcc": "620",
+                "mnc": "06",
+                "apn": "MMS",
+                "mmsproxy": "10.93.85.88",
+                "mmsport": "9401",
+                "mmsc": "http://zainmms/servlets/mms",
+                "type": "mms"
+            }
+        ]
+    }
+}

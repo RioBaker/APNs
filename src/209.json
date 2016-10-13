@@ -1,0 +1,17 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "NRJ WEB",
+                "mcc": "209",
+                "mnc": "01",
+                "apn": "ofnew.fr",
+                "user": "orange",
+                "password": "orange",
+                "spn": "NRJ (ORANGE)",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

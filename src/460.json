@@ -3,20 +3,57 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "中国移动 (China Mobile) GPRS",
+                "carrier": "中国移动因特网设置",
+                "mcc": "460",
+                "mnc": "00",
+                "apn": "cmnet",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动WAP设置",
+                "mcc": "460",
+                "mnc": "00",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动彩信设置",
+                "mcc": "460",
+                "mnc": "00",
+                "apn": "cmwap",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "mmsc": "http://mmsc.monternet.com",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "mms"
+            },
+            {
+                "carrier": "中国移动 GPRS (China Mobile)",
                 "mcc": "460",
                 "mnc": "00",
                 "apn": "cmnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "中国移动 (China Mobile) WAP",
+                "carrier": "中国移动 Wap 网络 (China Mobile)",
                 "mcc": "460",
                 "mnc": "00",
                 "apn": "cmwap",
                 "proxy": "10.0.0.172",
-                "port": "80",
-                "type": "default,supl"
+                "port": "80"
             },
             {
                 "carrier": "中国移动彩信 (China Mobile)",
@@ -31,30 +68,56 @@
                 "type": "mms"
             },
             {
-                "carrier": "沃3G连接互联网 (China Unicom)",
+                "carrier": "China Mobile",
+                "mcc": "460",
+                "mnc": "00",
+                "apn": "cmnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "China Mobile MMS",
+                "mcc": "460",
+                "mnc": "00",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "mmsc": "http://mmsc.monternet.com",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "中国联通 3g 网络 (China Unicom)",
                 "mcc": "460",
                 "mnc": "01",
                 "apn": "3gnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "沃3G手机上网 (China Unicom)",
-                "mcc": "460",
-                "mnc": "01",
-                "apn": "3gwap",
-                "proxy": "10.0.0.172",
-                "port": "80",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "联通2GNET上网 (China Unicom)",
+                "carrier": "中国联通 GPRS (China Unicom)",
                 "mcc": "460",
                 "mnc": "01",
                 "apn": "uninet",
                 "type": "default,supl"
             },
             {
-                "carrier": "联通彩信 (China Unicom)",
+                "carrier": "中国联通 Wap 网络 (China Unicom)",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "3gwap",
+                "proxy": "10.0.0.172",
+                "port": "80"
+            },
+            {
+                "carrier": "中国联通 Wap 网络 (China Unicom)",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "uniwap",
+                "proxy": "10.0.0.172",
+                "port": "80"
+            },
+            {
+                "carrier": "中国联通 3g 彩信 (China Unicom)",
                 "mcc": "460",
                 "mnc": "01",
                 "apn": "3gwap",
@@ -64,7 +127,7 @@
                 "type": "mms"
             },
             {
-                "carrier": "联通2g彩信 (China Unicom)",
+                "carrier": "中国联通彩信 (China Unicom)",
                 "mcc": "460",
                 "mnc": "01",
                 "apn": "uniwap",
@@ -74,20 +137,116 @@
                 "type": "mms"
             },
             {
-                "carrier": "中国移动 (China Mobile) GPRS",
+                "carrier": "中国联通3g因特网设置",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "3gnet",
+                "proxy": "",
+                "port": "",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国联通3gwap设置",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "3gwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国联通3g彩信设置",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "3gwap",
+                "proxy": "",
+                "port": "",
+                "mmsc": "http://mmsc.myuni.com.cn",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "mms"
+            },
+            {
+                "carrier": "China Unicom 3G",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "3gnet",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "China Unicom MMS",
+                "mcc": "460",
+                "mnc": "01",
+                "apn": "uniwap",
+                "mmsc": "http://mmsc.myuni.com.cn",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "中国移动因特网设置",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmnet",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动WAP设置",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国移动彩信设置",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmwap",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "mmsc": "http://mmsc.monternet.com",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "mms"
+            },
+            {
+                "carrier": "中国移动 GPRS (China Mobile)",
                 "mcc": "460",
                 "mnc": "02",
                 "apn": "cmnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "中国移动 (China Mobile) WAP",
+                "carrier": "中国移动 Wap 网络 (China Mobile)",
                 "mcc": "460",
                 "mnc": "02",
                 "apn": "cmwap",
                 "proxy": "10.0.0.172",
-                "port": "80",
-                "type": "default,supl"
+                "port": "80"
             },
             {
                 "carrier": "中国移动彩信 (China Mobile)",
@@ -102,20 +261,103 @@
                 "type": "mms"
             },
             {
-                "carrier": "中国移动 (China Mobile) GPRS",
+                "carrier": "China Mobile",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "China Mobile MMS",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "mmsc": "http://mmsc.monternet.com",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "China Mobile",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmnet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "China Mobile MMS",
+                "mcc": "460",
+                "mnc": "02",
+                "apn": "cmwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mmsc.monternet.com",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "中国电信互联网设置CTNET",
+                "mcc": "460",
+                "mnc": "03",
+                "apn": "ctnet",
+                "proxy": "",
+                "port": "",
+                "user": "ctnet@mycdma.cn",
+                "password": "vnet.mobi",
+                "mmsc": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国电信WAP设置CTWAP",
+                "mcc": "460",
+                "mnc": "03",
+                "apn": "ctwap",
+                "proxy": "10.0.0.200",
+                "port": "80",
+                "user": "ctwap@mycdma.cn",
+                "password": "vnet.mobi",
+                "mmsc": "http://mmsc.vnet.mobi",
+                "mmsproxy": "10.0.0.200",
+                "mmsport": "80",
+                "authtype": "2",
+                "type": "default,mms,supl"
+            },
+            {
+                "carrier": "China Telecom",
+                "apn": "ctlte",
+                "mcc": "460",
+                "mnc": "03",
+                "user": "",
+                "password": "",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6",
+                "type": "ia"
+            },
+            {
+                "carrier": "中国移动 GPRS (China Mobile)",
                 "mcc": "460",
                 "mnc": "07",
                 "apn": "cmnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "中国移动 (China Mobile) WAP",
+                "carrier": "中国移动 Wap 网络 (China Mobile)",
                 "mcc": "460",
                 "mnc": "07",
                 "apn": "cmwap",
                 "proxy": "10.0.0.172",
-                "port": "80",
-                "type": "default,supl"
+                "port": "80"
             },
             {
                 "carrier": "中国移动彩信 (China Mobile)",
@@ -128,6 +370,241 @@
                 "mmsproxy": "10.0.0.172",
                 "mmsport": "80",
                 "type": "mms"
+            },
+            {
+                "carrier": "China-Mobile",
+                "mcc": "460",
+                "mnc": "07",
+                "apn": "cmnet",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "HW-KuiKe",
+                "mcc": "460",
+                "mnc": "07",
+                "apn": "hwmobile",
+                "proxy": "192.168.111.32",
+                "port": "8080",
+                "mmsproxy": "192.168.111.32",
+                "mmsport": "8080",
+                "mmsc": "http://192.168.111.12:19090/was",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": ""
+            },
+            {
+                "carrier": "中国移动 (China Mobile) GPRS",
+                "mcc": "460",
+                "mnc": "07",
+                "apn": "cmnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国联通 3g 网络 (China Unicom)",
+                "mcc": "460",
+                "mnc": "09",
+                "apn": "3gnet",
+                "type": "default,net"
+            },
+            {
+                "carrier": "中国联通 GPRS (China Unicom)",
+                "mcc": "460",
+                "mnc": "09",
+                "apn": "uninet",
+                "type": "default,net"
+            },
+            {
+                "carrier": "中国联通 Wap 网络 (China Unicom)",
+                "mcc": "460",
+                "mnc": "09",
+                "apn": "3gwap",
+                "proxy": "10.0.0.172",
+                "port": "80"
+            },
+            {
+                "carrier": "中国联通 Wap 网络 (China Unicom)",
+                "mcc": "460",
+                "mnc": "09",
+                "apn": "uniwap",
+                "proxy": "10.0.0.172",
+                "port": "80"
+            },
+            {
+                "carrier": "中国联通 3g 彩信 (China Unicom)",
+                "mcc": "460",
+                "mnc": "09",
+                "apn": "3gwap",
+                "mmsc": "http://mmsc.myuni.com.cn",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "中国联通彩信 (China Unicom)",
+                "mcc": "460",
+                "mnc": "09",
+                "apn": "uniwap",
+                "mmsc": "http://mmsc.myuni.com.cn",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "China Unicom 3G",
+                "mcc": "460",
+                "mnc": "09",
+                "apn": "3gnet",
+                "port": "80",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "China Unicom wap",
+                "mcc": "460",
+                "mnc": "09",
+                "apn": "3gwap",
+                "proxy": "10.0.0.172",
+                "port": "80",
+                "mmsproxy": "10.0.0.172",
+                "mmsport": "80",
+                "mmsc": "http://mmsc.myuni.com.cn",
+                "type": "default, mms"
+            },
+            {
+                "carrier": "中国电信互联网设置CTLTE",
+                "mcc": "460",
+                "mnc": "11",
+                "apn": "ctlte",
+                "proxy": "",
+                "port": "",
+                "user": "ctlte@mycdma.cn",
+                "password": "vnet.mobi",
+                "mmsc": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国电信互联网设置CTNET",
+                "mcc": "460",
+                "mnc": "11",
+                "apn": "ctnet",
+                "proxy": "",
+                "port": "",
+                "user": "ctnet@mycdma.cn",
+                "password": "vnet.mobi",
+                "mmsc": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国电信WAP设置CTWAP",
+                "mcc": "460",
+                "mnc": "11",
+                "apn": "ctwap",
+                "proxy": "10.0.0.200",
+                "port": "80",
+                "user": "ctwap@mycdma.cn",
+                "password": "vnet.mobi",
+                "mmsc": "http://mmsc.vnet.mobi",
+                "mmsproxy": "10.0.0.200",
+                "mmsport": "80",
+                "authtype": "2",
+                "type": "default,mms,supl"
+            },
+            {
+                "carrier": "China Telecom",
+                "apn": "ctlte",
+                "mcc": "460",
+                "mnc": "11",
+                "user": "",
+                "password": "",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6",
+                "type": "ia"
+            },
+            {
+                "carrier": "中国电信互联网设置CTNET",
+                "mcc": "460",
+                "mnc": "12",
+                "apn": "ctnet",
+                "proxy": "",
+                "port": "",
+                "user": "ctnet@mycdma.cn",
+                "password": "vnet.mobi",
+                "mmsc": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国电信WAP设置CTWAP",
+                "mcc": "460",
+                "mnc": "12",
+                "apn": "ctwap",
+                "proxy": "10.0.0.200",
+                "port": "80",
+                "user": "ctwap@mycdma.cn",
+                "password": "vnet.mobi",
+                "mmsc": "http://mmsc.vnet.mobi",
+                "mmsproxy": "10.0.0.200",
+                "mmsport": "80",
+                "authtype": "2",
+                "type": "default,mms,supl"
+            },
+            {
+                "carrier": "中国电信互联网设置CTNET",
+                "mcc": "460",
+                "mnc": "13",
+                "apn": "ctnet",
+                "user": "ctnet@mycdma.cn",
+                "password": "vnet.mobi",
+                "authtype": "3",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "中国电信WAP设置CTWAP",
+                "mcc": "460",
+                "mnc": "13",
+                "apn": "ctwap",
+                "user": "ctwap@mycdma.cn",
+                "password": "vnet.mobi",
+                "proxy": "10.0.0.200",
+                "port": "80",
+                "mmsproxy": "10.0.0.200",
+                "mmsport": "80",
+                "mmsc": "http://mmsc.vnet.mobi",
+                "authtype": "3",
+                "type": "default,supl,dun,mms"
+            },
+            {
+                "carrier": "中国电信互联网设置CTNET",
+                "mcc": "460",
+                "mnc": "99",
+                "apn": "ctnet",
+                "proxy": "",
+                "port": "",
+                "user": "ctnet@mycdma.cn",
+                "password": "vnet.mobi",
+                "mmsc": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "中国电信WAP设置CTWAP",
+                "mcc": "460",
+                "mnc": "99",
+                "apn": "ctwap",
+                "proxy": "10.0.0.200",
+                "port": "80",
+                "user": "ctwap@mycdma.cn",
+                "password": "vnet.mobi",
+                "mmsc": "http://mmsc.vnet.mobi",
+                "mmsproxy": "10.0.0.200",
+                "mmsport": "80",
+                "authtype": "2",
+                "type": "default,mms,supl"
             }
         ]
     }

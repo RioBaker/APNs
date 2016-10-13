@@ -1,0 +1,35 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "MTN WAP",
+                "mcc": "421",
+                "mnc": "02",
+                "apn": "fast-wap",
+                "proxy": "192.168.96.100",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTN NET",
+                "mcc": "421",
+                "mnc": "02",
+                "apn": "fast-internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTN MMS",
+                "mcc": "421",
+                "mnc": "02",
+                "apn": "fast-mms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "192.168.97.1",
+                "mmsport": "3130",
+                "mmsc": "http://192.168.97.1/mmsc",
+                "type": "mms"
+            }
+        ]
+    }
+}

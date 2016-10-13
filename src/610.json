@@ -3,6 +3,38 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Orange Wap",
+                "apn": "wap",
+                "proxy": "10.109.4.35",
+                "port": "8080",
+                "user": "wap",
+                "password": "wap",
+                "mcc": "610",
+                "mnc": "02",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://10.109.6.2/servlets/mms",
+                "mmsproxy": "10.109.4.35",
+                "mmsport": "8080",
+                "mcc": "610",
+                "mnc": "02",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange ML",
+                "mcc": "610",
+                "mnc": "02",
+                "apn": "internet",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Orange ML MMS",
                 "mcc": "610",
                 "mnc": "02",
@@ -23,7 +55,7 @@
                 "password": "wap",
                 "proxy": "10.109.4.35",
                 "port": "8080",
-                "type": "default"
+                "type": "default,supl"
             }
         ]
     }

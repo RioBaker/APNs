@@ -3,47 +3,115 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "SafaricomBrowse",
+                "carrier": "Safaricom Live",
                 "mcc": "639",
                 "mnc": "02",
-                "apn": "Safaricom",
+                "apn": "safaricom",
+                "proxy": "172.22.2.38",
+                "port": "8080",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Safaricom MMS",
+                "mcc": "639",
+                "mnc": "02",
+                "apn": "safaricom",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "172.22.2.38",
+                "mmsport": "8080",
+                "mmsc": "http://mms.gprs.safaricom.com",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Safaricom",
+                "mcc": "639",
+                "mnc": "02",
+                "apn": "wap.safaricom.com",
                 "user": "saf",
                 "password": "data",
-                "proxy": "172.22.2.38",
+                "mmsc": "http://mms.gprs.safaricom.com",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Airtel internet",
+                "mcc": "639",
+                "mnc": "03",
+                "apn": "ke.celtel.com",
+                "proxy": "172.30.8.50",
+                "port": "8080",
+                "mmsc": "",
+                "user": "wap",
+                "password": "wap",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "yu",
+                "mcc": "639",
+                "mnc": "05",
+                "apn": "internet",
+                "proxy": "10.4.16.6",
                 "port": "8080",
                 "type": "default,supl"
             },
             {
-                "carrier": "SafaricomMMS",
+                "carrier": "yu MMS",
                 "mcc": "639",
-                "mnc": "02",
-                "apn": "Safaricom",
-                "user": "saf",
-                "password": "data",
-                "mmsc": "http://mms.gprs.safaricom.com",
+                "mnc": "05",
+                "apn": "iternet",
+                "mmsc": "http://10.4.16.22/servlets/mms",
+                "mmsproxy": "10.4.16.6",
                 "type": "mms"
             },
             {
-                "carrier": "Zain WAP",
+                "carrier": "Orange Ke",
                 "mcc": "639",
-                "mnc": "03",
-                "apn": "wap.ke.celtel.com",
-                "user": "wap",
-                "password": "wap",
+                "mnc": "07",
+                "apn": "bew.orange.co.ke",
+                "user": "",
+                "password": "",
                 "type": "default,supl"
             },
             {
-                "carrier": "Zain MMS",
+                "carrier": "Orange wap",
                 "mcc": "639",
-                "mnc": "03",
-                "apn": "mms.ke.celtel.com",
-                "user": "wap",
-                "password": "wap",
-                "mmsc": "http://mms.ke.celtel.com/servlets/mms",
+                "mnc": "07",
+                "apn": "wap.orange.co.ke",
+                "proxy": "10.36.17.130",
+                "port": "8080",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "mcc": "639",
+                "mnc": "07",
+                "apn": "mms.orange.co.ke",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.36.17.130",
+                "mmsport": "8080",
+                "mmsc": "http://10.36.16.5/servlets/mms",
+                "user": "",
+                "password": "",
                 "type": "mms"
             },
             {
-                "carrier": "Orange Internet",
+                "carrier": "Orange KE",
+                "mcc": "639",
+                "mnc": "07",
+                "apn": "bew.orange.co.ke",
+                "user": "orange",
+                "password": "orange",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange net KE",
                 "mcc": "639",
                 "mnc": "07",
                 "apn": "wap.orange.co.ke",
@@ -58,13 +126,6 @@
                 "mmsport": "8080",
                 "mmsc": "http://10.36.16.5/servlets/mms",
                 "type": "mms"
-            },
-            {
-                "carrier": "Orange net KE",
-                "mcc": "639",
-                "mnc": "07",
-                "apn": "bew.orange.co.ke",
-                "type": "default"
             }
         ]
     }

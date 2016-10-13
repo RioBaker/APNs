@@ -7,6 +7,32 @@
                 "mcc": "605",
                 "mnc": "01",
                 "apn": "weborange",
+                "proxy": "10.12.1.52",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS Orange",
+                "apn": "mms.otun",
+                "mmsc": "https://mms.orange.tn",
+                "mmsproxy": "10.12.1.52",
+                "mmsport": "8080",
+                "mcc": "605",
+                "mnc": "01",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange TN",
+                "mcc": "605",
+                "mnc": "01",
+                "apn": "keypro",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "weborange",
+                "mcc": "605",
+                "mnc": "01",
+                "apn": "weborange",
                 "type": "default,supl"
             },
             {
@@ -20,48 +46,73 @@
                 "type": "mms"
             },
             {
-                "carrier": "mobinet",
-                "mcc": "605",
-                "mnc": "02",
-                "apn": "gprs.tn",
-                "user": "gprs",
-                "password": "gprs",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "MMS",
+                "carrier": "Tunisia Telecom MMS",
                 "mcc": "605",
                 "mnc": "02",
                 "apn": "mms.tn",
-                "user": "mms@tt1",
-                "password": "mms",
-                "mmsc": "http://",
+                "mmsc": "http://192.168.0.3:19090/was",
                 "mmsproxy": "192.168.0.2",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "internet Tunisiana",
+                "carrier": "Tunisia Telecom WAP",
                 "mcc": "605",
-                "mnc": "03",
-                "apn": "internet.tunisiana.com",
-                "user": "internet",
-                "password": "internet",
-                "proxy": "10.3.2.99",
-                "port": "80",
+                "mnc": "02",
+                "apn": "wap.tn",
+                "proxy": "192.168.0.2",
+                "port": "8080",
+                "user": "wap@tt1",
+                "password": "wap",
                 "type": "default,supl"
             },
             {
-                "carrier": "MMS Tunisiana",
+                "carrier": "Tunisia Telecom Internet",
+                "mcc": "605",
+                "mnc": "02",
+                "apn": "gprs.tn",
+                "proxy": "",
+                "port": "",
+                "user": "mobinet",
+                "password": "mobinet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tunisie Télécom TN",
+                "mcc": "605",
+                "mnc": "02",
+                "apn": "internet.tn",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Tunisiana MMS",
                 "mcc": "605",
                 "mnc": "03",
                 "apn": "mms.tunisiana.com",
+                "mmsproxy": "10.3.2.100",
+                "mmsport": "9201",
+                "mmsc": "http://192.168.0.3:19090/was",
                 "user": "mms",
                 "password": "mms",
-                "mmsc": "http://mmsc.tunisiana.com",
-                "mmsproxy": "10.3.2.100",
-                "mmsport": "80",
                 "type": "mms"
+            },
+            {
+                "carrier": "Tunisiana Wap",
+                "mcc": "605",
+                "mnc": "03",
+                "apn": "internet.tunisiana.com",
+                "proxy": "10.3.2.99",
+                "port": "8080",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Ooredoo TN",
+                "mcc": "605",
+                "mnc": "03",
+                "apn": "internet.ooredoo.tn",
+                "type": "default,supl"
             }
         ]
     }

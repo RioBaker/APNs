@@ -1,0 +1,16 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "MPT",
+                "mcc": "414",
+                "mnc": "01",
+                "apn": "mptnet",
+                "user": "mptnet",
+                "password": "mptnet",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

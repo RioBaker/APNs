@@ -1,0 +1,16 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Tigo Connection",
+                "mcc": "635",
+                "mnc": "13",
+                "apn": "web.tigo.rw",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

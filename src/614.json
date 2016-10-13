@@ -4,22 +4,22 @@
         "apn": [
             {
                 "carrier": "Orange MMS",
+                "mcc": "614",
+                "mnc": "04",
                 "apn": "orange.mms",
                 "user": "orange",
                 "password": "orange",
                 "mmsc": "http://10.10.10.35:38090/was",
                 "mmsproxy": "10.10.10.36",
                 "mmsport": "8080",
-                "mcc": "614",
-                "mnc": "04",
                 "type": "mms"
             },
             {
                 "carrier": "Orange Internet",
-                "apn": "orange.ne",
                 "mcc": "614",
                 "mnc": "04",
-                "type": "default"
+                "apn": "orange.ne",
+                "type": "default,supl"
             }
         ]
     }

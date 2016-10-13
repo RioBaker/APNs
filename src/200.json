@@ -1,0 +1,18 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Virgin Mobile US",
+                "mcc": "200",
+                "mnc": "053",
+                "apn": "0",
+                "port": "",
+                "mmsproxy": "205.239.233.136",
+                "mmsport": "81",
+                "mmsc": "http://mmsc.vmobl.com:8088/mms?",
+                "type": "mms"
+            }
+        ]
+    }
+}

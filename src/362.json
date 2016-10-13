@@ -1,0 +1,30 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Digicel Web",
+                "mcc": "362",
+                "mnc": "69",
+                "apn": "web",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Digicel MMS",
+                "mcc": "362",
+                "mnc": "69",
+                "apn": "wap",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "172.16.7.12",
+                "mmsport": "8080",
+                "mmsc": "http://mms.digicelgroup.com",
+                "user": "wapcu",
+                "password": "wap03cur",
+                "type": "mms"
+            }
+        ]
+    }
+}

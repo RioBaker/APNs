@@ -3,6 +3,36 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Orange WAP",
+                "apn": "wap",
+                "proxy": "172.16.30.9",
+                "port": "8080",
+                "user": "wap",
+                "password": "wap",
+                "mcc": "608",
+                "mnc": "01",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "apn": "mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mmsalize/servlets/mms",
+                "mmsproxy": "172.16.30.9",
+                "mmsport": "8080",
+                "mcc": "608",
+                "mnc": "01",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange GPRS",
+                "mcc": "608",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Orange MMS SN",
                 "mcc": "608",
                 "mnc": "01",
@@ -15,7 +45,7 @@
                 "type": "mms"
             },
             {
-                "carrier": "Orange SN WAP",
+                "carrier": "Orange Wap SN",
                 "mcc": "608",
                 "mnc": "01",
                 "apn": "wap",
@@ -23,16 +53,16 @@
                 "password": "wap",
                 "proxy": "172.16.30.9",
                 "port": "8080",
-                "type": "default"
+                "type": "default,supl"
             },
             {
-                "carrier": "Orange SN WEB",
+                "carrier": "Orange Web SN",
                 "mcc": "608",
                 "mnc": "01",
                 "apn": "internet",
                 "user": "internet",
                 "password": "internet",
-                "type": "default"
+                "type": "default,supl"
             }
         ]
     }

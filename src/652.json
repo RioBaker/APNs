@@ -3,6 +3,27 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Mascom_Internet",
+                "mcc": "652",
+                "mnc": "01",
+                "apn": "internet.mascom",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Mascom_Wap",
+                "mcc": "652",
+                "mnc": "01",
+                "apn": "wap.mascom",
+                "proxy": "192.168.33.138",
+                "port": "8080",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Orange BW MMS",
                 "mcc": "652",
                 "mnc": "02",
@@ -19,7 +40,7 @@
                 "apn": "internet.orange.co.bw",
                 "proxy": "10.0.0.226",
                 "port": "8080",
-                "type": "default"
+                "type": "default,supl"
             }
         ]
     }

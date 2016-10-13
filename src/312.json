@@ -1,0 +1,21 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Sprint CdmaNai",
+                "mcc": "312",
+                "mnc": "530",
+                "apn": "CdmaNai",
+                "mmsproxy": "68.28.31.7",
+                "mmsport": "80",
+                "mmsc": "http://mms.sprintpcs.com",
+                "type": "mms",
+                "carrier_enabled": "false",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6",
+                "bearer": "6"
+            }
+        ]
+    }
+}

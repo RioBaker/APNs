@@ -3,24 +3,51 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Lime Internet Postpaid",
+                "carrier": "LIME Prepaid Internet",
                 "mcc": "376",
-                "mnc": "35",
-                "apn": "internet",
+                "mnc": "350",
+                "apn": "ppinternet",
+                "mmsc": "",
                 "user": "",
                 "password": "",
-                "type": "default,supl,dun"
+                "proxy": "",
+                "port": "8799",
+                "type": "default,supl"
             },
             {
-                "carrier": "Lime Postpaid MMS",
+                "carrier": "LIME Postpaid Internet",
                 "mcc": "376",
-                "mnc": "35",
-                "apn": "multimedia",
+                "mnc": "350",
+                "apn": "internet",
+                "mmsc": "",
                 "user": "",
                 "password": "",
-                "mmsproxy": "10.20.5.34",
-                "mmsport": "8799",
+                "proxy": "",
+                "port": "8799",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "LIME Prepaid MMS",
+                "mcc": "376",
+                "mnc": "350",
+                "apn": "ppmms",
                 "mmsc": "http://mmsc",
+                "user": "",
+                "password": "",
+                "proxy": "10.20.5.34",
+                "port": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "LIME Postpaid MMS",
+                "mcc": "376",
+                "mnc": "350",
+                "apn": "multimedia",
+                "mmsc": "http://mmsc",
+                "user": "",
+                "password": "",
+                "proxy": "10.20.5.34",
+                "port": "8799",
                 "type": "mms"
             }
         ]

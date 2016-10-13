@@ -3,25 +3,90 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Lime Internet Postpaid",
+                "carrier": "Imobile",
                 "mcc": "344",
-                "mnc": "92",
-                "apn": "internet",
+                "mnc": "03",
+                "apn": "ppnet.apuapcs.ag",
+                "mmsc": "",
+                "server": "http://208.083.080.131:40007",
                 "user": "",
                 "password": "",
-                "type": "default,supl,dun"
+                "proxy": "208.83.80.131",
+                "port": "9090",
+                "type": "default,supl"
             },
             {
-                "carrier": "Lime Postpaid MMS",
+                "carrier": "Imobile",
                 "mcc": "344",
-                "mnc": "92",
-                "apn": "multimedia",
+                "mnc": "03",
+                "apn": "net.apuapcs.ag",
+                "mmsc": "",
+                "server": "http://208.083.080.131:40007",
                 "user": "",
                 "password": "",
-                "mmsproxy": "10.20.5.34",
-                "mmsport": "8799",
+                "proxy": "208.83.80.131",
+                "port": "9090",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "LIME Prepaid Internet",
+                "mcc": "344",
+                "mnc": "920",
+                "apn": "ppinternet",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": "8799",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "LIME Postpaid Internet",
+                "mcc": "344",
+                "mnc": "920",
+                "apn": "internet",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": "8799",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "LIME Prepaid MMS",
+                "mcc": "344",
+                "mnc": "920",
+                "apn": "ppmms",
                 "mmsc": "http://mmsc",
+                "user": "",
+                "password": "",
+                "proxy": "10.20.5.34",
+                "port": "8799",
                 "type": "mms"
+            },
+            {
+                "carrier": "LIME Postpaid MMS",
+                "mcc": "344",
+                "mnc": "920",
+                "apn": "multimedia",
+                "mmsc": "http://mmsc",
+                "user": "",
+                "password": "",
+                "proxy": "10.20.5.34",
+                "port": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "LIME",
+                "mcc": "344",
+                "mnc": "920",
+                "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
             }
         ]
     }

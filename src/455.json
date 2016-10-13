@@ -3,24 +3,87 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "SmarTone MAC",
+                "carrier": "SmarTone Macau",
                 "mcc": "455",
                 "mnc": "00",
                 "apn": "smartgprs",
                 "proxy": "10.9.9.29",
                 "port": "8080",
+                "user": "",
+                "password": "",
                 "mmsc": "http://mms.smartone.com.mo/dmog/mo",
                 "mmsproxy": "10.9.9.29",
                 "mmsport": "8080",
                 "type": "default,supl,mms"
             },
             {
+                "carrier": "SmarTone MMS",
+                "mcc": "455",
+                "mnc": "00",
+                "apn": "smartgprs",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mms.smartone.com.mo/dmog/mo",
+                "mmsproxy": "10.9.9.29",
+                "mmsport": "9201",
+                "type": "mms"
+            },
+            {
+                "carrier": "SmarTone",
+                "mcc": "455",
+                "mnc": "00",
+                "apn": "smartweb",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "CTM Data",
+                "apn": "ctm-mobile",
+                "proxy": "192.168.99.2",
+                "port": "8080",
+                "mmsc": "",
+                "mcc": "455",
+                "mnc": "01",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "CTM Data (Prepaid)",
+                "apn": "ctmprepaid",
+                "proxy": "192.168.99.2",
+                "port": "8080",
+                "mmsc": "http://mms.wap.ctm.net:8002",
+                "mmsproxy": "192.168.99.3",
+                "mmsport": "8080",
+                "mcc": "455",
+                "mnc": "01",
+                "authtype": "3",
+                "type": "default,mms"
+            },
+            {
+                "carrier": "CTM MMS",
+                "mcc": "455",
+                "mnc": "01",
+                "apn": "ctmmms",
+                "proxy": "",
+                "port": "",
+                "mmsc": "http://mms.wap.ctm.net:8002",
+                "mmsproxy": "192.168.99.3",
+                "mmsport": "8080",
+                "authtype": "3",
+                "type": "mms"
+            },
+            {
                 "carrier": "CTM",
                 "mcc": "455",
                 "mnc": "01",
                 "apn": "ctm-mobile",
-                "proxy": "192.168.99.2",
-                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -34,7 +97,47 @@
                 "type": "mms"
             },
             {
-                "carrier": "3 Macau MMS",
+                "carrier": "中国电信NET设置",
+                "mcc": "455",
+                "mnc": "02",
+                "apn": "ctnet",
+                "user": "ctnet@mycdma.cn",
+                "password": "vnet.mobi",
+                "authtype": "3",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "中国电信WAP设置",
+                "mcc": "455",
+                "mnc": "02",
+                "apn": "ctwap",
+                "user": "ctwap@mycdma.cn",
+                "password": "vnet.mobi",
+                "proxy": "10.0.0.200",
+                "port": "80",
+                "mmsproxy": "10.0.0.200",
+                "mmsport": "80",
+                "mmsc": "http://mmsc.vnet.mobi",
+                "authtype": "3",
+                "type": "default,supl,dun,mms"
+            },
+            {
+                "carrier": "3MACAU",
+                "mcc": "455",
+                "mnc": "03",
+                "apn": "mobile.three.com.mo",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mms.three.com.mo:10021/mmsc",
+                "mmsproxy": "172.20.80.80",
+                "mmsport": "8080",
+                "authtype": "3",
+                "type": "default,mms"
+            },
+            {
+                "carrier": "Hutchison Macau MMS",
                 "mcc": "455",
                 "mnc": "03",
                 "apn": "mms.hutchisonmacau.com",
@@ -44,7 +147,7 @@
                 "type": "mms"
             },
             {
-                "carrier": "3 Macau",
+                "carrier": "Hutchison Macau",
                 "mcc": "455",
                 "mnc": "03",
                 "apn": "web-g.three.com.hk",

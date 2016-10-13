@@ -1,0 +1,45 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "B-Mobile MMS",
+                "mcc": "528",
+                "mnc": "02",
+                "apn": "bmobilemms",
+                "mmsc": "http://mms.bmobile.com.bn/was",
+                "mmsproxy": "129.9.10.20",
+                "mmsport": "6500",
+                "type": "mms"
+            },
+            {
+                "carrier": "B-Mobile",
+                "mcc": "528",
+                "mnc": "02",
+                "apn": "bmobilewap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "DSTCom",
+                "mcc": "528",
+                "mnc": "11",
+                "apn": "dst.internet",
+                "user": "internet",
+                "password": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "DSTCom MMS",
+                "mcc": "528",
+                "mnc": "11",
+                "apn": "dst.mms",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mms.dst.com.bn/mmsc",
+                "mmsproxy": "10.100.6.101",
+                "mmsport": "9201",
+                "type": "mms"
+            }
+        ]
+    }
+}

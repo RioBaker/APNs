@@ -3,7 +3,65 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Orange World RE",
+                "carrier": "Orange World",
+                "mcc": "647",
+                "mnc": "00",
+                "apn": "orangerun",
+                "proxy": "192.168.010.100",
+                "port": "8080",
+                "user": "orange",
+                "password": "orange",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "mcc": "647",
+                "mnc": "00",
+                "apn": "orangerun.acte",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "192.168.10.200",
+                "mmsport": "8080",
+                "mmsc": "http://mms.orange.re",
+                "user": "orange",
+                "password": "orange",
+                "type": "mms"
+            },
+            {
+                "carrier": "Internet",
+                "mcc": "647",
+                "mnc": "00",
+                "apn": "orangerun",
+                "user": "orange",
+                "password": "orange",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Orange MMS",
+                "mcc": "647",
+                "mnc": "00",
+                "apn": "orangerun.acte",
+                "user": "orange",
+                "password": "orange",
+                "mmsc": "http://mms.orange.re/",
+                "mmsproxy": "192.168.010.200",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange RE MMS",
+                "mcc": "647",
+                "mnc": "00",
+                "apn": "orangerun.acte",
+                "user": "orange",
+                "password": "orange",
+                "mmsc": "http://mms.orange.re/",
+                "mmsproxy": "192.168.010.200",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Orange RE",
                 "mcc": "647",
                 "mnc": "00",
                 "apn": "orangerun",
@@ -24,36 +82,79 @@
                 "type": "mms"
             },
             {
-                "carrier": "MMS",
+                "carrier": "Onlyplanet",
+                "mcc": "647",
+                "mnc": "02",
+                "apn": "onlywap",
+                "proxy": "10.4.85.50",
+                "port": "8080",
+                "user": "only",
+                "password": "only",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "onlymms",
+                "mcc": "647",
+                "mnc": "02",
+                "apn": "onlymms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.4.85.50",
+                "mmsport": "8080",
+                "mmsc": "http://10.4.85.50:8514",
+                "user": "only",
+                "password": "only",
+                "type": "mms"
+            },
+            {
+                "carrier": "WAP GPRS SRR",
+                "mcc": "647",
+                "mnc": "10",
+                "apn": "wapsfr",
+                "proxy": "10.0.224.161",
+                "port": "8080",
+                "mmsc": "",
+                "user": "wap",
+                "password": "wap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS GPRS SRR",
                 "mcc": "647",
                 "mnc": "10",
                 "apn": "mmssfr",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.0.224.145",
+                "mmsport": "8080",
+                "mmsc": "http://mms",
                 "user": "mms",
                 "password": "mms",
+                "type": "mms"
+            },
+            {
+                "carrier": "WEB GPRS SRR",
+                "mcc": "647",
+                "mnc": "10",
+                "apn": "websfr",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SFR MMS",
+                "mcc": "647",
+                "mnc": "10",
+                "apn": "mmssfr",
                 "mmsc": "http://mms",
                 "mmsproxy": "10.0.224.145",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "GPRS SRR",
+                "carrier": "SFR NET",
                 "mcc": "647",
                 "mnc": "10",
-                "apn": "wapsfr",
-                "user": "wap",
-                "password": "wap",
-                "proxy": "10.0.224.161",
-                "port": "8080",
+                "apn": "sl2sfr",
                 "type": "default,supl"
-            },
-            {
-                "carrier": "Orange RE",
-                "mcc": "647",
-                "mnc": "00",
-                "apn": "orangerun",
-                "user": "orange",
-                "password": "orange",
-                "type": "default"
             }
         ]
     }

@@ -3,15 +3,29 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "ProMonte MMS",
+                "carrier": "Telenor MNE internet",
                 "mcc": "297",
                 "mnc": "01",
-                "apn": "mms.promonte.com",
+                "apn": "internet",
+                "proxy": "192.168.246.005",
+                "port": "8080",
+                "mmsc": "",
+                "user": "gprs",
+                "password": "gprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Telenor MNE mms",
+                "mcc": "297",
+                "mnc": "01",
+                "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "192.168.246.005",
+                "mmsport": "8080",
+                "mmsc": "http://mm.vor.telenor.me",
                 "user": "mms",
                 "password": "mms",
-                "mmsc": " http://mm.vor.promonte.com",
-                "mmsproxy": "192.168.246.5",
-                "mmsport": "8080",
                 "type": "mms"
             },
             {
@@ -19,15 +33,34 @@
                 "mcc": "297",
                 "mnc": "01",
                 "apn": "gprs.promonte.com",
+                "proxy": "",
+                "port": "",
                 "user": "gprs",
                 "password": "gprs",
+                "mmsc": "",
                 "type": "default,supl"
+            },
+            {
+                "carrier": "ProMonte MMS",
+                "mcc": "297",
+                "mnc": "01",
+                "apn": "mms.promonte.com",
+                "proxy": "",
+                "port": "",
+                "user": "mms",
+                "password": "mms",
+                "mmsc": "http://mm.vor.promonte.com",
+                "mmsproxy": "192.168.246.5",
+                "mmsport": "8080",
+                "type": "mms"
             },
             {
                 "carrier": "T-Mobile CG MMS",
                 "mcc": "297",
                 "mnc": "02",
                 "apn": "mms",
+                "proxy": "",
+                "port": "",
                 "user": "38267",
                 "password": "38267",
                 "mmsc": "http://192.168.180.100/servlets/mms",
@@ -36,12 +69,15 @@
                 "type": "mms"
             },
             {
-                "carrier": "T-Mobile CG Internet",
+                "carrier": "T-Mobile CG",
                 "mcc": "297",
                 "mnc": "02",
                 "apn": "tmcg-wnw",
+                "proxy": "",
+                "port": "",
                 "user": "38267",
                 "password": "38267",
+                "mmsc": "",
                 "type": "default,supl"
             }
         ]

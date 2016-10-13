@@ -3,17 +3,33 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "myGlobe Internet Postpaid",
+                "carrier": "myGlobe Prepaid",
+                "mcc": "515",
+                "mnc": "02",
+                "apn": "http.globe.com.ph",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "myGlobe Postpaid",
                 "mcc": "515",
                 "mnc": "02",
                 "apn": "internet.globe.com.ph",
                 "type": "default,supl"
             },
             {
-                "carrier": "myGlobe Internet Prepaid",
+                "carrier": "myGlobe Connect",
                 "mcc": "515",
                 "mnc": "02",
-                "apn": "http.globe.com.ph",
+                "apn": "www.globe.com.ph",
+                "proxy": "203.177.042.214",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MyGlobe Stream",
+                "mcc": "515",
+                "mnc": "02",
+                "apn": "real.globe.com.ph",
                 "type": "default,supl"
             },
             {
@@ -27,14 +43,25 @@
                 "type": "mms"
             },
             {
+                "carrier": "Smart GPRS",
+                "mcc": "515",
+                "mnc": "03",
+                "apn": "Smart1",
+                "proxy": "10.102.61.46",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Smart Internet",
                 "mcc": "515",
                 "mnc": "03",
                 "apn": "internet",
+                "proxy": "10.102.61.46",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
-                "carrier": "SmartMMS",
+                "carrier": "Smart MMS",
                 "mcc": "515",
                 "mnc": "03",
                 "apn": "mms",
@@ -44,10 +71,33 @@
                 "type": "mms"
             },
             {
-                "carrier": "SUN INTERNET",
+                "carrier": "Sun Internet",
                 "mcc": "515",
                 "mnc": "05",
                 "apn": "minternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Sun Streaming",
+                "mcc": "515",
+                "mnc": "05",
+                "apn": "minternet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SUN WAP GPRS",
+                "mcc": "515",
+                "mnc": "05",
+                "apn": "wap",
+                "proxy": "202.138.159.078",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SUN SBW",
+                "mcc": "515",
+                "mnc": "05",
+                "apn": "fbband",
                 "type": "default,supl"
             },
             {
@@ -57,23 +107,6 @@
                 "apn": "mms",
                 "mmsc": "http://mmscenter.suncellular.com.ph",
                 "mmsproxy": "202.138.159.78",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "RED INTERNET",
-                "mcc": "515",
-                "mnc": "18",
-                "apn": "redinternet",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "RED MMS",
-                "mcc": "515",
-                "mnc": "18",
-                "apn": "redmms",
-                "mmsc": "http://10.102.61.193:8002/mmsc",
-                "mmsproxy": "10.138.3.35",
                 "mmsport": "8080",
                 "type": "mms"
             }

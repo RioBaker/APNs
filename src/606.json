@@ -1,0 +1,43 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "Libyana MMS",
+                "mcc": "606",
+                "mnc": "00",
+                "apn": "mms",
+                "mmsc": "http://62.240.62.180:80",
+                "mmsproxy": "192.168.8.148",
+                "mmsport": "8000",
+                "type": "mms"
+            },
+            {
+                "carrier": "Libyana",
+                "mcc": "606",
+                "mnc": "00",
+                "apn": "wap",
+                "proxy": "192.168.8.148",
+                "port": "8000",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Al-Madar MMS",
+                "mcc": "606",
+                "mnc": "01",
+                "apn": "almadar.mms",
+                "mmsc": "http://almadar.mms/servlets/mms",
+                "mmsproxy": "41.208.82.50",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Al-Madar",
+                "mcc": "606",
+                "mnc": "01",
+                "apn": "almadar.net",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

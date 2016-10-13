@@ -1,0 +1,14 @@
+{
+    "apns": {
+        "version": "8",
+        "apn": [
+            {
+                "carrier": "TNM",
+                "mcc": "650",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl"
+            }
+        ]
+    }
+}

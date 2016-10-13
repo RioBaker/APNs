@@ -3,6 +3,15 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Orange World",
+                "mcc": "617",
+                "mnc": "01",
+                "apn": "Orangeworld",
+                "proxy": "10.20.3.9",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Orange MMS",
                 "mcc": "617",
                 "mnc": "01",
@@ -19,7 +28,7 @@
                 "mcc": "617",
                 "mnc": "01",
                 "apn": "orange",
-                "type": "default"
+                "type": "default,supl"
             }
         ]
     }

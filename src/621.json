@@ -3,37 +3,47 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Zain Mobile Internet",
+                "carrier": "Zain NG",
                 "mcc": "621",
                 "mnc": "20",
-                "apn": "internet.ng.Zain.com",
+                "apn": "internet.ng.zain.com",
                 "type": "default,supl"
             },
             {
-                "carrier": "Zain MMS",
+                "carrier": "Visafone",
                 "mcc": "621",
-                "mnc": "20",
-                "apn": "mms.ng.zain.com",
-                "user": "mms",
-                "password": "mms",
-                "mmsc": "http://172.23.1.12/mms/wapenc",
-                "mmsproxy": "172.18.254.5",
-                "mmsport": "8080",
-                "type": "mms"
+                "mnc": "25",
+                "apn": "#777",
+                "proxy": "192.168.165.201",
+                "port": "8080",
+                "mmsc": "",
+                "user": "wap@wap.com",
+                "password": "wap",
+                "authtype": "3",
+                "type": "default,supl"
             },
             {
-                "carrier": "MTN GPRS",
+                "carrier": "APTWAP",
+                "mcc": "621",
+                "mnc": "25",
+                "apn": "#777",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTN NG",
                 "mcc": "621",
                 "mnc": "30",
                 "apn": "web.gprs.mtnnigeria.net",
                 "user": "web",
                 "password": "web",
                 "proxy": "10.199.212.2",
-                "port": "8080",
                 "type": "default,supl"
             },
             {
-                "carrier": "MTN MMS",
+                "carrier": "MTN NG MMS",
                 "mcc": "621",
                 "mnc": "30",
                 "apn": "web.gprs.mtnnigeria.net",
@@ -45,35 +55,65 @@
                 "type": "mms"
             },
             {
-                "carrier": "glo direct",
+                "carrier": "Glo Mobile Internet",
                 "mcc": "621",
                 "mnc": "50",
-                "apn": "glosecure",
-                "user": "gprs",
-                "password": "gprs",
+                "apn": "gloflat",
+                "user": "flat",
+                "password": "flat",
+                "proxy": "10.100.98.22",
                 "type": "default,supl"
             },
             {
-                "carrier": "glo mms",
+                "carrier": "Glo PAYU",
+                "mcc": "621",
+                "mnc": "50",
+                "apn": "glosecure",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Glo MMS",
                 "mcc": "621",
                 "mnc": "50",
                 "apn": "glomms",
                 "user": "mms",
                 "password": "mms",
                 "mmsc": "http://mms.gloworld.com/mmsc",
-                "mmsproxy": "10.100.82.4",
-                "mmsport": "9201",
+                "mmsproxy": "010.100.082.004",
+                "mmsport": "3130",
                 "type": "mms"
+            },
+            {
+                "carrier": "Glo",
+                "mcc": "621",
+                "mnc": "50",
+                "apn": "glo3gvideo",
+                "proxy": "10.100.98.22",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
             },
             {
                 "carrier": "Etisalat Internet",
                 "mcc": "621",
                 "mnc": "60",
                 "apn": "etisalat",
+                "user": "",
+                "password": "",
+                "authtype": "3",
+                "type": "*"
+            },
+            {
+                "carrier": "Etisalat NG",
+                "mcc": "621",
+                "mnc": "60",
+                "apn": "etisalat",
                 "type": "default,supl"
             },
             {
-                "carrier": "Etisalat MMS",
+                "carrier": "Etisalat NG MMS",
                 "mcc": "621",
                 "mnc": "60",
                 "apn": "etisalat",

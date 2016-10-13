@@ -3,12 +3,15 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "T-Mobile MK Internet",
+                "carrier": "T-Mobile MK",
                 "mcc": "294",
                 "mnc": "01",
                 "apn": "internet",
+                "proxy": "",
+                "port": "",
                 "user": "internet",
                 "password": "t-mobile",
+                "mmsc": "",
                 "type": "default,supl"
             },
             {
@@ -16,6 +19,8 @@
                 "mcc": "294",
                 "mnc": "01",
                 "apn": "mms",
+                "proxy": "",
+                "port": "",
                 "user": "mms",
                 "password": "mms",
                 "mmsc": "http://mms.t-mobile.com.mk",
@@ -24,47 +29,29 @@
                 "type": "mms"
             },
             {
-                "carrier": "Cosmofon",
-                "mcc": "294",
-                "mnc": "02",
-                "apn": "Internet",
-                "user": "Internet",
-                "password": "Internet",
-                "proxy": "http://wap.planet.mk",
-                "port": "8080",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Cosmofon MMS",
-                "mcc": "294",
-                "mnc": "02",
-                "apn": "mms",
-                "mmsc": "http://195.167.65.220:8002",
-                "mmsproxy": "10.10.10.20",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Vip Internet",
+                "carrier": "Vip internet",
                 "mcc": "294",
                 "mnc": "03",
                 "apn": "vipoperator",
-                "user": "vipoperator",
-                "password": "vipoperator",
                 "proxy": "78.40.0.1",
                 "port": "8080",
+                "mmsc": "",
+                "user": "vipoperator",
+                "password": "vipoperator",
                 "type": "default,supl"
             },
             {
-                "carrier": "Vip MMS",
+                "carrier": "Vip mms",
                 "mcc": "294",
                 "mnc": "03",
                 "apn": "vipoperator.mms",
-                "user": "vipoperator",
-                "password": "vipoperator",
-                "mmsc": "http://mmsc.vipoperator.com.mk",
+                "proxy": "",
+                "port": "",
                 "mmsproxy": "78.40.0.1",
                 "mmsport": "8080",
+                "mmsc": "http://mmsc.vipoperator.com.mk",
+                "user": "",
+                "password": "",
                 "type": "mms"
             }
         ]

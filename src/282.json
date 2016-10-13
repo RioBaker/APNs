@@ -3,21 +3,30 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Geocell MMS",
-                "mcc": "282",
-                "mnc": "01",
-                "apn": "mms",
-                "mmsc": "http://mms.geocell.com.ge/cmmsc/post",
-                "mmsproxy": "10.11.240.007",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
                 "carrier": "Geocell",
                 "mcc": "282",
                 "mnc": "01",
                 "apn": "internet",
-                "type": "default,supl"
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Geocell Mms",
+                "mcc": "282",
+                "mnc": "01",
+                "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mms.geocell.com.ge/cmmsc/post",
+                "mmsproxy": "10.11.240.7",
+                "mmsport": "8080",
+                "type": "default,supl,mms"
             }
         ]
     }

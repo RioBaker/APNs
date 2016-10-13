@@ -3,163 +3,51 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Vodafone IN MMS",
+                "carrier": "MTS WAP",
                 "mcc": "404",
-                "mnc": "01",
-                "apn": "portalnmms",
-                "mmsc": "http://mms1.live.vodafone.in/mms/",
-                "mmsproxy": "10.10.1.100",
-                "mmsport": "9401",
-                "type": "mms"
-            },
-            {
-                "carrier": "Vodafone IN Connect",
-                "mcc": "404",
-                "mnc": "01",
-                "apn": "www",
+                "mnc": "0",
+                "apn": "WAP",
+                "user": "wap@wap.mtsindia.in",
+                "password": "MTS",
+                "authtype": "3",
                 "type": "default,supl"
             },
             {
-                "carrier": "Vodafone IN",
+                "carrier": "MTS MMS",
                 "mcc": "404",
-                "mnc": "01",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Airtel",
-                "mcc": "404",
-                "mnc": "02",
-                "apn": "airtelgprs.com",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Airtel MMS",
-                "mcc": "404",
-                "mnc": "02",
-                "apn": "airtelmms.com",
-                "mmsc": "http://100.1.201.171:10021/mmsc",
-                "mmsproxy": "100.1.201.172",
-                "mmsport": "8799",
-                "type": "mms"
-            },
-            {
-                "carrier": "Airtel",
-                "mcc": "404",
-                "mnc": "03",
-                "apn": "airtelgprs.com",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Airtel MMS",
-                "mcc": "404",
-                "mnc": "03",
-                "apn": "airtelmms.com",
-                "mmsc": "http://100.1.201.171:10021/mmsc",
-                "mmsproxy": "100.1.201.172",
-                "mmsport": "8799",
-                "type": "mms"
-            },
-            {
-                "carrier": "IDEA",
-                "mcc": "404",
-                "mnc": "04",
-                "apn": "internet",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "IDEA MMS",
-                "mcc": "404",
-                "mnc": "04",
-                "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
-                "mmsproxy": "10.4.42.15",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Vodafone IN MMS",
-                "mcc": "404",
-                "mnc": "05",
-                "apn": "portalnmms",
-                "mmsc": "http://mms1.live.vodafone.in/mms/",
-                "mmsproxy": "10.10.1.100",
-                "mmsport": "9401",
-                "type": "mms"
-            },
-            {
-                "carrier": "Vodafone IN Connect",
-                "mcc": "404",
-                "mnc": "05",
-                "apn": "www",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Vodafone IN",
-                "mcc": "404",
-                "mnc": "05",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "IDEA",
-                "mcc": "404",
-                "mnc": "07",
-                "apn": "internet",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "IDEA MMS",
-                "mcc": "404",
-                "mnc": "07",
-                "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
-                "mmsproxy": "10.4.42.15",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Reliance RTel MMS",
-                "mcc": "404",
-                "mnc": "09",
+                "mnc": "0",
                 "apn": "MMS",
-                "mmsc": "http://10.239.221.47/mms/",
-                "mmsproxy": "10.239.221.7",
-                "mmsport": "8080",
+                "user": "mms@mms.mtsindia.in",
+                "password": "MTS",
+                "authtype": "3",
                 "type": "mms"
             },
             {
-                "carrier": "Reliance RTel",
+                "carrier": "MTS MODEM",
                 "mcc": "404",
-                "mnc": "09",
-                "apn": "SMARTNET",
+                "mnc": "0",
+                "apn": "Modem",
+                "user": "internet@internet.mtsindia.in",
+                "password": "MTS",
+                "authtype": "3",
                 "type": "default,supl"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Vodafone",
                 "mcc": "404",
-                "mnc": "10",
-                "apn": "airtelgprs.com",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Airtel MMS",
-                "mcc": "404",
-                "mnc": "10",
-                "apn": "airtelmms.com",
-                "mmsc": "http://100.1.201.171:10021/mmsc",
-                "mmsproxy": "100.1.201.172",
-                "mmsport": "8799",
-                "type": "mms"
+                "mnc": "1",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
             },
             {
                 "carrier": "Vodafone IN MMS",
                 "mcc": "404",
-                "mnc": "11",
+                "mnc": "1",
                 "apn": "portalnmms",
                 "mmsc": "http://mms1.live.vodafone.in/mms/",
                 "mmsproxy": "10.10.1.100",
@@ -167,62 +55,10 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone IN Connect",
-                "mcc": "404",
-                "mnc": "11",
-                "apn": "www",
-                "type": "default,supl"
-            },
-            {
                 "carrier": "Vodafone IN",
                 "mcc": "404",
-                "mnc": "11",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "IDEA",
-                "mcc": "404",
-                "mnc": "12",
-                "apn": "internet",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "IDEA MMS",
-                "mcc": "404",
-                "mnc": "12",
-                "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
-                "mmsproxy": "10.4.42.15",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Vodafone IN MMS",
-                "mcc": "404",
-                "mnc": "13",
-                "apn": "portalnmms",
-                "mmsc": "http://mms1.live.vodafone.in/mms/",
-                "mmsproxy": "10.10.1.100",
-                "mmsport": "9401",
-                "type": "mms"
-            },
-            {
-                "carrier": "Vodafone IN Connect",
-                "mcc": "404",
-                "mnc": "13",
+                "mnc": "1",
                 "apn": "www",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Vodafone IN",
-                "mcc": "404",
-                "mnc": "13",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
                 "type": "default,supl"
             },
             {
@@ -233,31 +69,374 @@
                 "type": "default,supl"
             },
             {
-                "carrier": "IDEA Punjab MMS",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
-                "mnc": "14",
+                "mnc": "2",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "2",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "404",
+                "mnc": "2",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel GPRS",
+                "mcc": "404",
+                "mnc": "3",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "3",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "404",
+                "mnc": "3",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Internet",
+                "mcc": "404",
+                "mnc": "4",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "4",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "404",
+                "mnc": "4",
                 "apn": "mmsc",
-                "mmsc": "http://10.11.12.180/",
-                "mmsproxy": "10.11.12.13",
+                "mmsc": "http://10.4.42.21:8002",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Mobile",
+                "mcc": "404",
+                "mnc": "4",
+                "apn": "mobile",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "5",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "404",
+                "mnc": "5",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
                 "mmsport": "9401",
                 "type": "mms"
             },
             {
-                "carrier": "IDEA Punjab",
+                "carrier": "Vodafone IN",
+                "mcc": "404",
+                "mnc": "5",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel GPRS",
+                "mcc": "404",
+                "mnc": "6",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "6",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "404",
+                "mnc": "6",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Internet",
+                "mcc": "404",
+                "mnc": "7",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "7",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "404",
+                "mnc": "7",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Mobile",
+                "mcc": "404",
+                "mnc": "7",
+                "apn": "mobile",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "NetConnect",
+                "mcc": "404",
+                "mnc": "9",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance GPRS",
+                "mcc": "404",
+                "mnc": "9",
+                "apn": "rcomwap",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Smart MMS",
+                "mcc": "404",
+                "mnc": "9",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://10.239.221.47/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RTel MMS",
+                "mcc": "404",
+                "mnc": "9",
+                "apn": "MMS",
+                "mmsc": "http://10.239.221.47/mms/",
+                "mmsproxy": "10.239.221.7",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance RTel",
+                "mcc": "404",
+                "mnc": "9",
+                "apn": "SMARTNET",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance WAP",
+                "mcc": "404",
+                "mnc": "9",
+                "apn": "rcomwap",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel GPRS",
+                "mcc": "404",
+                "mnc": "10",
+                "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "10",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "404",
+                "mnc": "10",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.1.201.172",
+                "mmsport": "8799",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "11",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "404",
+                "mnc": "11",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "404",
+                "mnc": "11",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Internet",
+                "mcc": "404",
+                "mnc": "12",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "12",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "404",
+                "mnc": "12",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Mobile",
+                "mcc": "404",
+                "mnc": "12",
+                "apn": "mobile",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "13",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "404",
+                "mnc": "13",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone IN",
+                "mcc": "404",
+                "mnc": "13",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Internet",
                 "mcc": "404",
                 "mnc": "14",
                 "apn": "internet",
                 "type": "default,supl"
             },
             {
-                "carrier": "SPICE MMS",
+                "carrier": "IDEA Wap",
                 "mcc": "404",
                 "mnc": "14",
-                "apn": "spicemms",
-                "user": "",
-                "password": "spice",
-                "mmsc": "http://10.200.200.3:8514",
-                "mmsproxy": "10.200.200.30",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "404",
+                "mnc": "14",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002",
+                "mmsproxy": "10.4.42.15",
                 "mmsport": "8080",
                 "type": "mms"
             },
@@ -269,6 +448,30 @@
                 "type": "default,supl"
             },
             {
+                "carrier": "SPICE MMS",
+                "mcc": "404",
+                "mnc": "14",
+                "apn": "spicemms",
+                "user": "User Mobile number",
+                "password": "spice",
+                "mmsc": "http://10.200.200.3:8514",
+                "mmsproxy": "10.200.200.3",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "15",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
+            },
+            {
                 "carrier": "Vodafone IN MMS",
                 "mcc": "404",
                 "mnc": "15",
@@ -279,26 +482,26 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone IN Connect",
+                "carrier": "Vodafone IN",
                 "mcc": "404",
                 "mnc": "15",
                 "apn": "www",
                 "type": "default,supl"
             },
             {
-                "carrier": "Vodafone IN",
-                "mcc": "404",
-                "mnc": "15",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Airtel",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "16",
                 "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "16",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -312,44 +515,92 @@
                 "type": "mms"
             },
             {
-                "carrier": "AIRCEL NE MMS",
+                "carrier": "Aircel Online",
+                "mcc": "404",
+                "mnc": "17",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel GPRS",
+                "mcc": "404",
+                "mnc": "17",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel MMS",
                 "mcc": "404",
                 "mnc": "17",
                 "apn": "aircelmms",
-                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
                 "mmsproxy": "172.17.83.69",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "AIRCEL NE",
+                "carrier": "Aircel",
                 "mcc": "404",
                 "mnc": "17",
-                "apn": "aircelwebpost",
+                "apn": "aircelwap",
                 "type": "default,supl"
             },
             {
-                "carrier": "Reliance RTel MMS",
+                "carrier": "NetConnect",
                 "mcc": "404",
                 "mnc": "18",
-                "apn": "MMS",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance GPRS",
+                "mcc": "404",
+                "mnc": "18",
+                "apn": "rcomwap",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Smart MMS",
+                "mcc": "404",
+                "mnc": "18",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
                 "mmsc": "http://10.239.221.47/mms/",
-                "mmsproxy": "10.239.221.7",
+                "mmsproxy": "10.239.221.5",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Reliance RTel",
+                "carrier": "Reliance MMS",
                 "mcc": "404",
                 "mnc": "18",
-                "apn": "SMARTNET",
-                "type": "default,supl"
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://mms.rcom.co.in/mms",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
             },
             {
-                "carrier": "IDEA",
+                "carrier": "IDEA Internet",
                 "mcc": "404",
                 "mnc": "19",
                 "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "19",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -357,10 +608,29 @@
                 "mcc": "404",
                 "mnc": "19",
                 "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
+                "mmsc": "http://10.4.42.21:8002",
                 "mmsproxy": "10.4.42.15",
                 "mmsport": "8080",
                 "type": "mms"
+            },
+            {
+                "carrier": "IDEA Mobile",
+                "mcc": "404",
+                "mnc": "19",
+                "apn": "mobile",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "20",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
             },
             {
                 "carrier": "Vodafone IN MMS",
@@ -373,170 +643,266 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone IN Connect",
+                "carrier": "Vodafone IN",
                 "mcc": "404",
                 "mnc": "20",
                 "apn": "www",
                 "type": "default,supl"
+            },
+            {
+                "carrier": "Loop Internet",
+                "mcc": "404",
+                "mnc": "21",
+                "apn": "www",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "LOOP WAP",
+                "mcc": "404",
+                "mnc": "21",
+                "apn": "mizone",
+                "proxy": "10.0.0.10",
+                "port": "9401",
+                "user": "Mobile phone number",
+                "password": "bplmmsc",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BPL MMS",
+                "mcc": "404",
+                "mnc": "21",
+                "apn": "mizone",
+                "user": "Mobile phone number",
+                "password": "bplmmsc",
+                "mmsc": "http://mms.bplmobile.com:8080",
+                "mmsproxy": "10.0.0.10",
+                "mmsport": "8080",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "BPL MMS",
+                "mcc": "404",
+                "mnc": "21",
+                "apn": "mizone",
+                "user": "MSISDN",
+                "password": "bplmmsc",
+                "mmsc": "http://mms.bplmobile.com:8080",
+                "mmsproxy": "10.0.0.10",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BPL",
+                "mcc": "404",
+                "mnc": "21",
+                "apn": "www",
+                "user": "MSISDN",
+                "password": "bplmmsc",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Internet",
+                "mcc": "404",
+                "mnc": "22",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "22",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "404",
+                "mnc": "22",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Mobile",
+                "mcc": "404",
+                "mnc": "22",
+                "apn": "mobile",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Internet",
+                "mcc": "404",
+                "mnc": "24",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "24",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
+                "mcc": "404",
+                "mnc": "24",
+                "apn": "mmsc",
+                "mmsc": "http://10.4.42.21:8002",
+                "mmsproxy": "10.4.42.15",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Mobile",
+                "mcc": "404",
+                "mnc": "24",
+                "apn": "mobile",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel Online",
+                "mcc": "404",
+                "mnc": "25",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel GPRS",
+                "mcc": "404",
+                "mnc": "25",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel MMS",
+                "mcc": "404",
+                "mnc": "25",
+                "apn": "aircelmms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "27",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
+                "mcc": "404",
+                "mnc": "27",
+                "apn": "portalnmms",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "mms"
             },
             {
                 "carrier": "Vodafone IN",
                 "mcc": "404",
-                "mnc": "20",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "BPL MMS",
-                "mcc": "404",
-                "mnc": "21",
-                "apn": "mizone",
-                "password": "mmsc",
-                "mmsc": "http://mms.bplmobile.com:8080",
-                "mmsproxy": "10.0.0.10",
-                "mmsport": "9401",
-                "type": "mms"
-            },
-            {
-                "carrier": "BPL",
-                "mcc": "404",
-                "mnc": "21",
+                "mnc": "27",
                 "apn": "www",
                 "type": "default,supl"
             },
             {
-                "carrier": "IDEA",
+                "carrier": "Aircel Online",
                 "mcc": "404",
-                "mnc": "22",
-                "apn": "internet",
+                "mnc": "28",
+                "apn": "aircelgprs",
                 "type": "default,supl"
             },
             {
-                "carrier": "IDEA MMS",
+                "carrier": "Aircel GPRS",
                 "mcc": "404",
-                "mnc": "22",
-                "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
-                "mmsproxy": "10.4.42.15",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "IDEA",
-                "mcc": "404",
-                "mnc": "24",
-                "apn": "internet",
+                "mnc": "28",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
-                "carrier": "IDEA MMS",
+                "carrier": "Aircel MMS",
                 "mcc": "404",
-                "mnc": "24",
-                "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
-                "mmsproxy": "10.4.42.15",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "AIRCEL NE MMS",
-                "mcc": "404",
-                "mnc": "25",
+                "mnc": "28",
                 "apn": "aircelmms",
-                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
                 "mmsproxy": "172.17.83.69",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "AIRCEL NE",
+                "carrier": "Aircel",
                 "mcc": "404",
-                "mnc": "25",
-                "apn": "aircelwebpost",
+                "mnc": "28",
+                "apn": "aircelwap",
                 "type": "default,supl"
             },
             {
-                "carrier": "Vodafone MMS",
+                "carrier": "Aircel Online",
                 "mcc": "404",
-                "mnc": "27",
+                "mnc": "29",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel GPRS",
+                "mcc": "404",
+                "mnc": "29",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel MMS",
+                "mcc": "404",
+                "mnc": "29",
+                "apn": "aircelmms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Aircel",
+                "mcc": "404",
+                "mnc": "29",
+                "apn": "aircelwap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "30",
                 "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
                 "mmsc": "http://mms1.live.vodafone.in/mms/",
                 "mmsproxy": "10.10.1.100",
                 "mmsport": "9401",
-                "type": "mms"
+                "type": "default,supl,mms"
             },
             {
-                "carrier": "Vodafone Connect",
-                "mcc": "404",
-                "mnc": "27",
-                "apn": "www",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "VodafoneLive!",
-                "mcc": "404",
-                "mnc": "27",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "BPL MMS",
-                "mcc": "404",
-                "mnc": "27",
-                "apn": "mizone",
-                "password": "mmsc",
-                "mmsc": "http://mms.bplmobile.com:8080",
-                "mmsproxy": "10.0.0.10",
-                "mmsport": "9401",
-                "type": "mms"
-            },
-            {
-                "carrier": "BPL",
-                "mcc": "404",
-                "mnc": "27",
-                "apn": "www",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "AIRCEL NE MMS",
-                "mcc": "404",
-                "mnc": "28",
-                "apn": "aircelmms",
-                "mmsc": "http://10.50.1.166/servlets/mms",
-                "mmsproxy": "172.17.83.69",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "AIRCEL NE",
-                "mcc": "404",
-                "mnc": "28",
-                "apn": "aircelwebpost",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "AIRCEL NE MMS",
-                "mcc": "404",
-                "mnc": "29",
-                "apn": "aircelmms",
-                "mmsc": "http://10.50.1.166/servlets/mms",
-                "mmsproxy": "172.17.83.69",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "AIRCEL NE",
-                "mcc": "404",
-                "mnc": "29",
-                "apn": "aircelwebpost",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Vodafone MMS",
+                "carrier": "Vodafone IN MMS",
                 "mcc": "404",
                 "mnc": "30",
                 "apn": "portalnmms",
@@ -546,26 +912,26 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone Connect",
+                "carrier": "Vodafone IN",
                 "mcc": "404",
                 "mnc": "30",
                 "apn": "www",
                 "type": "default,supl"
             },
             {
-                "carrier": "VodafoneLive!",
-                "mcc": "404",
-                "mnc": "30",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Airtel",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "31",
                 "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "31",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -579,112 +945,260 @@
                 "type": "mms"
             },
             {
-                "carrier": "AIRCEL NE MMS",
+                "carrier": "Aircel",
+                "mcc": "404",
+                "mnc": "33",
+                "apn": "aircelwap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel Online",
+                "mcc": "404",
+                "mnc": "33",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel GPRS",
+                "mcc": "404",
+                "mnc": "33",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel MMS",
                 "mcc": "404",
                 "mnc": "33",
                 "apn": "aircelmms",
-                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
                 "mmsproxy": "172.17.83.69",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "AIRCEL NE",
-                "mcc": "404",
-                "mnc": "33",
-                "apn": "aircelwebpost",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Cellone_North MMS",
-                "mcc": "404",
-                "mnc": "34",
-                "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
-                "mmsproxy": "10.210.10.11",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Cellone_North",
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "34",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "AIRCEL NE MMS",
+                "carrier": "BSNL WAP",
                 "mcc": "404",
-                "mnc": "35",
-                "apn": "aircelmms",
-                "mmsc": "http://10.50.1.166/servlets/mms",
-                "mmsproxy": "172.17.83.69",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "AIRCEL NE",
-                "mcc": "404",
-                "mnc": "35",
-                "apn": "aircelwebpost",
+                "mnc": "34",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
                 "type": "default,supl"
             },
             {
-                "carrier": "Reliance RTel MMS",
+                "carrier": "BSNL-mms",
                 "mcc": "404",
-                "mnc": "36",
-                "apn": "MMS",
-                "mmsc": "http://10.239.221.47/mms/",
-                "mmsproxy": "10.239.221.7",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Reliance RTel",
-                "mcc": "404",
-                "mnc": "36",
-                "apn": "SMARTNET",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "AIRCEL NE MMS",
-                "mcc": "404",
-                "mnc": "37",
-                "apn": "aircelmms",
-                "mmsc": "http://10.50.1.166/servlets/mms",
-                "mmsproxy": "172.17.83.69",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "AIRCEL NE",
-                "mcc": "404",
-                "mnc": "37",
-                "apn": "aircelwebpost",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "CellOne_Kolkata MMS",
-                "mcc": "404",
-                "mnc": "38",
+                "mnc": "34",
                 "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
                 "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_Kolkata",
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "34",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "34",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Aircel Online",
+                "mcc": "404",
+                "mnc": "35",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel GPRS",
+                "mcc": "404",
+                "mnc": "35",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel MMS",
+                "mcc": "404",
+                "mnc": "35",
+                "apn": "aircelmms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Aircel",
+                "mcc": "404",
+                "mnc": "35",
+                "apn": "aircelwap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "NetConnect",
+                "mcc": "404",
+                "mnc": "36",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance GPRS",
+                "mcc": "404",
+                "mnc": "36",
+                "apn": "rcomwap",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Smart MMS",
+                "mcc": "404",
+                "mnc": "36",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://10.239.221.47/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance MMS",
+                "mcc": "404",
+                "mnc": "36",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://mms.rcom.co.in/mms",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Aircel Online",
+                "mcc": "404",
+                "mnc": "37",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel GPRS",
+                "mcc": "404",
+                "mnc": "37",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel MMS",
+                "mcc": "404",
+                "mnc": "37",
+                "apn": "aircelmms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Aircel",
+                "mcc": "404",
+                "mnc": "37",
+                "apn": "aircelwap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "38",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "38",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "38",
+                "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
+                "mmsproxy": "10.210.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "38",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "38",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "40",
                 "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "40",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -698,38 +1212,82 @@
                 "type": "mms"
             },
             {
-                "carrier": "AIRCEL TN",
+                "carrier": "Aircel Online",
                 "mcc": "404",
                 "mnc": "41",
-                "apn": "aircelgprs.po",
+                "apn": "aircelgprs",
                 "type": "default,supl"
             },
             {
-                "carrier": "AIRCEL TN MMS",
+                "carrier": "Aircel GPRS",
                 "mcc": "404",
                 "mnc": "41",
-                "apn": "aircelmms.po",
-                "mmsc": "http://mmsc/mmrelay.app",
-                "mmsproxy": "192.168.35.196",
-                "mmsport": "8081",
-                "type": "mms"
-            },
-            {
-                "carrier": "AIRCEL TN",
-                "mcc": "404",
-                "mnc": "42",
-                "apn": "aircelgprs.po",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
-                "carrier": "AIRCEL TN MMS",
+                "carrier": "Aircel MMS",
+                "mcc": "404",
+                "mnc": "41",
+                "apn": "aircelmms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Aircel",
+                "mcc": "404",
+                "mnc": "41",
+                "apn": "aircelwap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel Online",
                 "mcc": "404",
                 "mnc": "42",
-                "apn": "aircelmms.po",
-                "mmsc": "http://mmsc/mmrelay.app",
-                "mmsproxy": "192.168.35.196",
-                "mmsport": "8081",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel GPRS",
+                "mcc": "404",
+                "mnc": "42",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel MMS",
+                "mcc": "404",
+                "mnc": "42",
+                "apn": "aircelmms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
                 "type": "mms"
+            },
+            {
+                "carrier": "Aircel",
+                "mcc": "404",
+                "mnc": "42",
+                "apn": "aircelwap",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "43",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
             },
             {
                 "carrier": "Vodafone IN MMS",
@@ -742,30 +1300,30 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone IN Connect",
+                "carrier": "Vodafone IN",
                 "mcc": "404",
                 "mnc": "43",
                 "apn": "www",
                 "type": "default,supl"
             },
             {
-                "carrier": "Vodafone IN",
-                "mcc": "404",
-                "mnc": "43",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "IDEA Karnataka",
+                "carrier": "IDEA Internet",
                 "mcc": "404",
                 "mnc": "44",
                 "apn": "internet",
                 "type": "default,supl"
             },
             {
-                "carrier": "IDEA Karnataka MMS",
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "44",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA MMS",
                 "mcc": "404",
                 "mnc": "44",
                 "apn": "mmsc",
@@ -775,18 +1333,6 @@
                 "type": "mms"
             },
             {
-                "carrier": "SPICE MMS",
-                "mcc": "404",
-                "mnc": "44",
-                "apn": "spicemms",
-                "user": "",
-                "password": "spice",
-                "mmsc": "http://10.200.200.3:8514",
-                "mmsproxy": "10.200.200.30",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
                 "carrier": "SPICE",
                 "mcc": "404",
                 "mnc": "44",
@@ -794,10 +1340,31 @@
                 "type": "default,supl"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "SPICE MMS",
+                "mcc": "404",
+                "mnc": "44",
+                "apn": "spicemms",
+                "user": "User Mobile number",
+                "password": "spice",
+                "mmsc": "http://10.200.200.3:8514",
+                "mmsproxy": "10.200.200.3",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "45",
                 "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "45",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -811,40 +1378,27 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone MMS",
-                "mcc": "404",
-                "mnc": "46",
-                "apn": "portalnmms",
-                "mmsc": "http://mms1.live.vodafone.in/mms/",
-                "mmsproxy": "10.10.1.100",
-                "mmsport": "9401",
-                "type": "mms"
-            },
-            {
-                "carrier": "Vodafone Connect",
-                "mcc": "404",
-                "mnc": "46",
-                "apn": "www",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "VodafoneLive!",
+                "carrier": "Vodafone",
                 "mcc": "404",
                 "mnc": "46",
                 "apn": "portalnmms",
                 "proxy": "10.10.1.100",
                 "port": "9401",
-                "type": "default,supl"
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
             },
             {
                 "carrier": "BPL MMS",
                 "mcc": "404",
                 "mnc": "46",
                 "apn": "mizone",
-                "password": "mmsc",
+                "user": "MSISDN",
+                "password": "bplmmsc",
                 "mmsc": "http://mms.bplmobile.com:8080",
                 "mmsproxy": "10.0.0.10",
-                "mmsport": "9401",
+                "mmsport": "8080",
                 "type": "mms"
             },
             {
@@ -852,13 +1406,24 @@
                 "mcc": "404",
                 "mnc": "46",
                 "apn": "www",
+                "user": "MSISDN",
+                "password": "bplmmsc",
                 "type": "default,supl"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "49",
                 "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "49",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -872,112 +1437,303 @@
                 "type": "mms"
             },
             {
-                "carrier": "Reliance RTel MMS",
+                "carrier": "NetConnect",
                 "mcc": "404",
                 "mnc": "50",
-                "apn": "MMS",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance GPRS",
+                "mcc": "404",
+                "mnc": "50",
+                "apn": "rcomwap",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Smart MMS",
+                "mcc": "404",
+                "mnc": "50",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
                 "mmsc": "http://10.239.221.47/mms/",
-                "mmsproxy": "10.239.221.7",
+                "mmsproxy": "10.239.221.5",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Reliance RTel",
+                "carrier": "Reliance MMS",
                 "mcc": "404",
                 "mnc": "50",
-                "apn": "SMARTNET",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://mms.rcom.co.in/mms",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
+                "mcc": "404",
+                "mnc": "51",
+                "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Cellone_North MMS",
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "51",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
                 "mcc": "404",
                 "mnc": "51",
                 "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Cellone_North",
+                "carrier": "BSNL",
                 "mcc": "404",
                 "mnc": "51",
                 "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
                 "type": "default,supl"
             },
             {
-                "carrier": "Reliance RTel MMS",
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "51",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "NetConnect",
                 "mcc": "404",
                 "mnc": "52",
-                "apn": "MMS",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance GPRS",
+                "mcc": "404",
+                "mnc": "52",
+                "apn": "rcomwap",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Smart MMS",
+                "mcc": "404",
+                "mnc": "52",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
                 "mmsc": "http://10.239.221.47/mms/",
-                "mmsproxy": "10.239.221.7",
+                "mmsproxy": "10.239.221.5",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Reliance RTel",
+                "carrier": "Reliance MMS",
                 "mcc": "404",
                 "mnc": "52",
-                "apn": "SMARTNET",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Cellone_North MMS",
-                "mcc": "404",
-                "mnc": "53",
-                "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
-                "mmsproxy": "10.210.10.11",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://mms.rcom.co.in/mms",
+                "mmsproxy": "10.239.221.5",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Cellone_North",
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "53",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Cellone_North MMS",
+                "carrier": "BSNL WAP",
                 "mcc": "404",
-                "mnc": "54",
+                "mnc": "53",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "53",
                 "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Cellone_North",
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "53",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "53",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "54",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Cellone_North MMS",
+                "carrier": "BSNL WAP",
                 "mcc": "404",
-                "mnc": "55",
+                "mnc": "54",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "54",
                 "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Cellone_North",
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "54",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "54",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "55",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "IDEA",
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "55",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "55",
+                "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
+                "mmsproxy": "10.210.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "55",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "55",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Internet",
                 "mcc": "404",
                 "mnc": "56",
                 "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "56",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -985,61 +1741,182 @@
                 "mcc": "404",
                 "mnc": "56",
                 "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
+                "mmsc": "http://10.4.42.21:8002",
                 "mmsproxy": "10.4.42.15",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Cellone_West MMS",
+                "carrier": "IDEA Mobile",
                 "mcc": "404",
-                "mnc": "57",
-                "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
-                "mmsproxy": "10.210.10.11",
-                "mmsport": "8080",
-                "type": "mms"
+                "mnc": "56",
+                "apn": "mobile",
+                "type": "default,supl"
             },
             {
-                "carrier": "Cellone_West",
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "57",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Cellone_West MMS",
+                "carrier": "BSNL WAP",
                 "mcc": "404",
-                "mnc": "58",
+                "mnc": "57",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "57",
                 "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Cellone_West",
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "57",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "57",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "58",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Cellone_North MMS",
+                "carrier": "BSNL WAP",
                 "mcc": "404",
-                "mnc": "59",
+                "mnc": "58",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "58",
                 "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Cellone_North",
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "58",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "58",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "59",
                 "apn": "bsnlnet",
                 "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "59",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "59",
+                "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
+                "mmsproxy": "10.210.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "59",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "59",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "60",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
             },
             {
                 "carrier": "Vodafone IN MMS",
@@ -1052,170 +1929,368 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone IN Connect",
+                "carrier": "Vodafone IN",
                 "mcc": "404",
                 "mnc": "60",
                 "apn": "www",
                 "type": "default,supl"
             },
             {
-                "carrier": "Vodafone IN",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
-                "mnc": "60",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
+                "mnc": "61",
+                "apn": "airtelgprs.com",
                 "type": "default,supl"
             },
             {
-                "carrier": "Cellone_North MMS",
+                "carrier": "Airtel Live",
                 "mcc": "404",
-                "mnc": "62",
-                "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
-                "mmsproxy": "10.210.10.11",
-                "mmsport": "8080",
+                "mnc": "61",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel MMS",
+                "mcc": "404",
+                "mnc": "61",
+                "apn": "airtelmms.com",
+                "mmsc": "http://100.1.201.171:10021/mmsc",
+                "mmsproxy": "100.001.201.172",
+                "mmsport": "8799",
+                "authtype": "1",
                 "type": "mms"
             },
             {
-                "carrier": "Cellone_North",
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "62",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "CellOne_South MMS",
+                "carrier": "BSNL WAP",
                 "mcc": "404",
-                "mnc": "64",
+                "mnc": "62",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "62",
                 "apn": "bsnlmms",
-                "password": "mmsc",
+                "proxy": "10.210.10.11",
+                "port": "8080",
                 "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_South",
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "62",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "62",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "64",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Cellone_West MMS",
+                "carrier": "BSNL WAP",
                 "mcc": "404",
-                "mnc": "66",
+                "mnc": "64",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "64",
                 "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Cellone_West",
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "64",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "64",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "66",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Reliance RTel MMS",
+                "carrier": "BSNL WAP",
                 "mcc": "404",
-                "mnc": "67",
-                "apn": "MMS",
-                "mmsc": "http://10.239.221.47/mms/",
-                "mmsproxy": "10.239.221.7",
+                "mnc": "66",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "66",
+                "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
+                "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Reliance RTel",
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "66",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "66",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vodafone",
                 "mcc": "404",
                 "mnc": "67",
-                "apn": "SMARTNET",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Dolphin_Delhi MMS",
-                "mcc": "404",
-                "mnc": "68",
-                "apn": "gprsmtnldel",
-                "user": "mtnl",
-                "password": "mtnl123",
-                "mmsc": "http://172.16.31.136/mms/",
-                "mmsproxy": "172.16.31.10",
-                "mmsport": "80",
-                "type": "mms"
-            },
-            {
-                "carrier": "Dolphin_Delhi",
-                "mcc": "404",
-                "mnc": "68",
-                "apn": "gprsmtnldel",
-                "user": "mtnl",
-                "password": "mtnl123",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Dolphin_Delhi_3G MMS",
-                "mcc": "404",
-                "mnc": "68",
-                "apn": "mtnl3g",
-                "user": "mtnl",
-                "password": "mtnl123",
-                "mmsc": "http://172.16.31.165/mms/",
-                "mmsproxy": "172.16.31.10",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
                 "mmsport": "9401",
-                "type": "mms"
+                "type": "default,supl,mms"
             },
             {
-                "carrier": "Dolphin_Delhi_3G",
+                "carrier": "NetConnect",
                 "mcc": "404",
-                "mnc": "68",
-                "apn": "mtnl3g",
-                "user": "mtnl",
-                "password": "mtnl123",
+                "mnc": "67",
+                "apn": "rcomnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Dolphin_Mumbai MMS",
+                "carrier": "Reliance GPRS",
                 "mcc": "404",
-                "mnc": "69",
-                "apn": "gprsmtnlmum",
+                "mnc": "67",
+                "apn": "rcomwap",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Smart MMS",
+                "mcc": "404",
+                "mnc": "67",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://10.239.221.47/mms/",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Reliance MMS",
+                "mcc": "404",
+                "mnc": "67",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://mms.rcom.co.in/mms",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTNL GPRS",
+                "mcc": "404",
+                "mnc": "68",
+                "apn": "gprsppsmum",
+                "proxy": "172.16.39.10",
+                "port": "9401",
+                "user": "mtnl",
+                "password": "mtnl123",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTNL MMS",
+                "mcc": "404",
+                "mnc": "68",
+                "apn": "gprsppsmum",
                 "user": "mtnl",
                 "password": "mtnl123",
                 "mmsc": "http://172.16.39.140/mms/",
                 "mmsproxy": "172.16.39.10",
-                "mmsport": "80",
+                "mmsport": "9401",
+                "authtype": "1",
                 "type": "mms"
             },
             {
-                "carrier": "Dolphin_Mumbai",
+                "carrier": "MTNL MMS",
                 "mcc": "404",
-                "mnc": "69",
-                "apn": "gprsmtnlmum",
+                "mnc": "68",
+                "apn": "gprsppsdel",
+                "user": "mtnl",
+                "password": "mtnl123",
+                "mmsc": "http://172.16.39.140/mms/",
+                "mmsproxy": "172.16.39.10",
+                "mmsport": "9201",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTNL GPRS",
+                "mcc": "404",
+                "mnc": "68",
+                "apn": "gprsppsdel",
                 "user": "mtnl",
                 "password": "mtnl123",
                 "type": "default,supl"
             },
             {
-                "carrier": "Dolphin_Mumbai_3G MMS",
+                "carrier": "MTNL",
                 "mcc": "404",
-                "mnc": "69",
-                "apn": "mtnl3g",
+                "mnc": "68",
+                "apn": "mtnl.net",
+                "proxy": "10.10.10.10",
+                "port": "9401",
                 "user": "mtnl",
                 "password": "mtnl123",
-                "mmsc": "http://172.16.31.165/mms/",
-                "mmsproxy": "172.16.39.10",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTNL MMS",
+                "mcc": "404",
+                "mnc": "68",
+                "apn": "mtnl.net",
+                "user": "mtnl",
+                "password": "mtnl123",
+                "mmsc": "http://mtnlmms/",
+                "mmsproxy": "10.10.10.10",
                 "mmsport": "9401",
                 "type": "mms"
             },
             {
-                "carrier": "Dolphin_Mumbai_3G",
+                "carrier": "MTNL GPRS",
                 "mcc": "404",
                 "mnc": "69",
-                "apn": "mtnl3g",
+                "apn": "gprsppsmum",
+                "proxy": "172.16.39.10",
+                "port": "9401",
+                "user": "mtnl",
+                "password": "mtnl123",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTNL MMS",
+                "mcc": "404",
+                "mnc": "69",
+                "apn": "gprsppsmum",
+                "user": "mtnl",
+                "password": "mtnl123",
+                "mmsc": "http://172.16.39.140/mms/",
+                "mmsproxy": "172.16.39.10",
+                "mmsport": "9401",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTNL MMS",
+                "mcc": "404",
+                "mnc": "69",
+                "apn": "gprsppsdel",
+                "user": "mtnl",
+                "password": "mtnl123",
+                "mmsc": "http://172.16.39.140/mms/",
+                "mmsproxy": "172.16.39.10",
+                "mmsport": "9201",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "MTNL GPRS",
+                "mcc": "404",
+                "mnc": "69",
+                "apn": "gprsppsmum",
+                "user": "mtnl",
+                "password": "mtnl123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MTNL",
+                "mcc": "404",
+                "mnc": "69",
+                "apn": "mtnl.net",
+                "proxy": "10.10.10.10",
+                "port": "9401",
                 "user": "mtnl",
                 "password": "mtnl123",
                 "type": "default,supl"
@@ -1227,18 +2302,25 @@
                 "apn": "mtnl.net",
                 "user": "mtnl",
                 "password": "mtnl123",
-                "proxy": "10.10.10.10",
-                "port": "9401",
                 "mmsc": "http://mtnlmms/",
                 "mmsproxy": "10.10.10.10",
                 "mmsport": "9401",
-                "type": "default,supl,mms"
+                "type": "mms"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "70",
                 "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "70",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -1252,132 +2334,376 @@
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_South MMS",
-                "mcc": "404",
-                "mnc": "71",
-                "apn": "bsnlmms",
-                "password": "mmsc",
-                "mmsc": "http://bsnlmmsc.in:8514",
-                "mmsproxy": "10.210.10.11",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "CellOne_South",
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "71",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "CellOne_South MMS",
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "71",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "71",
+                "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
+                "mmsproxy": "10.210.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "71",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "71",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
+                "mcc": "404",
+                "mnc": "72",
+                "apn": "bsnlnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "72",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
                 "mcc": "404",
                 "mnc": "72",
                 "apn": "bsnlmms",
-                "password": "mmsc",
+                "proxy": "10.210.10.11",
+                "port": "8080",
                 "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_South",
+                "carrier": "BSNL",
                 "mcc": "404",
                 "mnc": "72",
                 "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
                 "type": "default,supl"
             },
             {
-                "carrier": "CellOne_South MMS",
+                "carrier": "BSNL MMS",
                 "mcc": "404",
-                "mnc": "73",
-                "apn": "bsnlmms",
+                "mnc": "72",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
                 "password": "mmsc",
-                "mmsc": "http://bsnlmmsc.in:8514",
-                "mmsproxy": "10.210.10.11",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_South",
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "73",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "CellOne_Kolkata MMS",
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "73",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "73",
+                "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
+                "mmsproxy": "10.210.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "73",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "73",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
+                "mcc": "404",
+                "mnc": "74",
+                "apn": "bsnlnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "74",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
                 "mcc": "404",
                 "mnc": "74",
                 "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
                 "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_Kolkata",
+                "carrier": "BSNL",
                 "mcc": "404",
                 "mnc": "74",
                 "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
                 "type": "default,supl"
             },
             {
-                "carrier": "CellOne_Kolkata MMS",
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "74",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
+                "mcc": "404",
+                "mnc": "75",
+                "apn": "bsnlnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "75",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
                 "mcc": "404",
                 "mnc": "75",
                 "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
                 "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_Kolkata",
+                "carrier": "BSNL",
                 "mcc": "404",
                 "mnc": "75",
                 "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
                 "type": "default,supl"
             },
             {
-                "carrier": "CellOne_Kolkata MMS",
+                "carrier": "BSNL MMS",
                 "mcc": "404",
-                "mnc": "76",
-                "apn": "bsnlmms",
-                "mmsc": "http://bsnlmmsc.in:8514",
-                "mmsproxy": "10.210.10.11",
+                "mnc": "75",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_Kolkata",
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "76",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "CellOne_Kolkata MMS",
+                "carrier": "BSNL WAP",
                 "mcc": "404",
-                "mnc": "77",
+                "mnc": "76",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "76",
                 "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
                 "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_Kolkata",
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "76",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "76",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "77",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "IDEA",
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "77",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "77",
+                "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
+                "mmsproxy": "10.210.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "77",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "77",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Internet",
                 "mcc": "404",
                 "mnc": "78",
                 "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "78",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -1385,69 +2711,164 @@
                 "mcc": "404",
                 "mnc": "78",
                 "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
+                "mmsc": "http://10.4.42.21:8002",
                 "mmsproxy": "10.4.42.15",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_South MMS",
+                "carrier": "IDEA Mobile",
                 "mcc": "404",
-                "mnc": "79",
-                "apn": "bsnlmms",
-                "password": "mmsc",
-                "mmsc": "http://bsnlmmsc.in:8514",
-                "mmsproxy": "10.210.10.11",
-                "mmsport": "8080",
-                "type": "mms"
+                "mnc": "78",
+                "apn": "mobile",
+                "type": "default,supl"
             },
             {
-                "carrier": "CellOne_South",
+                "carrier": "BSNL NET",
                 "mcc": "404",
                 "mnc": "79",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "CellOne_South MMS",
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "79",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
+                "mcc": "404",
+                "mnc": "79",
+                "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
+                "mmsproxy": "10.210.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL NET",
+                "mcc": "404",
+                "mnc": "80",
+                "apn": "bsnlnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "80",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
                 "mcc": "404",
                 "mnc": "80",
                 "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
+                "mmsc": "http://bsnlmmsc.in:8514",
+                "mmsproxy": "10.210.10.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "BSNL",
+                "mcc": "404",
+                "mnc": "80",
+                "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "80",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
                 "password": "mmsc",
-                "mmsc": "http://bsnlmmsc.in:8514",
-                "mmsproxy": "10.210.10.11",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_South",
+                "carrier": "BSNL NET",
                 "mcc": "404",
-                "mnc": "80",
+                "mnc": "81",
                 "apn": "bsnlnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "CellOne_Kolkata MMS",
+                "carrier": "BSNL WAP",
+                "mcc": "404",
+                "mnc": "81",
+                "apn": "WAPSOUTH.CELLONE.IN",
+                "proxy": "10.31.54.2",
+                "port": "9401",
+                "user": "PPP",
+                "password": "PPP123",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "BSNL-mms",
                 "mcc": "404",
                 "mnc": "81",
                 "apn": "bsnlmms",
+                "proxy": "10.210.10.11",
+                "port": "8080",
                 "mmsc": "http://bsnlmmsc.in:8514",
                 "mmsproxy": "10.210.10.11",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "CellOne_Kolkata",
+                "carrier": "BSNL",
                 "mcc": "404",
                 "mnc": "81",
                 "apn": "bsnlnet",
+                "user": "MSISDN",
+                "password": "MSISDN",
                 "type": "default,supl"
             },
             {
-                "carrier": "IDEA",
+                "carrier": "BSNL MMS",
+                "mcc": "404",
+                "mnc": "81",
+                "apn": "mmssouth.cellone.in",
+                "user": "MSISDN",
+                "password": "mmsc",
+                "mmsc": "http://10.7.236.11:8514",
+                "mmsproxy": "10.7.236.11",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "IDEA Internet",
                 "mcc": "404",
                 "mnc": "82",
                 "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "82",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -1455,30 +2876,72 @@
                 "mcc": "404",
                 "mnc": "82",
                 "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
+                "mmsc": "http://10.4.42.21:8002",
                 "mmsproxy": "10.4.42.15",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Reliance RTel MMS",
+                "carrier": "IDEA Mobile",
+                "mcc": "404",
+                "mnc": "82",
+                "apn": "mobile",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "NetConnect",
                 "mcc": "404",
                 "mnc": "83",
-                "apn": "MMS",
+                "apn": "rcomnet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Reliance GPRS",
+                "mcc": "404",
+                "mnc": "83",
+                "apn": "rcomwap",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Smart MMS",
+                "mcc": "404",
+                "mnc": "83",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
                 "mmsc": "http://10.239.221.47/mms/",
-                "mmsproxy": "10.239.221.7",
+                "mmsproxy": "10.239.221.5",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Reliance RTel",
+                "carrier": "Reliance MMS",
                 "mcc": "404",
                 "mnc": "83",
-                "apn": "SMARTNET",
-                "type": "default,supl"
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://mms.rcom.co.in/mms",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
             },
             {
-                "carrier": "Vodafone MMS",
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "84",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
                 "mcc": "404",
                 "mnc": "84",
                 "apn": "portalnmms",
@@ -1488,40 +2951,54 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone Connect",
+                "carrier": "Vodafone IN",
                 "mcc": "404",
                 "mnc": "84",
                 "apn": "www",
                 "type": "default,supl"
             },
             {
-                "carrier": "VodafoneLive!",
+                "carrier": "NetConnect",
                 "mcc": "404",
-                "mnc": "84",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
+                "mnc": "85",
+                "apn": "rcomnet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Reliance RTel MMS",
+                "carrier": "Reliance GPRS",
                 "mcc": "404",
                 "mnc": "85",
-                "apn": "MMS",
+                "apn": "rcomwap",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Smart MMS",
+                "mcc": "404",
+                "mnc": "85",
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
                 "mmsc": "http://10.239.221.47/mms/",
-                "mmsproxy": "10.239.221.7",
+                "mmsproxy": "10.239.221.5",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Reliance RTel",
+                "carrier": "Reliance MMS",
                 "mcc": "404",
                 "mnc": "85",
-                "apn": "SMARTNET",
-                "type": "default,supl"
+                "apn": "rcommms",
+                "proxy": "10.239.221.5",
+                "port": "8080",
+                "mmsc": "http://mms.rcom.co.in/mms",
+                "mmsproxy": "10.239.221.5",
+                "mmsport": "8080",
+                "type": "mms"
             },
             {
-                "carrier": "India Hutch",
+                "carrier": "Vodafone",
                 "mcc": "404",
                 "mnc": "86",
                 "apn": "portalnmms",
@@ -1533,7 +3010,7 @@
                 "type": "default,supl,mms"
             },
             {
-                "carrier": "Vodafone MMS",
+                "carrier": "Vodafone IN MMS",
                 "mcc": "404",
                 "mnc": "86",
                 "apn": "portalnmms",
@@ -1543,26 +3020,26 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone Connect",
+                "carrier": "Vodafone IN",
                 "mcc": "404",
                 "mnc": "86",
                 "apn": "www",
                 "type": "default,supl"
             },
             {
-                "carrier": "VodafoneLive!",
-                "mcc": "404",
-                "mnc": "86",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "IDEA",
+                "carrier": "IDEA Internet",
                 "mcc": "404",
                 "mnc": "87",
                 "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "87",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -1570,13 +3047,32 @@
                 "mcc": "404",
                 "mnc": "87",
                 "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
+                "mmsc": "http://10.4.42.21:8002",
                 "mmsproxy": "10.4.42.15",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone MMS",
+                "carrier": "IDEA Mobile",
+                "mcc": "404",
+                "mnc": "87",
+                "apn": "mobile",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone",
+                "mcc": "404",
+                "mnc": "88",
+                "apn": "portalnmms",
+                "proxy": "10.10.1.100",
+                "port": "9401",
+                "mmsc": "http://mms1.live.vodafone.in/mms/",
+                "mmsproxy": "10.10.1.100",
+                "mmsport": "9401",
+                "type": "default,supl,mms"
+            },
+            {
+                "carrier": "Vodafone IN MMS",
                 "mcc": "404",
                 "mnc": "88",
                 "apn": "portalnmms",
@@ -1586,26 +3082,26 @@
                 "type": "mms"
             },
             {
-                "carrier": "Vodafone Connect",
+                "carrier": "Vodafone IN",
                 "mcc": "404",
                 "mnc": "88",
                 "apn": "www",
                 "type": "default,supl"
             },
             {
-                "carrier": "VodafoneLive!",
-                "mcc": "404",
-                "mnc": "88",
-                "apn": "portalnmms",
-                "proxy": "10.10.1.100",
-                "port": "9401",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "IDEA",
+                "carrier": "IDEA Internet",
                 "mcc": "404",
                 "mnc": "89",
                 "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "IDEA Wap",
+                "mcc": "404",
+                "mnc": "89",
+                "apn": "imis",
+                "proxy": "10.4.42.15",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -1613,16 +3109,32 @@
                 "mcc": "404",
                 "mnc": "89",
                 "apn": "mmsc",
-                "mmsc": "http://10.4.42.21:8002/",
+                "mmsc": "http://10.4.42.21:8002",
                 "mmsproxy": "10.4.42.15",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "IDEA Mobile",
+                "mcc": "404",
+                "mnc": "89",
+                "apn": "mobile",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "90",
                 "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "90",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -1636,30 +3148,74 @@
                 "type": "mms"
             },
             {
-                "carrier": "AIRCEL NE MMS",
+                "carrier": "Aircel Online",
+                "mcc": "404",
+                "mnc": "91",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel GPRS",
+                "mcc": "404",
+                "mnc": "91",
+                "apn": "aircelwap",
+                "proxy": "172.17.83.69",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel MMS",
                 "mcc": "404",
                 "mnc": "91",
                 "apn": "aircelmms",
-                "mmsc": "http://10.50.1.166/servlets/mms",
+                "mmsc": "http://172.17.83.67/servlets/mms/",
                 "mmsproxy": "172.17.83.69",
                 "mmsport": "8080",
                 "type": "mms"
             },
             {
-                "carrier": "AIRCEL NE",
+                "carrier": "Aircel",
                 "mcc": "404",
                 "mnc": "91",
-                "apn": "aircelwebpost",
+                "apn": "aircelwap",
                 "type": "default,supl"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Aircel",
+                "mcc": "404",
+                "mnc": "91",
+                "apn": "aircelgprs",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Aircel MMS",
+                "mcc": "404",
+                "mnc": "91",
+                "apn": "aircelmms",
+                "proxy": "172.17.83.69",
+                "port": "8080",
+                "mmsc": "http://172.17.83.67//servlets/mms",
+                "mmsproxy": "172.17.83.69",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "92",
                 "apn": "airtelgprs.com",
                 "type": "default,supl"
             },
             {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "92",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Airtel MMS",
                 "mcc": "404",
                 "mnc": "92",
@@ -1670,13 +3226,22 @@
                 "type": "mms"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "93",
                 "apn": "airtelgprs.com",
                 "type": "default,supl"
             },
             {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "93",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Airtel MMS",
                 "mcc": "404",
                 "mnc": "93",
@@ -1687,13 +3252,22 @@
                 "type": "mms"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "94",
                 "apn": "airtelgprs.com",
                 "type": "default,supl"
             },
             {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "94",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Airtel MMS",
                 "mcc": "404",
                 "mnc": "94",
@@ -1704,13 +3278,22 @@
                 "type": "mms"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "95",
                 "apn": "airtelgprs.com",
                 "type": "default,supl"
             },
             {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "95",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "Airtel MMS",
                 "mcc": "404",
                 "mnc": "95",
@@ -1721,10 +3304,19 @@
                 "type": "mms"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "96",
                 "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "96",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -1738,10 +3330,12 @@
                 "type": "mms"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Airtel Live",
                 "mcc": "404",
                 "mnc": "97",
-                "apn": "airtelgprs.com",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
@@ -1755,10 +3349,19 @@
                 "type": "mms"
             },
             {
-                "carrier": "Airtel",
+                "carrier": "Airtel GPRS",
                 "mcc": "404",
                 "mnc": "98",
                 "apn": "airtelgprs.com",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Airtel Live",
+                "mcc": "404",
+                "mnc": "98",
+                "apn": "airtelfun.com",
+                "proxy": "100.1.200.99",
+                "port": "8080",
                 "type": "default,supl"
             },
             {
