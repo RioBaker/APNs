@@ -1,6 +1,6 @@
 {
   "name": "android-apns-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Android APNs configuration",
   "main": "merge.js",
   "scripts": {
