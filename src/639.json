@@ -13,6 +13,16 @@
                 "type": "default,supl"
             },
             {
+                "carrier": "Orange MMS",
+                "mcc": "639",
+                "mnc": "07",
+                "apn": "mms.orange.co.ke",
+                "mmsproxy": "10.36.16.5",
+                "mmsport": "8080",
+                "mmsc": "http://10.36.16.5/servlets/mms",
+                "type": "mms"
+            },
+            {
                 "carrier": "Safaricom MMS",
                 "mcc": "639",
                 "mnc": "02",
@@ -116,16 +126,6 @@
                 "mnc": "07",
                 "apn": "wap.orange.co.ke",
                 "type": "default,supl"
-            },
-            {
-                "carrier": "Orange MMS",
-                "mcc": "639",
-                "mnc": "07",
-                "apn": "mms.orange.co.ke",
-                "mmsproxy": "10.36.16.5",
-                "mmsport": "8080",
-                "mmsc": "http://10.36.16.5/servlets/mms",
-                "type": "mms"
             }
         ]
     }

@@ -3,6 +3,29 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Digicel MMS",
+                "mcc": "348",
+                "mnc": "770",
+                "apn": "wap",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "172.16.7.12",
+                "mmsport": "8080",
+                "mmsc": "http://mmc.digiceljamaica.com/servlets/mms",
+                "user": "",
+                "password": "",
+                "type": "mms"
+            },
+            {
+                "carrier": "Digicel Web",
+                "mcc": "348",
+                "mnc": "770",
+                "apn": "web",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
                 "carrier": "LIME Prepaid Internet",
                 "mcc": "348",
                 "mnc": "170",
@@ -48,29 +71,6 @@
                 "password": "",
                 "proxy": "10.20.5.34",
                 "port": "8799",
-                "type": "mms"
-            },
-            {
-                "carrier": "Digicel Web",
-                "mcc": "348",
-                "mnc": "770",
-                "apn": "web",
-                "user": "",
-                "password": "",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Digicel MMS",
-                "mcc": "348",
-                "mnc": "770",
-                "apn": "wap",
-                "proxy": "",
-                "port": "",
-                "mmsproxy": "172.16.7.12",
-                "mmsport": "8080",
-                "mmsc": "http://mmc.digiceljamaica.com/servlets/mms",
-                "user": "",
-                "password": "",
                 "type": "mms"
             }
         ]

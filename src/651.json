@@ -3,13 +3,6 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "VCL Internet GPRS",
-                "mcc": "651",
-                "mnc": "01",
-                "apn": "internet",
-                "type": "default,supl"
-            },
-            {
                 "carrier": "VCL MMS GPRS",
                 "mcc": "651",
                 "mnc": "01",
@@ -20,6 +13,13 @@
                 "mmsproxy": "10.113.63.11",
                 "mmsport": "8080",
                 "type": "mms"
+            },
+            {
+                "carrier": "VCL Internet GPRS",
+                "mcc": "651",
+                "mnc": "01",
+                "apn": "internet",
+                "type": "default,supl"
             }
         ]
     }

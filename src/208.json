@@ -3,6 +3,19 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "mms69",
+                "mcc": "208",
+                "mnc": "10",
+                "apn": "mms69",
+                "proxy": "10.143.156.12",
+                "port": "8080",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mms69",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
                 "carrier": "Orange Internet",
                 "mcc": "208",
                 "mnc": "01",
@@ -985,19 +998,6 @@
                 "mmsc": "",
                 "authtype": "1",
                 "type": "default,supl"
-            },
-            {
-                "carrier": "mms69",
-                "mcc": "208",
-                "mnc": "10",
-                "apn": "mms69",
-                "proxy": "10.143.156.12",
-                "port": "8080",
-                "user": "",
-                "password": "",
-                "mmsc": "http://mms69",
-                "authtype": "1",
-                "type": "mms"
             },
             {
                 "carrier": "Internet Joe",

@@ -3,35 +3,25 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "movistar Internet",
+                "carrier": "Entel MMS",
                 "mcc": "716",
-                "mnc": "06",
-                "apn": "movistar.pe",
-                "user": "movistar@datos",
-                "password": "movistar",
-                "authtype": "1",
-                "type": "default,supl,dun"
-            },
-            {
-                "carrier": "movistar MMS",
-                "mcc": "716",
-                "mnc": "06",
-                "apn": "mms.movistar.pe",
-                "user": "movistar@mms",
-                "password": "movistar",
-                "mmsproxy": "200.4.196.118",
+                "mnc": "17",
+                "apn": "mms.entel.pe",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.0.215.74",
                 "mmsport": "8080",
-                "mmsc": "http://mmsc.telefonicamovistar.com.pe:8088/mms/",
+                "mmsc": "http://mms.entel.pe",
                 "authtype": "1",
                 "type": "mms"
             },
             {
-                "carrier": "CLARO DATOS",
+                "carrier": "Entel PE",
                 "mcc": "716",
-                "mnc": "10",
-                "apn": "claro.pe",
-                "user": "claro",
-                "password": "claro",
+                "mnc": "17",
+                "apn": "entel.pe",
+                "user": "",
+                "password": "",
                 "authtype": "1",
                 "type": "default,supl,dun"
             },
@@ -49,27 +39,37 @@
                 "type": "mms"
             },
             {
-                "carrier": "Entel PE",
+                "carrier": "CLARO DATOS",
                 "mcc": "716",
-                "mnc": "17",
-                "apn": "entel.pe",
-                "user": "",
-                "password": "",
+                "mnc": "10",
+                "apn": "claro.pe",
+                "user": "claro",
+                "password": "claro",
                 "authtype": "1",
                 "type": "default,supl,dun"
             },
             {
-                "carrier": "Entel MMS",
+                "carrier": "movistar MMS",
                 "mcc": "716",
-                "mnc": "17",
-                "apn": "mms.entel.pe",
-                "user": "",
-                "password": "",
-                "mmsproxy": "10.0.215.74",
+                "mnc": "06",
+                "apn": "mms.movistar.pe",
+                "user": "movistar@mms",
+                "password": "movistar",
+                "mmsproxy": "200.4.196.118",
                 "mmsport": "8080",
-                "mmsc": "http://mms.entel.pe",
+                "mmsc": "http://mmsc.telefonicamovistar.com.pe:8088/mms/",
                 "authtype": "1",
                 "type": "mms"
+            },
+            {
+                "carrier": "movistar Internet",
+                "mcc": "716",
+                "mnc": "06",
+                "apn": "movistar.pe",
+                "user": "movistar@datos",
+                "password": "movistar",
+                "authtype": "1",
+                "type": "default,supl,dun"
             }
         ]
     }

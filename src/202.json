@@ -3,86 +3,6 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Cosmote Internet",
-                "mcc": "202",
-                "mnc": "01",
-                "apn": "internet",
-                "proxy": "",
-                "port": "",
-                "user": "",
-                "password": "",
-                "mmsc": "",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Cosmote MMS",
-                "mcc": "202",
-                "mnc": "01",
-                "apn": "mms",
-                "proxy": "",
-                "port": "",
-                "user": "",
-                "password": "",
-                "mmsc": "http://mmsc.cosmote.gr:8002",
-                "mmsproxy": "10.10.10.20",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Vodafone Web",
-                "mcc": "202",
-                "mnc": "05",
-                "apn": "internet.vodafone.gr",
-                "user": "user",
-                "password": "pass",
-                "authtype": "3",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Vf live!",
-                "mcc": "202",
-                "mnc": "05",
-                "apn": "wap.vodafone.gr",
-                "proxy": "213.249.19.49",
-                "port": "5080",
-                "mmsc": "",
-                "user": "user",
-                "password": "pass",
-                "authtype": "3",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Vf live! Prepay",
-                "mcc": "202",
-                "mnc": "05",
-                "apn": "wapkarta.vodafone.gr",
-                "proxy": "213.249.19.49",
-                "port": "5080",
-                "mmsc": "",
-                "user": "user",
-                "password": "pass",
-                "authtype": "3",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Vf Mobile Broadband",
-                "mcc": "202",
-                "mnc": "05",
-                "apn": "internet",
-                "user": "",
-                "password": "",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Vf Mobile Internet",
-                "mcc": "202",
-                "mnc": "05",
-                "apn": "webonly.vodafone.gr",
-                "user": "",
-                "password": "",
-                "type": "default,supl"
-            },
-            {
                 "carrier": "Vf kartointernet",
                 "mcc": "202",
                 "mnc": "05",
@@ -90,21 +10,6 @@
                 "user": "",
                 "password": "",
                 "type": "default,supl"
-            },
-            {
-                "carrier": "Vf MMS",
-                "mcc": "202",
-                "mnc": "05",
-                "apn": "mms.vodafone.net",
-                "proxy": "",
-                "port": "",
-                "mmsproxy": "213.249.19.49",
-                "mmsport": "5080",
-                "mmsc": "http://mms.vodafone.gr",
-                "user": "user",
-                "password": "pass",
-                "authtype": "1",
-                "type": "mms"
             },
             {
                 "carrier": "Vf Internet Corporate",
@@ -190,6 +95,101 @@
                 "password": "",
                 "mmsc": "",
                 "type": "default,supl"
+            },
+            {
+                "carrier": "Cosmote Internet",
+                "mcc": "202",
+                "mnc": "01",
+                "apn": "internet",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vf MMS",
+                "mcc": "202",
+                "mnc": "05",
+                "apn": "mms.vodafone.net",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "213.249.19.49",
+                "mmsport": "5080",
+                "mmsc": "http://mms.vodafone.gr",
+                "user": "user",
+                "password": "pass",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Vf Mobile Internet",
+                "mcc": "202",
+                "mnc": "05",
+                "apn": "webonly.vodafone.gr",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vf Mobile Broadband",
+                "mcc": "202",
+                "mnc": "05",
+                "apn": "internet",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vf live! Prepay",
+                "mcc": "202",
+                "mnc": "05",
+                "apn": "wapkarta.vodafone.gr",
+                "proxy": "213.249.19.49",
+                "port": "5080",
+                "mmsc": "",
+                "user": "user",
+                "password": "pass",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vf live!",
+                "mcc": "202",
+                "mnc": "05",
+                "apn": "wap.vodafone.gr",
+                "proxy": "213.249.19.49",
+                "port": "5080",
+                "mmsc": "",
+                "user": "user",
+                "password": "pass",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Vodafone Web",
+                "mcc": "202",
+                "mnc": "05",
+                "apn": "internet.vodafone.gr",
+                "user": "user",
+                "password": "pass",
+                "authtype": "3",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Cosmote MMS",
+                "mcc": "202",
+                "mnc": "01",
+                "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mmsc.cosmote.gr:8002",
+                "mmsproxy": "10.10.10.20",
+                "mmsport": "8080",
+                "type": "mms"
             }
         ]
     }

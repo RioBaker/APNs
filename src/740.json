@@ -3,33 +3,23 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "movistar INTERNET",
+                "carrier": "CNT MMS",
                 "mcc": "740",
-                "mnc": "00",
-                "apn": "internet.movistar.com.ec",
-                "user": "movistar",
-                "password": "movistar",
-                "authtype": "1",
-                "type": "default,supl,dun"
-            },
-            {
-                "carrier": "movistar MMS",
-                "mcc": "740",
-                "mnc": "00",
-                "apn": "mms.movistar.com.ec",
-                "user": "movistar",
-                "password": "movistar",
-                "mmsproxy": "10.3.5.50",
-                "mmsport": "9001",
-                "mmsc": "http://mms.movistar.com.ec:8088/mms/",
+                "mnc": "02",
+                "apn": "mms.alegro.net.ec",
+                "user": "",
+                "password": "",
+                "mmsproxy": "10.4.85.3",
+                "mmsport": "8080",
+                "mmsc": "http://mms.alegro.net.ec/mms/",
                 "authtype": "1",
                 "type": "mms"
             },
             {
-                "carrier": "Claro Internet",
+                "carrier": "CNT Internet",
                 "mcc": "740",
-                "mnc": "01",
-                "apn": "internet.claro.com.ec",
+                "mnc": "02",
+                "apn": "internet.cnt.net.ec",
                 "user": "",
                 "password": "",
                 "authtype": "1",
@@ -49,27 +39,37 @@
                 "type": "mms"
             },
             {
-                "carrier": "CNT Internet",
+                "carrier": "Claro Internet",
                 "mcc": "740",
-                "mnc": "02",
-                "apn": "internet.cnt.net.ec",
+                "mnc": "01",
+                "apn": "internet.claro.com.ec",
                 "user": "",
                 "password": "",
                 "authtype": "1",
                 "type": "default,supl,dun"
             },
             {
-                "carrier": "CNT MMS",
+                "carrier": "movistar MMS",
                 "mcc": "740",
-                "mnc": "02",
-                "apn": "mms.alegro.net.ec",
-                "user": "",
-                "password": "",
-                "mmsproxy": "10.4.85.3",
-                "mmsport": "8080",
-                "mmsc": "http://mms.alegro.net.ec/mms/",
+                "mnc": "00",
+                "apn": "mms.movistar.com.ec",
+                "user": "movistar",
+                "password": "movistar",
+                "mmsproxy": "10.3.5.50",
+                "mmsport": "9001",
+                "mmsc": "http://mms.movistar.com.ec:8088/mms/",
                 "authtype": "1",
                 "type": "mms"
+            },
+            {
+                "carrier": "movistar INTERNET",
+                "mcc": "740",
+                "mnc": "00",
+                "apn": "internet.movistar.com.ec",
+                "user": "movistar",
+                "password": "movistar",
+                "authtype": "1",
+                "type": "default,supl,dun"
             }
         ]
     }

@@ -3,28 +3,16 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "LIME Prepaid Internet",
+                "carrier": "LIME Postpaid MMS",
                 "mcc": "365",
                 "mnc": "840",
-                "apn": "ppinternet",
-                "mmsc": "",
+                "apn": "multimedia",
+                "mmsc": "http://mmsc",
                 "user": "",
                 "password": "",
-                "proxy": "",
+                "proxy": "10.20.5.34",
                 "port": "8799",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "LIME Postpaid Internet",
-                "mcc": "365",
-                "mnc": "840",
-                "apn": "internet",
-                "mmsc": "",
-                "user": "",
-                "password": "",
-                "proxy": "",
-                "port": "8799",
-                "type": "default,supl"
+                "type": "mms"
             },
             {
                 "carrier": "LIME Prepaid MMS",
@@ -39,16 +27,28 @@
                 "type": "mms"
             },
             {
-                "carrier": "LIME Postpaid MMS",
+                "carrier": "LIME Postpaid Internet",
                 "mcc": "365",
                 "mnc": "840",
-                "apn": "multimedia",
-                "mmsc": "http://mmsc",
+                "apn": "internet",
+                "mmsc": "",
                 "user": "",
                 "password": "",
-                "proxy": "10.20.5.34",
+                "proxy": "",
                 "port": "8799",
-                "type": "mms"
+                "type": "default,supl"
+            },
+            {
+                "carrier": "LIME Prepaid Internet",
+                "mcc": "365",
+                "mnc": "840",
+                "apn": "ppinternet",
+                "mmsc": "",
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": "8799",
+                "type": "default,supl"
             }
         ]
     }

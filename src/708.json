@@ -3,20 +3,9 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "INTERNET TIGO HN",
-                "mcc": "708",
-                "mnc": "02",
-                "apn": "internet.tigo.hn",
-                "user": "",
-                "password": "",
-                "proxy": "",
-                "port": "",
-                "type": "default,supl"
-            },
-            {
                 "carrier": "MMS TIGO HN",
                 "mcc": "708",
-                "mnc": "02",
+                "mnc": "020",
                 "apn": "mms.tigo.hn",
                 "user": "",
                 "password": "",
@@ -39,7 +28,7 @@
             {
                 "carrier": "MMS TIGO HN",
                 "mcc": "708",
-                "mnc": "020",
+                "mnc": "02",
                 "apn": "mms.tigo.hn",
                 "user": "",
                 "password": "",
@@ -47,6 +36,17 @@
                 "mmsport": "8888",
                 "mmsc": "http://mms",
                 "type": "mms"
+            },
+            {
+                "carrier": "INTERNET TIGO HN",
+                "mcc": "708",
+                "mnc": "02",
+                "apn": "internet.tigo.hn",
+                "user": "",
+                "password": "",
+                "proxy": "",
+                "port": "",
+                "type": "default,supl"
             }
         ]
     }

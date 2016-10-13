@@ -3,25 +3,20 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Zambia WAP",
+                "carrier": "MTN GPRS",
                 "mcc": "645",
-                "mnc": "01",
-                "apn": "wap",
-                "proxy": "10.150.0.140",
-                "port": "8080",
+                "mnc": "02",
+                "apn": "Internet",
                 "type": "default,supl"
             },
             {
-                "carrier": "Zambia MMS",
+                "carrier": "MTN WAP",
                 "mcc": "645",
-                "mnc": "01",
-                "apn": "mms",
-                "proxy": "",
-                "port": "",
-                "mmsproxy": "10.150.0.140",
-                "mmsport": "9201",
-                "mmsc": "http://10.150.0.130/servlets/mms",
-                "type": "mms"
+                "mnc": "02",
+                "apn": "wap",
+                "proxy": "10.110.22.20",
+                "port": "8080",
+                "type": "default,supl"
             },
             {
                 "carrier": "MTN MMS",
@@ -36,19 +31,24 @@
                 "type": "mms"
             },
             {
-                "carrier": "MTN WAP",
+                "carrier": "Zambia MMS",
                 "mcc": "645",
-                "mnc": "02",
-                "apn": "wap",
-                "proxy": "10.110.22.20",
-                "port": "8080",
-                "type": "default,supl"
+                "mnc": "01",
+                "apn": "mms",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.150.0.140",
+                "mmsport": "9201",
+                "mmsc": "http://10.150.0.130/servlets/mms",
+                "type": "mms"
             },
             {
-                "carrier": "MTN GPRS",
+                "carrier": "Zambia WAP",
                 "mcc": "645",
-                "mnc": "02",
-                "apn": "Internet",
+                "mnc": "01",
+                "apn": "wap",
+                "proxy": "10.150.0.140",
+                "port": "8080",
                 "type": "default,supl"
             }
         ]

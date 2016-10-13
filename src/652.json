@@ -3,13 +3,23 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Mascom_Internet",
+                "carrier": "Orange WAP BW",
                 "mcc": "652",
-                "mnc": "01",
-                "apn": "internet.mascom",
-                "user": "",
-                "password": "",
+                "mnc": "02",
+                "apn": "internet.orange.co.bw",
+                "proxy": "10.0.0.226",
+                "port": "8080",
                 "type": "default,supl"
+            },
+            {
+                "carrier": "Orange BW MMS",
+                "mcc": "652",
+                "mnc": "02",
+                "apn": "mms.orange.co.bw",
+                "mmsc": "http://10.0.0.242/servlets/mms",
+                "mmsproxy": "10.0.0.226",
+                "mmsport": "8080",
+                "type": "mms"
             },
             {
                 "carrier": "Mascom_Wap",
@@ -24,22 +34,12 @@
                 "type": "default,supl"
             },
             {
-                "carrier": "Orange BW MMS",
+                "carrier": "Mascom_Internet",
                 "mcc": "652",
-                "mnc": "02",
-                "apn": "mms.orange.co.bw",
-                "mmsc": "http://10.0.0.242/servlets/mms",
-                "mmsproxy": "10.0.0.226",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Orange WAP BW",
-                "mcc": "652",
-                "mnc": "02",
-                "apn": "internet.orange.co.bw",
-                "proxy": "10.0.0.226",
-                "port": "8080",
+                "mnc": "01",
+                "apn": "internet.mascom",
+                "user": "",
+                "password": "",
                 "type": "default,supl"
             }
         ]

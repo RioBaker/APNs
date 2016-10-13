@@ -3,6 +3,39 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "ATT Broadband",
+                "mcc": "311",
+                "mnc": "980",
+                "apn": "Broadband",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "ATT WAP",
+                "mcc": "311",
+                "mnc": "980",
+                "apn": "wap.cingular",
+                "proxy": "wireless.cingular.com",
+                "port": "80",
+                "mmsc": "http://mmsc.cingular.com",
+                "mmsproxy": "wireless.cingular.com",
+                "mmsport": "80",
+                "type": "default,mms"
+            },
+            {
+                "carrier": "Boost Mobile CdmaNai",
+                "mcc": "311",
+                "mnc": "870",
+                "apn": "CdmaNai",
+                "mmsproxy": "68.28.31.7",
+                "mmsport": "80",
+                "mmsc": "http://mm.myboostmobile.com",
+                "type": "mms",
+                "carrier_enabled": "false",
+                "protocol": "IPV4V6",
+                "roaming_protocol": "IPV4V6",
+                "bearer": "6"
+            },
+            {
                 "carrier": "Chariton_WAP",
                 "mcc": "311",
                 "mnc": "020",
@@ -1520,39 +1553,6 @@
                 "carrier": "ATT Broadband",
                 "mcc": "311",
                 "mnc": "680",
-                "apn": "Broadband",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Boost Mobile CdmaNai",
-                "mcc": "311",
-                "mnc": "870",
-                "apn": "CdmaNai",
-                "mmsproxy": "68.28.31.7",
-                "mmsport": "80",
-                "mmsc": "http://mm.myboostmobile.com",
-                "type": "mms",
-                "carrier_enabled": "false",
-                "protocol": "IPV4V6",
-                "roaming_protocol": "IPV4V6",
-                "bearer": "6"
-            },
-            {
-                "carrier": "ATT WAP",
-                "mcc": "311",
-                "mnc": "980",
-                "apn": "wap.cingular",
-                "proxy": "wireless.cingular.com",
-                "port": "80",
-                "mmsc": "http://mmsc.cingular.com",
-                "mmsproxy": "wireless.cingular.com",
-                "mmsport": "80",
-                "type": "default,mms"
-            },
-            {
-                "carrier": "ATT Broadband",
-                "mcc": "311",
-                "mnc": "980",
                 "apn": "Broadband",
                 "type": "default,supl"
             }

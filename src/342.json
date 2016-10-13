@@ -3,6 +3,32 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Digicel BB",
+                "mcc": "342",
+                "mnc": "750",
+                "apn": "web.digicelbarbados.com",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Digicel BB MMS",
+                "mcc": "342",
+                "mnc": "750",
+                "apn": "wap.digicelbarbados.com",
+                "proxy": "",
+                "port": "",
+                "user": "wapbarb",
+                "password": "wap03barb",
+                "mmsc": "http://mme.digiceljamaica.com/servlets/mms",
+                "mmsproxy": "172.16.7.12",
+                "mmsport": "8080",
+                "type": "mms"
+            },
+            {
                 "carrier": "LIME Prepaid Internet",
                 "mcc": "342",
                 "mnc": "600",
@@ -49,32 +75,6 @@
                 "proxy": "10.20.5.34",
                 "port": "8799",
                 "type": "mms"
-            },
-            {
-                "carrier": "Digicel BB MMS",
-                "mcc": "342",
-                "mnc": "750",
-                "apn": "wap.digicelbarbados.com",
-                "proxy": "",
-                "port": "",
-                "user": "wapbarb",
-                "password": "wap03barb",
-                "mmsc": "http://mme.digiceljamaica.com/servlets/mms",
-                "mmsproxy": "172.16.7.12",
-                "mmsport": "8080",
-                "type": "mms"
-            },
-            {
-                "carrier": "Digicel BB",
-                "mcc": "342",
-                "mnc": "750",
-                "apn": "web.digicelbarbados.com",
-                "proxy": "",
-                "port": "",
-                "user": "",
-                "password": "",
-                "mmsc": "",
-                "type": "default,supl"
             }
         ]
     }

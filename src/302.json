@@ -3,6 +3,42 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Sasktel MMS",
+                "mcc": "302",
+                "mnc": "780",
+                "apn": "proxy.stm.sk.ca",
+                "proxy": "",
+                "port": "80",
+                "user": "",
+                "password": "",
+                "mmsc": "http://mms.sasktel.com",
+                "mmsproxy": "mig.sasktel.com",
+                "mmsport": "80",
+                "type": "mms"
+            },
+            {
+                "carrier": "Sasktel 3G",
+                "mcc": "302",
+                "mnc": "780",
+                "apn": "inet.stm.sk.ca",
+                "proxy": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "mmsc": "",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "SaskTel",
+                "mcc": "302",
+                "mnc": "780",
+                "apn": "pda.stm.sk.ca",
+                "type": "default,mms,supl",
+                "mmsc": "http://mms.sasktel.com/",
+                "mmsproxy": "mig.sasktel.com",
+                "mmsport": "80"
+            },
+            {
                 "carrier": "Telus SP",
                 "mcc": "302",
                 "mnc": "220",
@@ -626,42 +662,6 @@
                 "mmsc": "http://mms.gprs.rogers.com",
                 "mmsport": "80",
                 "protocol": "IPV4V6"
-            },
-            {
-                "carrier": "SaskTel",
-                "mcc": "302",
-                "mnc": "780",
-                "apn": "pda.stm.sk.ca",
-                "type": "default,mms,supl",
-                "mmsc": "http://mms.sasktel.com/",
-                "mmsproxy": "mig.sasktel.com",
-                "mmsport": "80"
-            },
-            {
-                "carrier": "Sasktel 3G",
-                "mcc": "302",
-                "mnc": "780",
-                "apn": "inet.stm.sk.ca",
-                "proxy": "",
-                "port": "",
-                "user": "",
-                "password": "",
-                "mmsc": "",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Sasktel MMS",
-                "mcc": "302",
-                "mnc": "780",
-                "apn": "proxy.stm.sk.ca",
-                "proxy": "",
-                "port": "80",
-                "user": "",
-                "password": "",
-                "mmsc": "http://mms.sasktel.com",
-                "mmsproxy": "mig.sasktel.com",
-                "mmsport": "80",
-                "type": "mms"
             }
         ]
     }

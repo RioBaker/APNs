@@ -3,19 +3,55 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Movistar INTERNET",
+                "carrier": "Enitel MMS",
                 "mcc": "710",
-                "mnc": "300",
-                "apn": "internet.movistar.ni",
-                "user": "movistarni",
-                "password": "movistarni",
+                "mnc": "730",
+                "apn": "mms.ideasalo.ni",
+                "user": "mms",
+                "password": "mms",
+                "mmsproxy": "10.6.32.2",
+                "mmsport": "8080",
+                "mmsc": "http://10.6.32.27/servlets/mms",
                 "authtype": "1",
-                "type": "default,supl"
+                "type": "mms"
+            },
+            {
+                "carrier": "Enitel",
+                "mcc": "710",
+                "mnc": "730",
+                "apn": "internet.ideasalo.ni",
+                "user": "internet",
+                "password": "internet",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Enitel MMS",
+                "mcc": "710",
+                "mnc": "73",
+                "apn": "mms.ideasalo.ni",
+                "user": "mms",
+                "password": "mms",
+                "mmsproxy": "10.6.32.2",
+                "mmsport": "8080",
+                "mmsc": "http://10.6.32.27/servlets/mms",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Enitel",
+                "mcc": "710",
+                "mnc": "73",
+                "apn": "internet.ideasalo.ni",
+                "user": "internet",
+                "password": "internet",
+                "authtype": "1",
+                "type": "default,supl,dun"
             },
             {
                 "carrier": "Movistar MMS",
                 "mcc": "710",
-                "mnc": "300",
+                "mnc": "30",
                 "apn": "mms.movistar.ni",
                 "proxy": "",
                 "port": "",
@@ -24,6 +60,29 @@
                 "mmsc": "http://mms.movistar.ni",
                 "user": "movistarni",
                 "password": "movistarni",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Movistar INTERNET",
+                "mcc": "710",
+                "mnc": "30",
+                "apn": "internet.movistar.ni",
+                "user": "movistarni",
+                "password": "movistarni",
+                "authtype": "1",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Enitel MMS",
+                "mcc": "710",
+                "mnc": "21",
+                "apn": "mms.ideasalo.ni",
+                "user": "mms",
+                "password": "mms",
+                "mmsproxy": "10.6.32.2",
+                "mmsport": "8080",
+                "mmsc": "http://10.6.32.27/servlets/mms",
                 "authtype": "1",
                 "type": "mms"
             },
@@ -38,32 +97,9 @@
                 "authtype": "1"
             },
             {
-                "carrier": "Enitel MMS",
-                "mcc": "710",
-                "mnc": "21",
-                "apn": "mms.ideasalo.ni",
-                "user": "mms",
-                "password": "mms",
-                "mmsproxy": "10.6.32.2",
-                "mmsport": "8080",
-                "mmsc": "http://10.6.32.27/servlets/mms",
-                "authtype": "1",
-                "type": "mms"
-            },
-            {
-                "carrier": "Movistar INTERNET",
-                "mcc": "710",
-                "mnc": "30",
-                "apn": "internet.movistar.ni",
-                "user": "movistarni",
-                "password": "movistarni",
-                "authtype": "1",
-                "type": "default,supl"
-            },
-            {
                 "carrier": "Movistar MMS",
                 "mcc": "710",
-                "mnc": "30",
+                "mnc": "300",
                 "apn": "mms.movistar.ni",
                 "proxy": "",
                 "port": "",
@@ -76,50 +112,14 @@
                 "type": "mms"
             },
             {
-                "carrier": "Enitel",
+                "carrier": "Movistar INTERNET",
                 "mcc": "710",
-                "mnc": "73",
-                "apn": "internet.ideasalo.ni",
-                "user": "internet",
-                "password": "internet",
+                "mnc": "300",
+                "apn": "internet.movistar.ni",
+                "user": "movistarni",
+                "password": "movistarni",
                 "authtype": "1",
-                "type": "default,supl,dun"
-            },
-            {
-                "carrier": "Enitel MMS",
-                "mcc": "710",
-                "mnc": "73",
-                "apn": "mms.ideasalo.ni",
-                "user": "mms",
-                "password": "mms",
-                "mmsproxy": "10.6.32.2",
-                "mmsport": "8080",
-                "mmsc": "http://10.6.32.27/servlets/mms",
-                "authtype": "1",
-                "type": "mms"
-            },
-            {
-                "carrier": "Enitel",
-                "mcc": "710",
-                "mnc": "730",
-                "apn": "internet.ideasalo.ni",
-                "user": "internet",
-                "password": "internet",
-                "authtype": "1",
-                "type": "default,supl,dun"
-            },
-            {
-                "carrier": "Enitel MMS",
-                "mcc": "710",
-                "mnc": "730",
-                "apn": "mms.ideasalo.ni",
-                "user": "mms",
-                "password": "mms",
-                "mmsproxy": "10.6.32.2",
-                "mmsport": "8080",
-                "mmsc": "http://10.6.32.27/servlets/mms",
-                "authtype": "1",
-                "type": "mms"
+                "type": "default,supl"
             }
         ]
     }

@@ -3,9 +3,120 @@
         "version": "8",
         "apn": [
             {
+                "carrier": "Internet",
+                "mcc": "730",
+                "mnc": "09",
+                "apn": "internet",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "MMS",
+                "mcc": "730",
+                "mnc": "08",
+                "apn": "mms.vtr.com",
+                "user": "mms",
+                "password": "",
+                "mmsc": "http://192.168.94.162:19090/was",
+                "mmsproxy": "192.168.94.210",
+                "mmsport": "9028",
+                "authtype": "0",
+                "type": "mms"
+            },
+            {
+                "carrier": "Wap",
+                "mcc": "730",
+                "mnc": "08",
+                "apn": "wap.vtr.com",
+                "proxy": "192.168.94.210",
+                "port": "9028",
+                "user": "",
+                "password": "",
+                "authtype": "0",
+                "type": "dun"
+            },
+            {
+                "carrier": "Internet",
+                "mcc": "730",
+                "mnc": "08",
+                "apn": "movil.vtr.com",
+                "user": "vtrmovil",
+                "password": "vtrmovil",
+                "authtype": "2",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "M2M",
+                "mcc": "730",
+                "mnc": "07",
+                "apn": "M2M.movistar.cl",
+                "user": "",
+                "password": "",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS Claro",
+                "mcc": "730",
+                "mnc": "03",
+                "apn": "mms.clarochile.cl",
+                "user": "clarochile",
+                "password": "clarochile",
+                "mmsproxy": "172.23.200.200",
+                "mmsport": "8080",
+                "mmsc": "http://mms.clarochile.cl",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "BAM Claro",
+                "mcc": "730",
+                "mnc": "03",
+                "apn": "bam.clarochile.cl",
+                "user": "clarochile",
+                "password": "clarochile",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "Movistar MMS",
+                "mcc": "730",
+                "mnc": "02",
+                "apn": "mms.tmovil.cl",
+                "user": "mms",
+                "password": "mms",
+                "mmsproxy": "172.17.8.10",
+                "mmsport": "8080",
+                "mmsc": "http://mms.movistar.cl",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
+                "carrier": "Movistar-LAX",
+                "mcc": "730",
+                "mnc": "02",
+                "apn": "wap.tmovil.cl",
+                "user": "wap",
+                "password": "wap",
+                "authtype": "1",
+                "type": "default,supl,dun"
+            },
+            {
+                "carrier": "MMS Entel PCS",
+                "mcc": "730",
+                "mnc": "10",
+                "apn": "mms.entelpcs.cl",
+                "user": "entelpcs",
+                "password": "entelpcs",
+                "mmsproxy": "10.99.0.10",
+                "mmsport": "8080",
+                "mmsc": "http://mmsc.entelpcs.cl",
+                "authtype": "1",
+                "type": "mms"
+            },
+            {
                 "carrier": "Internet Movil",
                 "mcc": "730",
-                "mnc": "01",
+                "mnc": "10",
                 "apn": "bam.entelpcs.cl",
                 "user": "entelpcs",
                 "password": "entelpcs",
@@ -28,123 +139,12 @@
             {
                 "carrier": "Internet Movil",
                 "mcc": "730",
-                "mnc": "10",
+                "mnc": "01",
                 "apn": "bam.entelpcs.cl",
                 "user": "entelpcs",
                 "password": "entelpcs",
                 "authtype": "1",
                 "type": "default,supl,dun"
-            },
-            {
-                "carrier": "MMS Entel PCS",
-                "mcc": "730",
-                "mnc": "10",
-                "apn": "mms.entelpcs.cl",
-                "user": "entelpcs",
-                "password": "entelpcs",
-                "mmsproxy": "10.99.0.10",
-                "mmsport": "8080",
-                "mmsc": "http://mmsc.entelpcs.cl",
-                "authtype": "1",
-                "type": "mms"
-            },
-            {
-                "carrier": "Movistar-LAX",
-                "mcc": "730",
-                "mnc": "02",
-                "apn": "wap.tmovil.cl",
-                "user": "wap",
-                "password": "wap",
-                "authtype": "1",
-                "type": "default,supl,dun"
-            },
-            {
-                "carrier": "Movistar MMS",
-                "mcc": "730",
-                "mnc": "02",
-                "apn": "mms.tmovil.cl",
-                "user": "mms",
-                "password": "mms",
-                "mmsproxy": "172.17.8.10",
-                "mmsport": "8080",
-                "mmsc": "http://mms.movistar.cl",
-                "authtype": "1",
-                "type": "mms"
-            },
-            {
-                "carrier": "BAM Claro",
-                "mcc": "730",
-                "mnc": "03",
-                "apn": "bam.clarochile.cl",
-                "user": "clarochile",
-                "password": "clarochile",
-                "authtype": "1",
-                "type": "default,supl,dun"
-            },
-            {
-                "carrier": "MMS Claro",
-                "mcc": "730",
-                "mnc": "03",
-                "apn": "mms.clarochile.cl",
-                "user": "clarochile",
-                "password": "clarochile",
-                "mmsproxy": "172.23.200.200",
-                "mmsport": "8080",
-                "mmsc": "http://mms.clarochile.cl",
-                "authtype": "1",
-                "type": "mms"
-            },
-            {
-                "carrier": "M2M",
-                "mcc": "730",
-                "mnc": "07",
-                "apn": "M2M.movistar.cl",
-                "user": "",
-                "password": "",
-                "authtype": "1",
-                "type": "default,supl,dun"
-            },
-            {
-                "carrier": "Internet",
-                "mcc": "730",
-                "mnc": "08",
-                "apn": "movil.vtr.com",
-                "user": "vtrmovil",
-                "password": "vtrmovil",
-                "authtype": "2",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Wap",
-                "mcc": "730",
-                "mnc": "08",
-                "apn": "wap.vtr.com",
-                "proxy": "192.168.94.210",
-                "port": "9028",
-                "user": "",
-                "password": "",
-                "authtype": "0",
-                "type": "dun"
-            },
-            {
-                "carrier": "MMS",
-                "mcc": "730",
-                "mnc": "08",
-                "apn": "mms.vtr.com",
-                "user": "mms",
-                "password": "",
-                "mmsc": "http://192.168.94.162:19090/was",
-                "mmsproxy": "192.168.94.210",
-                "mmsport": "9028",
-                "authtype": "0",
-                "type": "mms"
-            },
-            {
-                "carrier": "Internet",
-                "mcc": "730",
-                "mnc": "09",
-                "apn": "internet",
-                "type": "default,supl"
             }
         ]
     }

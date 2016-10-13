@@ -3,15 +3,6 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "Digicel Web",
-                "mcc": "746",
-                "mnc": "03",
-                "apn": "web",
-                "user": "",
-                "password": "",
-                "type": "default,supl"
-            },
-            {
                 "carrier": "Digicel MMS",
                 "mcc": "746",
                 "mnc": "03",
@@ -24,6 +15,15 @@
                 "user": "wap",
                 "password": "wap",
                 "type": "mms"
+            },
+            {
+                "carrier": "Digicel Web",
+                "mcc": "746",
+                "mnc": "03",
+                "apn": "web",
+                "user": "",
+                "password": "",
+                "type": "default,supl"
             }
         ]
     }

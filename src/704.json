@@ -3,14 +3,49 @@
         "version": "8",
         "apn": [
             {
-                "carrier": "INTERNET TIGO GT",
+                "carrier": "Movistar MMS",
                 "mcc": "704",
-                "mnc": "02",
-                "apn": "internet.tigo.gt",
-                "user": "",
-                "password": "",
+                "mnc": "030",
+                "apn": "mms.movistar.gt",
                 "proxy": "",
                 "port": "",
+                "mmsproxy": "10.12.22.1",
+                "mmsport": "80",
+                "mmsc": "http://mms.movistar.gt",
+                "user": "movistargt",
+                "password": "movistargt",
+                "type": "mms"
+            },
+            {
+                "carrier": "Movistar INTERNET",
+                "mcc": "704",
+                "mnc": "030",
+                "apn": "internet.movistar.gt",
+                "user": "movistargt",
+                "password": "movistargt",
+                "type": "default,supl"
+            },
+            {
+                "carrier": "Movistar MMS",
+                "mcc": "704",
+                "mnc": "03",
+                "apn": "mms.movistar.gt",
+                "proxy": "",
+                "port": "",
+                "mmsproxy": "10.12.22.1",
+                "mmsport": "80",
+                "mmsc": "http://mms.movistar.gt",
+                "user": "movistargt",
+                "password": "movistargt",
+                "type": "mms"
+            },
+            {
+                "carrier": "Movistar INTERNET",
+                "mcc": "704",
+                "mnc": "03",
+                "apn": "internet.movistar.gt",
+                "user": "movistargt",
+                "password": "movistargt",
                 "type": "default,supl"
             },
             {
@@ -26,50 +61,15 @@
                 "type": "mms"
             },
             {
-                "carrier": "Movistar INTERNET",
+                "carrier": "INTERNET TIGO GT",
                 "mcc": "704",
-                "mnc": "03",
-                "apn": "internet.movistar.gt",
-                "user": "movistargt",
-                "password": "movistargt",
-                "type": "default,supl"
-            },
-            {
-                "carrier": "Movistar MMS",
-                "mcc": "704",
-                "mnc": "03",
-                "apn": "mms.movistar.gt",
+                "mnc": "02",
+                "apn": "internet.tigo.gt",
+                "user": "",
+                "password": "",
                 "proxy": "",
                 "port": "",
-                "mmsproxy": "10.12.22.1",
-                "mmsport": "80",
-                "mmsc": "http://mms.movistar.gt",
-                "user": "movistargt",
-                "password": "movistargt",
-                "type": "mms"
-            },
-            {
-                "carrier": "Movistar INTERNET",
-                "mcc": "704",
-                "mnc": "030",
-                "apn": "internet.movistar.gt",
-                "user": "movistargt",
-                "password": "movistargt",
                 "type": "default,supl"
-            },
-            {
-                "carrier": "Movistar MMS",
-                "mcc": "704",
-                "mnc": "030",
-                "apn": "mms.movistar.gt",
-                "proxy": "",
-                "port": "",
-                "mmsproxy": "10.12.22.1",
-                "mmsport": "80",
-                "mmsc": "http://mms.movistar.gt",
-                "user": "movistargt",
-                "password": "movistargt",
-                "type": "mms"
             }
         ]
     }
