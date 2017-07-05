@@ -1,11 +1,12 @@
 {
   "name": "android-apns-generator",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Android APNs configuration",
-  "main": "merge.js",
+  "main": "index.js",
+  "bin" : { "compile_apns" : "./compile.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node merge.js"
+    "start": "node compile.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,11 @@
     "url": "https://github.com/WOO-Electronics/APNs/issues"
   },
   "homepage": "https://github.com/WOO-Electronics/APNs#readme",
-  "devDependencies": {
-    "xml2json": "^0.10.0"
+  "dependencies": {
+    "xml2json": "^0.10.0",
+    "jsesc": "^2.5.1"
+  },
+  "apns": {
+    "version": 8
   }
 }
